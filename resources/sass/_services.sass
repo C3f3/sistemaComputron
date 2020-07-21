@@ -1,0 +1,51 @@
+.container
+    .box
+        width: 400px
+        height: 450px
+        background-color: #ffffcb
+        overflow: hidden
+        border-radius: 5px
+        box-shadow: 1px 1px 5px #858585, -1px -1px 5px #858585
+        transition: 0.3s
+        margin: 30px auto
+
+        &:hover
+            box-shadow: 0px 5px 10px #858585
+            transition: 0.3s
+            transform: scale(1.1)
+            .back-image 
+                transform: scale(1.1)
+                transition: 0.3s
+                filter: blur(3px)
+            .content-card
+                animation: toTop 0.3s both
+
+    .back-image 
+        width: 400px
+        height: 450px
+        transition: 0.3s
+    .content-card
+        position: relative
+        color: rgb(255,255, 255)
+        z-index: 20
+        text-align: center
+        top: 0px
+        border-radius: 5px
+        padding: 30px 10px
+        font-weight: 300
+        width: 400px
+        height: 450px
+        background-color: #272727cb
+        
+        .icono 
+            width: 100px
+            height: 120px
+
+@keyframes toTop
+    0%
+        top: 0px
+    100%
+        top: -540px
+
+            
+        
