@@ -2,6 +2,8 @@
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px)
+    p 
+        font-size: 12px
     .navbar-brand
         font-size: 15px !important
         img 
@@ -27,6 +29,23 @@
                 font-size: 14px
     #contact
        font-size: 12px
+    
+    .horizontal-divider
+        display: none
+        visibility: hidden
+
+    .grid
+        width: 90%
+
+        figure 
+            display: inline-block
+            float: none
+            margin: 10px auto
+            width: 100%
+
+            h2
+                &::after
+                    top: 60%
     
 
 /* Small devices (landscape phones, 576px and up)*/

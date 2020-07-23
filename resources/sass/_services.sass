@@ -1,51 +1,105 @@
-.container
-    .box
-        width: 400px
-        height: 450px
-        background-color: #ffffcb
+.services.cards
+    display: block
+    box-sizing: border-box
+
+.grid
+    position: relative
+    margin: 0 auto
+    padding: 5px
+    list-style: none
+    text-align: center
+    margin: 0
+
+
+    figure 
+        position: relative
         overflow: hidden
+        margin: 0.5em auto
+        width: 300px
+        height: 350px
+        
+        cursor: pointer
         border-radius: 5px
-        box-shadow: 1px 1px 5px #858585, -1px -1px 5px #858585
-        transition: 0.3s
-        margin: 30px auto
+
+        img 
+            display: block
+            height: 110px
+            margin: 6px auto
+
+        figcaption
+            padding: 10px
+            font-size: 1.25em
+            -webkit-backface-visibility: hidden
+            -moz-backface-visibility: hidden
+            backface-visibility: hidden
+            position: absolute
+            top: 0
+            left: 0
+            width: 100%
+            height: 100%
+
+        h2 
+            word-spacing: -0.15em
+            font-weight: 300
+
+            span 
+                font-weight: 800
+        p 
+            letter-spacing: 1px 
+            font-size: 68.5%
+
+
+        
+        p,h2 
+            position: absolute !important
+            right: 30px
+            left: 30px
+            padding: 10px 0 
+               
+        p
+            bottom: 30px
+            line-height: 1.5
+            -webkit-transform: translate3d(0,100%,0)
+            -moz-transform: translate3d(0,100%,0)
+            transform: translate3d(0,100%,0)
+        h2 
+            top: 4em
+            -webkit-transition: transform 0.35s
+            -moz-transition: transform 0.35s
+            transition: transform 0.35s 
+            -webkit-transform: translate3d(0,20px,0)
+            -moz-transform: translate3d(0,20px,0)
+            transform: translate3d(0,20px,0)
 
         &:hover
-            box-shadow: 0px 5px 10px #858585
-            transition: 0.3s
-            transform: scale(1.1)
-            .back-image 
-                transform: scale(1.1)
-                transition: 0.3s
-                filter: blur(3px)
-            .content-card
-                animation: toTop 0.3s both
-
-    .back-image 
-        width: 400px
-        height: 450px
-        transition: 0.3s
-    .content-card
-        position: relative
-        color: rgb(255,255, 255)
-        z-index: 20
-        text-align: center
-        top: 0px
-        border-radius: 5px
-        padding: 30px 10px
-        font-weight: 300
-        width: 400px
-        height: 450px
-        background-color: #272727cb
+            h2
+                -webkit-transform: translate3d(0,0,0)
+                -moz-transform: translate3d(0,0,0) 
+                transform: translate3d(0,0,0)
+        h2 
+            &::after
+                position: absolute
+                top: 70%
+                left: 0 
+                width: 100%
+                height: 4px 
+                background-color: $color_iconos_redes
+                content: ''
+                -moz-transform: translate3d(0,40px,0)
+                -webkit-transform: translate3d(0,40px,0)
+                transform: translate3d(0,40px,0)
         
-        .icono 
-            width: 100px
-            height: 120px
+        h2 ::after,p 
+            opacity: 0
+            -webkit-transition: opacity 0.35s, -webkit-transform 0.35s
+            -moz-transition: opacity 0.35s, -moz-transform 0.35s
+            transition: opacity 0.35s, -webkit-transform 0.35s
+        
+        &:hover
+            h2 ::after, p 
+                opacity: 1
+                -webkit-transform: translate3d(0,0,0)
+                -moz-transform: translate3d(0,0,0)
+                transform: translate3d(0,0,0) 
 
-@keyframes toTop
-    0%
-        top: 0px
-    100%
-        top: -540px
-
-            
         

@@ -24,3 +24,10 @@ Route::get('/about',function(){
 Route::get('/contact',function(){
     return view('contact');
 })->name('contact');
+
+Route::get('/personas',function(){
+    return view('personas');
+})->name('personas');
+Route::get('/empresas',function(){
+    return view('empresas');
+})->name('empresas');

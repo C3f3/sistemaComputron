@@ -90,6 +90,10 @@ body {
   background-color: #00ff00;
 }
 
+p {
+  letter-spacing: 1.5px;
+}
+
 /*=====navegacion=====*/
 /*navegacion*/
 .start-header {
@@ -159,7 +163,7 @@ body {
   font-family: spy-agency;
 }
 .navbar-brand img {
-  height: 40px;
+  height: 52px;
 }
 
 /*==menu boton ==*/
@@ -314,60 +318,108 @@ b {
 }
 
 /*=====services=====*/
-.container .box {
-  width: 400px;
-  height: 450px;
-  background-color: #ffffcb;
-  overflow: hidden;
-  border-radius: 5px;
-  box-shadow: 1px 1px 5px #858585, -1px -1px 5px #858585;
-  transition: 0.3s;
-  margin: 30px auto;
-}
-.container .box:hover {
-  box-shadow: 0px 5px 10px #858585;
-  transition: 0.3s;
-  transform: scale(1.1);
-}
-.container .box:hover .back-image {
-  transform: scale(1.1);
-  transition: 0.3s;
-  filter: blur(3px);
-}
-.container .box:hover .content-card {
-  animation: toTop 0.3s both;
-}
-.container .back-image {
-  width: 400px;
-  height: 450px;
-  transition: 0.3s;
-}
-.container .content-card {
-  position: relative;
-  color: white;
-  z-index: 20;
-  text-align: center;
-  top: 0px;
-  border-radius: 5px;
-  padding: 30px 10px;
-  font-weight: 300;
-  width: 400px;
-  height: 450px;
-  background-color: #272727cb;
-}
-.container .content-card .icono {
-  width: 100px;
-  height: 120px;
+.services.cards {
+  display: block;
+  box-sizing: border-box;
 }
 
-@keyframes toTop {
-  0% {
-    top: 0px;
-  }
-  100% {
-    top: -540px;
-  }
+.grid {
+  position: relative;
+  margin: 0 auto;
+  padding: 5px;
+  list-style: none;
+  text-align: center;
+  margin: 0;
 }
+.grid figure {
+  position: relative;
+  overflow: hidden;
+  margin: 0.5em auto;
+  width: 300px;
+  height: 350px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.grid figure img {
+  display: block;
+  height: 110px;
+  margin: 6px auto;
+}
+.grid figure figcaption {
+  padding: 10px;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.grid figure h2 {
+  word-spacing: -0.15em;
+  font-weight: 300;
+}
+.grid figure h2 span {
+  font-weight: 800;
+}
+.grid figure p {
+  letter-spacing: 1px;
+  font-size: 68.5%;
+}
+.grid figure p, .grid figure h2 {
+  position: absolute !important;
+  right: 30px;
+  left: 30px;
+  padding: 10px 0;
+}
+.grid figure p {
+  bottom: 30px;
+  line-height: 1.5;
+  -webkit-transform: translate3d(0, 100%, 0);
+  -moz-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+}
+.grid figure h2 {
+  top: 4em;
+  -webkit-transition: transform 0.35s;
+  -moz-transition: transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 20px, 0);
+  -moz-transform: translate3d(0, 20px, 0);
+  transform: translate3d(0, 20px, 0);
+}
+.grid figure:hover h2 {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.grid figure h2::after {
+  position: absolute;
+  top: 70%;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #ff6400;
+  content: "";
+  -moz-transform: translate3d(0, 40px, 0);
+  -webkit-transform: translate3d(0, 40px, 0);
+  transform: translate3d(0, 40px, 0);
+}
+.grid figure h2 ::after, .grid figure p {
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  -moz-transition: opacity 0.35s, -moz-transform 0.35s;
+  transition: opacity 0.35s, -webkit-transform 0.35s;
+}
+.grid figure:hover h2 ::after, .grid figure:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
 /*=======contactos======*/
 #map-container-section {
   border-radius: 5px;
@@ -415,6 +467,10 @@ b {
 /*================MEDIAQUERIS==================*/
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
+  p {
+    font-size: 12px;
+  }
+
   .navbar-brand {
     font-size: 15px !important;
   }
@@ -451,6 +507,24 @@ b {
 
   #contact {
     font-size: 12px;
+  }
+
+  .horizontal-divider {
+    display: none;
+    visibility: hidden;
+  }
+
+  .grid {
+    width: 90%;
+  }
+  .grid figure {
+    display: inline-block;
+    float: none;
+    margin: 10px auto;
+    width: 100%;
+  }
+  .grid figure h2::after {
+    top: 60%;
   }
 }
 /* Small devices (landscape phones, 576px and up)*/
