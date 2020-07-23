@@ -31,3 +31,9 @@ Route::get('/personas',function(){
 Route::get('/empresas',function(){
     return view('empresas');
 })->name('empresas');
+
+Auth::routes();
+
+
+
+Route::get('/home', 'HomeController@index')->name('home');

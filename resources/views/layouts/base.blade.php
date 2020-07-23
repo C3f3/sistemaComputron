@@ -57,7 +57,7 @@
                                 </ul>
                                 <!--login-->
                                 <div class="login mr-4 ml-4 pl-4 pr-4 my-auto text-center">
-                                    <a href="#">
+                                <a href="{{route('login')}}">
                                         <ion-icon name="person-circle-outline"></ion-icon>
                                         Ingresar
                                     </a>
