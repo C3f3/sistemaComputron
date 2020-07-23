@@ -28,7 +28,7 @@
                 <div class="col-md-4 col-sm-12">
                     <div class="grid">
                         <figure class="efecto">
-                            <img src="/img/recuperacion.png" alt="img11" />
+                            <img src="/img/nube.png" alt="img11" />
                             <figcaption>
                                 <h2>Sweet <span>Marley</span></h2>
                                 <p>Marley tried to convince her but she was not interested.</p>
@@ -40,7 +40,7 @@
                 <div class="col-md-4 col-sm-12">
                     <div class="grid">
                         <figure class="efecto">
-                            <img src="/img/recuperacion.png" alt="img11" />
+                            <img src="/img/servidor.png" alt="img11" />
                             <figcaption>
                                 <h2>Sweet <span>Marley</span></h2>
                                 <p>Marley tried to convince her but she was not interested.</p>
@@ -52,7 +52,7 @@
                 <div class="col-md-4 col-sm-12">
                     <div class="grid">
                         <figure class="efecto">
-                            <img src="/img/recuperacion.png" alt="img11" />
+                            <img src="/img/mantenimiento.png" alt="img11" />
                             <figcaption>
                                 <h2>Sweet <span>Marley</span></h2>
                                 <p>Marley tried to convince her but she was not interested.</p>

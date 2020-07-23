@@ -35,23 +35,23 @@
 
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav text-center ml-auto mr-auto py-4 py-md-0">
-                                    <li class="nav-item pl-md-0 ml-0 ml-md-4">
+                                    <li class="nav-item {{setActive('index')}} pl-md-0 ml-0 ml-md-4">
                                     <a class="nav-link" href="{{route('index')}}">Home</a>
                                     </li>
-                                    <li class="nav-item pl-md-0 ml-0 ml-md-4">
+                                    <li class="nav-item {{setActive('about')}} pl-md-0 ml-0 ml-md-4">
                                     <a class="nav-link" href="{{route('about')}}">Quienes Somos</a>
                                     </li>
                                     <li class="nav-item dropdown pl-md-0 ml-0 ml-md-4">
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                           Servicios
                                         </a>
-                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <div class="dropdown-menu " aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="{{route('personas')}}">Personas</a>
                                           <div class="dropdown-divider"></div>
                                         <a class="dropdown-item" href="{{ route('empresas')}}">Empresas</a>
                                         </div>
                                     </li>
-                                    <li class="nav-item pl-md-0 ml-0 ml-md-4">
+                                    <li class="nav-item {{setActive('contact')}} pl-md-0 ml-0 ml-md-4">
                                     <a class="nav-link" href="{{route('contact')}}">Contacto</a>
                                     </li>
                                 </ul>

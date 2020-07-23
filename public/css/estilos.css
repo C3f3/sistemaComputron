@@ -94,6 +94,10 @@ p {
   letter-spacing: 1.5px;
 }
 
+.activado .nav-link {
+  font-weight: bold;
+}
+
 /*=====navegacion=====*/
 /*navegacion*/
 .start-header {
