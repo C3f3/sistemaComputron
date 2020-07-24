@@ -32,7 +32,7 @@ Route::get('/empresas',function(){
     return view('empresas');
 })->name('empresas');
 
-Auth::routes();
+Auth::routes(['register'=>false]);
 
 
 

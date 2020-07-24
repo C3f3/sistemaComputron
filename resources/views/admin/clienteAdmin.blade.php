@@ -1,4 +1,5 @@
-@extends('admin.layouts.base')
+@extends('admin.layouts.baseCliente')
+
         @section('content')
             
             <div id="layoutSidenav_content">
@@ -6,7 +7,7 @@
                     <div class="container-fluid">
                         <h1 class="mt-4">Panel de Control</h1>
                         <ol class="breadcrumb mb-4">
-                            <li class="breadcrumb-item active">Administrador</li>
+                            <li class="breadcrumb-item active">Cliente</li>
                         </ol>
                         <div class="row">
                             <div class="col-xl-3 col-md-6">
