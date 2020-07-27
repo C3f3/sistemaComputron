@@ -40,4 +40,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/admin','AdminController@index')->name('index');
 Route::get('/admin/clientes','AdminController@listarClientes')->name('listaClientes');
 Route::get('/admin/{id}','AdminController@verCliente')->name('verCliente');
-Route::post('/admin/editar','AdminController@updateCliente')->name('actualizarCliente');
+Route::patch('/admin/{id}/editar','AdminController@updateCliente')->name('actualizarCliente');

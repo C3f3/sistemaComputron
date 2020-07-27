@@ -15,8 +15,9 @@
                     Detalle Cliente
             </div>
 
-        <form method="POST" action="{{route('actualizarCliente')}}">
+        <form method="POST" action="{{route('actualizarCliente',$usuario)}}">
             @csrf
+            @method('PATCH')
             <div class="form-group">
               <label for="name">Nombre y apellido</label>
               <input type="text" name="name" class="form-control" id="name" placeholder="Nombre..." value='{{$usuario['name']}}'>
@@ -46,11 +47,8 @@
                   </div>
                   <div class="col-6">
                     <a type="button" href="{{route('listaClientes')}}"class="ml-auto btn btn-primary">Volver</a>
-
                   </div>
               </div>
-
-             
           </form>    
         </main>
 </div>
