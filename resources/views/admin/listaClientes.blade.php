@@ -48,7 +48,7 @@
                                     <td>{{$clienteItem['telefono']}}</td>
                                     <td>{{$clienteItem['puntos']}}</td>
                                     <td>
-                                    <a href="{{route('admin.showCliente',$clienteItem)}}" class="btn btn-success">Ver</a>
+                                    <a href="{{route('verCliente',$clienteItem)}}" class="btn btn-success">Ver</a>
                                         <a href="" class="btn btn-danger">Eliminar</a>
                                     </td>
                                     

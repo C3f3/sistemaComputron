@@ -23,4 +23,9 @@ class AdminController extends Controller
         
         return view('admin.listaClientes',compact('clientes'));
     }
+
+    public function verCliente($id){
+        $usuario=User::find($id);
+        return view('admin.verCliente',compact('usuario'));
+    }
 }

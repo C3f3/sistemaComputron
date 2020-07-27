@@ -39,3 +39,4 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/admin','AdminController@index')->name('index');
 Route::get('/admin/clientes','AdminController@listarClientes')->name('listaClientes');
+Route::get('/admin/{id}','AdminController@verCliente')->name('verCliente');
