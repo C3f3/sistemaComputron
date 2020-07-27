@@ -28,4 +28,8 @@ class AdminController extends Controller
         $usuario=User::find($id);
         return view('admin.verCliente',compact('usuario'));
     }
+
+    public function updateCliente(Request $request){
+        return view('admin.actualizarCliente');
+    }
 }

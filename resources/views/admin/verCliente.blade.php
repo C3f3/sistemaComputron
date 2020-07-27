@@ -14,38 +14,42 @@
                     <i class="fas fa-table mr-1"></i>
                     Detalle Cliente
             </div>
-        <form method="GET">
+
+        <form method="POST" action="{{route('actualizarCliente')}}">
+            @csrf
             <div class="form-group">
               <label for="name">Nombre y apellido</label>
-              <input type="text" class="form-control" id="name" placeholder="Nombre..." value='{{$usuario['name']}}'>
+              <input type="text" name="name" class="form-control" id="name" placeholder="Nombre..." value='{{$usuario['name']}}'>
             </div>
             <div class="form-group">
                 <label for="email">Email address</label>
-                <input type="email" class="form-control" id="email" placeholder="nombre@correo.com" value='{{$usuario['email']}}'>
+                <input type="email" name="email" class="form-control" id="email" placeholder="nombre@correo.com" value='{{$usuario['email']}}'>
               </div>
             <div class="form-group">
               <label for="rol">Rol</label>
-              <select class="form-control" value='cliente' id="rol" >
+              <select class="form-control" name="rol" value='cliente' id="rol" >
                 <option {{$usuario['role']=='admin' ? 'selected': ''}}>admin</option>
                 <option {{$usuario['role']=='cliente' ? 'selected': ''}}>cliente</option>
               </select>
             </div>
             <div class="form-group">
                 <label for="telefono">Telefono</label>
-                <input type="number" class="form-control" id="telefono" placeholder="12345678" value='{{$usuario['telefono']}}'>
+                <input type="number" name='telefono' class="form-control" id="telefono" placeholder="12345678" value='{{$usuario['telefono']}}'>
             </div>
             <div class="form-group">
                 <label for="coins">coins</label>
-                <input type="number" class="form-control" id="coins" placeholder="0" value='{{$usuario['puntos']}}'>
+                <input type="number" name="puntos" class="form-control" id="coins" placeholder="0" value='{{$usuario['puntos']}}'>
               </div>
               <div class="row text-center">
                   <div class="col-6">
-                    <button type="submit" class="btn btn-success">Guardar</button>
+                  <button type="submit" href="" class="btn btn-success">Guardar</button>
                   </div>
                   <div class="col-6">
-                    <button type="submit" class="btn btn-primary">Volver</button>
+                    <a type="button" href="{{route('listaClientes')}}"class="ml-auto btn btn-primary">Volver</a>
+
                   </div>
               </div>
+
              
           </form>    
         </main>
