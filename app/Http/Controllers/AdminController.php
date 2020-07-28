@@ -40,6 +40,14 @@ class AdminController extends Controller
             'email'=>$request->get('email'),
             
         ]);
-        return view('admin.actualizarCliente');
+        return view('admin.actualizarCliente',compact('usuario'));
     }
+    public function deleteCliente($id){
+        User::destroy($id);
+        return view('admin.admin');
+    }
+
+    
+
+    
 }

@@ -73,7 +73,7 @@
                             <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
                                 <a class="nav-link" href="{{route('listaClientes')}}">Ver Clientes</a>
-                                    <a class="nav-link" href="layout-sidenav-light.html">Nuevo Cliente</a>
+                            
                                 </nav>
                             </div>
                             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" 
@@ -84,8 +84,8 @@
                             </a>
                             <div class="collapse" id="collapsePages" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="layout-static.html">Ver Flyer</a>
-                                    <a class="nav-link" href="layout-sidenav-light.html">Nuevo Flyer</a>
+                                    <a class="nav-link" href="">Ver Flyer</a>
+                                <a class="nav-link" href="{{route('nuevoFlyer')}}">Nuevo Flyer</a>
                                 </nav>
                             </div>
                            

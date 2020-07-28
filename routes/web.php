@@ -35,9 +35,12 @@ Route::get('/empresas',function(){
 Auth::routes();
 
 
+Route::get('/admin/nuevoFlyer','FlyerController@create')->name('nuevoFlyer');
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/admin','AdminController@index')->name('index');
 Route::get('/admin/clientes','AdminController@listarClientes')->name('listaClientes');
 Route::get('/admin/{id}','AdminController@verCliente')->name('verCliente');
-Route::patch('/admin/{id}/editar','AdminController@updateCliente')->name('actualizarCliente');
+Route::patch('/admin/{id?}/editar','AdminController@updateCliente')->name('actualizarCliente');
+Route::delete('/admin/{id}','AdminController@deleteCliente')->name('eliminarCliente');
+
