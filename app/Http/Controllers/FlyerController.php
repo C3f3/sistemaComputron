@@ -44,6 +44,11 @@ class FlyerController extends Controller
         if($foto=Flyer::setImage($request->foto_up))
             $request->request->add(['foto'=>$foto]);
 
+            Flyer::create($request->all());
+
+            return redirect()->route('nuevoFlyer')->with('mensaje','la imagen se guardo');
+
+
     }
 
     /**
