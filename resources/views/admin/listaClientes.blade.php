@@ -49,7 +49,7 @@
                                     <td>{{$clienteItem['puntos']}}</td>
                                     <td>
                                     <a href="{{route('verCliente',$clienteItem)}}" class="btn btn-success">Ver</a>
-                                        <a href="{{route('eliminarCliente',$clienteItem)}}" class="btn btn-danger">Eliminar</a>
+                                    <a href="{{route('eliminarCliente',$clienteItem)}}" class="btn btn-danger">Eliminar</a>
                                     </td>
                                     
                                 </tr>

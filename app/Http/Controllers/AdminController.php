@@ -40,11 +40,14 @@ class AdminController extends Controller
             'email'=>$request->get('email'),
             
         ]);
-        return view('admin.actualizarCliente',compact('usuario'));
+        return redirect()->route('verCliente',$usuario)->with('mensaje','las modifiaciones fueron guardadas');
+        //return view('admin.actualizarCliente',compact('usuario'));
     }
     public function deleteCliente($id){
-        User::destroy($id);
-        return view('admin.admin');
+        $u=User::find($id);
+        $u->delete();
+    
+        return redirect()->route('listaClientes');
     }
 
     
