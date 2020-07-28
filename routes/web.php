@@ -36,6 +36,7 @@ Auth::routes();
 
 
 Route::get('/admin/nuevoFlyer','FlyerController@create')->name('nuevoFlyer');
+Route::post('/admin/nuevoFlyer','FlyerController@store')->name('guardarFlyer');
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/admin','AdminController@index')->name('index');

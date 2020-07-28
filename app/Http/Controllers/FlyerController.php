@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Flyer;
 
 class FlyerController extends Controller
 {
@@ -40,7 +41,9 @@ class FlyerController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        if($foto=Flyer::setImage($request->foto_up))
+            $request->request->add(['foto'=>$foto]);
+
     }
 
     /**
