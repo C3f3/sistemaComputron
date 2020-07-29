@@ -19,8 +19,8 @@ class Flyer extends Model
                 Storage::disk('public')->delete("imagenes/flyers/$actual");
             }
             $imageName = Str::random(20) . '.jpg';
-            $imagen = Image::make($foto)->encode('jpg',75);
-            $imagen->resize(530,470,function($constraint){
+            $imagen = Image::make($foto)->encode('jpg',85);
+            $imagen->resize(470,530,function($constraint){
                 $constraint->upsize();
             });
             Storage::disk('public')->put("imagenes/flyers/$imageName",$imagen->stream());

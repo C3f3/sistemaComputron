@@ -85,7 +85,7 @@
                             </a>
                             <div class="collapse" id="collapsePages" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="">Ver Flyer</a>
+                                <a class="nav-link" href="{{route('listaFlyers')}}">Ver Flyers</a>
                                 <a class="nav-link" href="{{route('nuevoFlyer')}}">Nuevo Flyer</a>
                                 </nav>
                             </div>

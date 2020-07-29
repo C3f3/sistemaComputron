@@ -37,6 +37,7 @@ Auth::routes();
 
 Route::get('/admin/nuevoFlyer','FlyerController@create')->name('nuevoFlyer');
 Route::post('/admin/nuevoFlyer','FlyerController@store')->name('guardarFlyer');
+Route::get('/admin/listafFlyers','FlyerController@index')->name('listaFlyers');
 
 Route::get('/admin/eliminarCliente/{id}','AdminController@deleteCliente')->name('eliminarCliente');
 
@@ -47,5 +48,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/admin','AdminController@index')->name('index');
 Route::get('/admin/{id}','AdminController@verCliente')->name('verCliente');
 Route::patch('/admin/editar/{id}','AdminController@updateCliente')->name('actualizarCliente');
+
+
+
 
 

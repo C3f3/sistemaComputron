@@ -3,7 +3,10 @@
 @section('content')
 <div id="layoutSidenav_content">
     <main>
-        <div class="container-fluid">
+        <div class="container">
+            @if (Session::has('mensaje'))
+                <div class="alert alert-info mt-3">{{ Session::get('mensaje') }}</div>
+            @endif
             <h1 class="mt-4">Panel de Control</h1>
             <ol class="breadcrumb mb-4">
                 <li class="breadcrumb-item active">Clientes</li>

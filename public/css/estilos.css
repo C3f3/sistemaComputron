@@ -1,5 +1,6 @@
 /*=====estilos basicos=====*/
 @import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 @font-face {
   font-family: "spy-agency";
   src: url("../vendor/spyagency3_2.ttf");
@@ -91,7 +92,9 @@ body {
 }
 
 p {
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 1.5px;
+  word-spacing: 3px;
 }
 
 .activado .nav-link {

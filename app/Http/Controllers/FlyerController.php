@@ -20,6 +20,9 @@ class FlyerController extends Controller
     public function index()
     {
         //
+        $imagenes= Flyer::get();
+
+        return view('admin.flyerAdmin.listaFlyers',compact('imagenes'));
     }
 
     /**

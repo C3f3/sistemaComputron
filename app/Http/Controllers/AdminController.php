@@ -47,7 +47,7 @@ class AdminController extends Controller
         $u=User::find($id);
         $u->delete();
     
-        return redirect()->route('listaClientes');
+        return redirect()->route('listaClientes')->with('mensaje','El cliente se elimino satisfactoriamente');
     }
 
     
