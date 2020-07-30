@@ -24,7 +24,7 @@
                     <div class="col-12">
 
                         <nav id="myMenu" class="navbar navbar-expand-md navbar-dark fixed">
-                            <a class="navbar-brand" href="{{route('index')}}">
+                            <a class="navbar-brand" href="{{route('inicio')}}">
                                 <img src="/img/logo-redondo.png" alt="logo" loading="lazy">
                                 COMPUTRON</a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -36,7 +36,7 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav text-center ml-auto mr-auto py-4 py-md-0">
                                     <li class="nav-item {{setActive('index')}} pl-md-0 ml-0 ml-md-4">
-                                    <a class="nav-link" href="{{route('index')}}">Home</a>
+                                    <a class="nav-link" href="{{route('inicio')}}">Home</a>
                                     </li>
                                     <li class="nav-item {{setActive('about')}} pl-md-0 ml-0 ml-md-4">
                                     <a class="nav-link" href="{{route('about')}}">Quienes Somos</a>

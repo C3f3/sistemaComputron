@@ -4,6 +4,9 @@
 <div id="layoutSidenav_content">
     <main>
         <div class="container">
+            @if (Session::has('mensaje'))
+                <div class="alert alert-info mt-3">{{ Session::get('mensaje') }}</div>
+            @endif
             <h1 class="mt-4">Panel de Control</h1>
             <ol class="breadcrumb mb-4">
                 <li class="breadcrumb-item active">Campaña</li>
@@ -33,15 +36,27 @@
                         <tbody>
                             @forelse ($imagenes as $img)   
                             <tr>
-                                <td><img src="{{}}" alt=""></td>
+                                <td>
+                                    <img src="{{Storage::url("imagenes/flyers/$img->foto")}}" alt="" width="80"/>
+                                </td>
+                                <td>
+                                    {{ $img['title'] }}
+                                </td>
+                                <td>
+                                    <a href="" class="btn btn-success">Compartir</a>
+                                    <a href="{{ route('eliminarFlyer',$img) }}" class="btn btn-danger">Eliminar</a>
+                                </td>
+                                
+                            </tr>
+                            @empty
+                            <tr>
+                                <td></td>
                                 <td></td>
                                 <td>
                                     <a href="" class="btn btn-success">Compartir</a>
                                     <a href="" class="btn btn-danger">Eliminar</a>
                                 </td>
-                                
                             </tr>
-                            @empty
 
                             @endforelse
                         

@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index');
-})->name('index');
+})->name('inicio');
 
 Route::get('/about',function(){
     return view('about');
@@ -28,6 +28,7 @@ Route::get('/contact',function(){
 Route::get('/personas',function(){
     return view('personas');
 })->name('personas');
+
 Route::get('/empresas',function(){
     return view('empresas');
 })->name('empresas');
@@ -35,9 +36,11 @@ Route::get('/empresas',function(){
 Auth::routes();
 
 
+Route::get('/admin/eliminarFlyer/{id?}','FlyerController@destroy')->name('eliminarFlyer');
 Route::get('/admin/nuevoFlyer','FlyerController@create')->name('nuevoFlyer');
 Route::post('/admin/nuevoFlyer','FlyerController@store')->name('guardarFlyer');
 Route::get('/admin/listafFlyers','FlyerController@index')->name('listaFlyers');
+
 
 Route::get('/admin/eliminarCliente/{id}','AdminController@deleteCliente')->name('eliminarCliente');
 

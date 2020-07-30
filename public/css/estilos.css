@@ -259,6 +259,9 @@ p {
   -moz-background-size: cover;
   background-size: cover;
 }
+.carousel-item .lead {
+  font-family: "Orbitron", sans-serif !important;
+}
 
 b {
   font-size: 25px;

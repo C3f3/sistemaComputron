@@ -88,15 +88,15 @@
                         <a class="btn-floating blue accent-1">
                             <i class="fas fa-phone"></i>
                         </a>
-                        <p>+ 54 387 567 89</p>
+                        <p>387-6 370 500</p>
                         <p class="mb-md-0">Lun - Vie, 8:00-22:00</p>
                     </div>
                     <div class="col-md-4">
                         <a class="btn-floating blue accent-1">
                             <i class="fas fa-envelope"></i>
                         </a>
-                        <p>computron@gmail.com</p>
-                        <p class="mb-0">computron_salta@gmail.com</p>
+                        <p>387-6 207 833</p>
+                        <p class="mb-0">computronsalta@gmail.com</p>
                     </div>
                 </div>
             </div>

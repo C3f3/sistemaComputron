@@ -23,11 +23,11 @@
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="title">Titulo</label>
-                        <input type="text" name="title" class="form-control" id="title" placeholder="Titulo..." >
+                        <input type="text" name="title" class="form-control" id="title" placeholder="Titulo..." required>
                     </div>
                     <div class="form-group col-md-6">
                         <label for="flyer" class="control-label">Imagen</label>
-                        <input type="file" name="foto_up" id="flyer" data-initial-preview="https://place-hold.it/400x500" accept="image/*">
+                        <input type="file" name="foto_up" id="flyer" data-initial-preview="https://place-hold.it/400x500" accept="image/*" required>
                     </div>
                     <div class="row">
                         <div class="col-6">

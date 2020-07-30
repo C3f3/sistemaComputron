@@ -96,6 +96,8 @@ class FlyerController extends Controller
      */
     public function destroy($id)
     {
-        //
+    
+        Flyer::destroy($id);
+        return redirect()->route('listaFlyers')->with('mensaje','La imagen se elimino satisfactoriamente');
     }
 }

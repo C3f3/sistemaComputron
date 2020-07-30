@@ -12,18 +12,19 @@
                     </ol>
                     <div class="carousel-inner" role="listbox">
                         <!-- Slide One - Set the background image for this slide in the line below -->
+                        
                         <div class="carousel-item active" style="background-image: url('/img/slider0.jpg')">
                             <div class="carousel-caption d-md-block">
-                                <h3 class="display-4">Seriedad</h3>
+                                <h3 href="#" class="display-4">Seriedad</h3>
                                 <p class="lead">Cumplimos con todas las normativas vigentes.</p>
                             </div>
                         </div>
                         <!-- Slide Two - Set the background image for this slide in the line below -->
                         <div class="carousel-item" style="background-image: url('/img/slider1.jpg')">
-                            <div class="carousel-caption d-md-block">
+                            <a class="carousel-caption d-md-block">
                                 <h3 class="display-4">Excelencia</h3>
                                 <p class="lead">Aseguramos calidad en todos nuestros trabajos.</p>
-                            </div>
+                            </a>
                         </div>
                         <!-- Slide Three - Set the background image for this slide in the line below -->
                         <div class="carousel-item" style="background-image: url('/img/slider2.jpg')">

@@ -57,17 +57,17 @@
                                     
                                 </tr>
                             @empty
-                            <tr>
-                                <td></td>
-                                 <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>
-                                <a href="" class="btn btn-success">Ver</a>
-                                    <a href="" class="btn btn-danger">Eliminar</a>
-                                </td>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                        <a href="" class="btn btn-success">Ver</a>
+                                        <a href="" class="btn btn-danger">Eliminar</a>
+                                    </td>
                                 
-                            </tr>
+                                 </tr>
                             </tbody>
                             @endforelse
                         </table>

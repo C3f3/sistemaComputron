@@ -26,7 +26,7 @@ $(document).ready(function(){
     $('#flyer').fileinput({
         language:'es',
         allowedFileExtensions:['jpg','jpeg','png'],
-        maxFileSize:3000,
+        maxFileSize:5000,
         showUpload:false,
         showClose:false,
         initialPreviewAsData:true,
