@@ -254,10 +254,15 @@ p {
 .carousel-item {
   margin-top: 60px;
   min-height: 550px;
+  height: 550px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+}
+.carousel-item img {
+  width: 100%;
+  object-fit: cover;
 }
 .carousel-item .lead {
   font-family: "Orbitron", sans-serif !important;
@@ -266,6 +271,32 @@ p {
 b {
   font-size: 25px;
   font-weight: 400;
+}
+
+.hero-image .uno {
+  background-image: url("../img/secciones/gaming.jpg");
+  background-color: #323232;
+  background-blend-mode: overlay;
+  background-position: center;
+  height: 350px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  width: 100%;
+}
+.hero-image .uno .content {
+  padding: 10px 20px;
+  height: 100px;
+  width: 200px;
+}
+
+.image-card {
+  margin: 20px 5px;
+  height: 400px;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+  border-radius: 5px;
 }
 
 /*=====About====*/
@@ -322,9 +353,13 @@ b {
 
 .testimonials #client-testimonial-carousel {
   overflow: hidden;
-  overflow-.carousel-inner-height: 100px !important;
-  overflow-.carousel-inner-.carousel-item-height: 120px;
-  overflow-.carousel-inner-.carousel-item-min-height: 120px !important;
+}
+.testimonials #client-testimonial-carousel .carousel-inner {
+  height: 100px !important;
+}
+.testimonials #client-testimonial-carousel .carousel-inner .carousel-item {
+  height: 120px;
+  min-height: 120px !important;
 }
 
 /*=====services=====*/
@@ -489,6 +524,10 @@ b {
   }
 
   .carousel-item {
+    min-height: 350px;
+    height: 70%;
+  }
+  .carousel-item img {
     min-height: 350px;
   }
   .carousel-item .display-4 {
