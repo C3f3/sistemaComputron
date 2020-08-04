@@ -13,10 +13,10 @@
                     <div class="carousel-inner" role="listbox">
                         <!-- Slide One - Set the background image for this slide in the line below -->
                         <div class="carousel-item active" data-interval="2000">
-                            <a href="">
-                                <img src="/img/slider0.jpg" alt="">
+                            <a href="#gaming">
+                                <img src="/img/slider/slider0.jpg" alt="">
                                 <div class="carousel-caption d-md-block">
-                                    <h3 href="#" class="display-4">Seriedad</h3>
+                                    <h3 href="#" class="display-4">Gaming</h3>
                                     <p class="lead">Cumplimos con todas las normativas vigentes.</p>
                                 </div>
                             </a>
@@ -24,10 +24,10 @@
                         </div>
                         <!-- Slide Two - Set the background image for this slide in the line below -->
                         <div class="carousel-item" data-interval="2000">
-                            <a href="">
-                                <img src="/img/slider1.jpg" alt="" >
+                            <a href="#microelectronica">
+                                <img src="/img/slider/slider1.jpg" alt="" >
                                 <div class="carousel-caption d-md-block">
-                                    <h3 class="display-4">Excelencia</h3>
+                                    <h3 class="display-4">Microelectronica</h3>
                                     <p class="lead">Aseguramos calidad en todos nuestros trabajos.</p>
                                 </div>
                             </a>
@@ -36,7 +36,7 @@
                         <!-- Slide Three - Set the background image for this slide in the line below -->
                         <div class="carousel-item" data-interval="2000">
                             <a href="">
-                                <img src="/img/slider2.jpg" alt="">
+                                <img src="/img/slider/slider2.jpg" alt="">
                                 <div class="carousel-caption d-md-block">
                                     <h3 class="display-4">Compromiso</h3>
                                     <p class="lead">Priorizamos las necesidades de nuestros clientes.</p>
@@ -57,7 +57,7 @@
             </header>
         </div>
     </div>
-    <div class="intro section">
+    <div class="intro section" data-aos="fade-up">
         <div class="bg-dark text-center py-5">
             <div class="container">
                 <h2 class="font-weight-light text-white">¿Buscas una solucion informatica?</h2>
@@ -67,14 +67,15 @@
                 <p class="text-white mt-4">Desde computron nos centramos en soluciones integrales orientadas tanto a empresas como a 
                     personas particulares. Acercate y te asesoramos....
                 </p>
-                <a href="about.html" class="mt-4 btn btn-success">Conocenos!</a>
+                <a href="" class="mt-4 btn btn-success">Conocenos!</a>
             </div>
         </div>
     </div>
-    <div class="section hero-image">
-        <div class="text-center uno d-flex align-items-center">
+    <div class="horizontal-divider mx-auto" id="gaming"></div> 
+    <div class="section hero-image py-md-5 my-2 m-md-4"   data-aos="zoom-in" data-aos-duration="2000">
+        <div class="text-center uno d-flex align-items-center"  >
             <div class="content mx-auto ">
-                <h1>Titulo</h1>
+                <h2>Gaming</h2>
                 <p>Descripcion</p>
             </div>
             
@@ -82,24 +83,25 @@
         <div class="bg-dark py-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 text-center">
-                        <h1>gaming</h1>
+                    <div class="col-md-6 text-center" >
+                        <h2>gaming</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa accusantium hic, 
                             sit unde deleniti quidem rem at laudantium distinctio qui necessitatibus.
                              Fuga ducimus dolor neque nihil ab eveniet recusandae illo!</p>
-                        <a href="" class="btn btn-success">Ver Mas</a>
+                        <a href="" class="btn btn-success topmargin-lg">Ver Mas</a>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 ">
                         <img src="./img/secciones/gamer.jpg" alt="" class="image-card">
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="section hero-image">
-        <div class="text-center uno d-flex align-items-center">
-            <div class="content mx-auto ">
-                <h1>Titulo</h1>
+    <div class="horizontal-divider mx-auto "  id="microelectronica"></div>
+    <div class="section hero-image py-md-5 my-2 m-md-4" data-aos="fade-up" data-aos-duration="1800">
+        <div class="text-center dos d-flex align-items-center" >
+            <div class="content mx-auto">
+                <h2>Microelectronica</h2>
                 <p>Descripcion</p>
             </div>
             
@@ -107,16 +109,18 @@
         <div class="bg-dark py-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 text-center">
-                        <h1>Microelectronica</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa accusantium hic, 
+                    <div class="col-md-6 text-center order-md-last">
+                        <h2>Microelectronica</h2>
+                        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa accusantium hic, 
                             sit unde deleniti quidem rem at laudantium distinctio qui necessitatibus.
                              Fuga ducimus dolor neque nihil ab eveniet recusandae illo!</p>
-                        <a href="" class="btn btn-success">Ver Mas</a>
+                        <a href="" class="btn btn-success topmargin-lg">Ver Mas</a>
                     </div>
-                    <div class="col-md-6">
-                        <img src="./img/secciones/gamer.jpg" alt="" class="image-card">
+                    <div class="col-md-6 order-md-first">
+                        <img src="./img/secciones/electronica-hero-image.jpg" alt="" class="image-card">
                     </div>
+                    
+                    
                 </div>
             </div>
         </div>

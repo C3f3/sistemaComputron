@@ -273,6 +273,9 @@ b {
   font-weight: 400;
 }
 
+.hero-image {
+  width: 100%;
+}
 .hero-image .uno {
   background-image: url("../img/secciones/gaming.jpg");
   background-color: #323232;
@@ -284,10 +287,21 @@ b {
   background-size: cover;
   width: 100%;
 }
-.hero-image .uno .content {
-  padding: 10px 20px;
+.hero-image .dos {
+  background-image: url("../img/secciones/electronica-hero-image.jpg");
+  background-color: #323232;
+  background-blend-mode: overlay;
+  background-position: center;
+  height: 350px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  width: 100%;
+}
+.hero-image .content {
+  padding: 5px 20px;
   height: 100px;
-  width: 200px;
+  width: 80%;
 }
 
 .image-card {
@@ -512,6 +526,10 @@ b {
 /*================MEDIAQUERIS==================*/
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
+  h2 {
+    font-size: 18px;
+  }
+
   p {
     font-size: 12px;
   }
@@ -525,18 +543,23 @@ b {
 
   .carousel-item {
     min-height: 350px;
-    height: 70%;
+    height: 100%;
   }
   .carousel-item img {
     min-height: 350px;
+    height: 100%;
   }
   .carousel-item .display-4 {
-    font-size: 40px !important;
+    font-size: 24px !important;
     margin-left: auto;
     margin-right: auto;
   }
   .carousel-item .lead {
     display: none;
+  }
+
+  .image-card {
+    margin: 20px 0px;
   }
 
   .about {
@@ -559,8 +582,8 @@ b {
   }
 
   .horizontal-divider {
-    display: none;
-    visibility: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .grid {
@@ -577,7 +600,43 @@ b {
   }
 }
 /* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .carousel-item {
+    min-height: 350px;
+    height: 100%;
+  }
+  .carousel-item img {
+    min-height: 350px;
+    height: 100%;
+  }
+  .carousel-item .display-4 {
+    font-size: 40px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .carousel-item .lead {
+    display: none;
+  }
+}
 /* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .carousel-item {
+    min-height: 350px;
+    height: 100%;
+  }
+  .carousel-item img {
+    min-height: 350px;
+    height: 100%;
+  }
+  .carousel-item .display-4 {
+    font-size: 40px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .carousel-item .lead {
+    display: none;
+  }
+}
 /* Large devices (desktops, 992px and up)*/
 /*// Extra large devices (large desktops, 1200px and up)*/
 
