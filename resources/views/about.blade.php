@@ -29,7 +29,7 @@
 <div class="section bg-dark">
     <div class="py-lg-5 py-sm-3 py-md-3 container">
         <div class="content text-center">
-            <h3 class="font-weight-light text-white">Algunos de los valores que nos diferencian</h2>
+            <h2 class="font-weight-light text-white">Algunos de los valores que nos diferencian</h2>
         </div>
         <div class="row">
             <div class="col-lg-3 col-sm-6">
@@ -39,8 +39,8 @@
                         <h4>Eficiencia</h4>
                     </div>
                     <div class="text">
-                        <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr
-                            scripta ocurreret qui ad.</span>
+                        <p>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr
+                            scripta ocurreret qui ad.</p>
                     </div>
                 </div>
             </div>
@@ -51,8 +51,8 @@
                         <h4>Calidad</h4>
                     </div>
                     <div class="text">
-                        <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr
-                            scripta ocurreret qui ad.</span>
+                        <p>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr
+                            scripta ocurreret qui ad.</p>
                     </div>
                 </div>
             </div>
@@ -63,8 +63,8 @@
                         <h4>Innovacion</h4>
                     </div>
                     <div class="text">
-                        <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr
-                            scripta ocurreret qui ad.</span>
+                        <p>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr
+                            scripta ocurreret qui ad.</p>
                     </div>
                 </div>
             </div>
@@ -75,8 +75,8 @@
                         <h4>Comunicacion</h4>
                     </div>
                     <div class="text">
-                        <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr
-                            scripta ocurreret qui ad.</span>
+                        <p>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr
+                            scripta ocurreret qui ad.</p>
                     </div>
                 </div>
             </div>
