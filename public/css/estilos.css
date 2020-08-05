@@ -101,6 +101,11 @@ p {
   font-weight: bold;
 }
 
+.display-4 {
+  font-family: "spy-agency";
+  font-size: 50px;
+}
+
 /*=====navegacion=====*/
 /*navegacion*/
 .start-header {
@@ -298,6 +303,28 @@ b {
   background-size: cover;
   width: 100%;
 }
+.hero-image .tres {
+  background-image: url("../img/secciones/redes-hero-image.jpg");
+  background-color: #323232;
+  background-blend-mode: overlay;
+  background-position: center;
+  height: 350px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  width: 100%;
+}
+.hero-image .cuatro {
+  background-image: url("../img/secciones/express-hero-image.jpg");
+  background-color: #323232;
+  background-blend-mode: overlay;
+  background-position: center;
+  height: 350px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  width: 100%;
+}
 .hero-image .content {
   padding: 5px 20px;
   height: 100px;
@@ -342,7 +369,7 @@ b {
 }
 
 .section .about {
-  background-image: url("../img/slider0.jpg");
+  background-image: url("../img/slider/slider0.jpg");
   background-size: cover;
 }
 

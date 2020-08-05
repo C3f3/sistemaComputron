@@ -72,6 +72,114 @@
         </div>
     </div>
     <div class="horizontal-divider mx-auto" id="gaming"></div> 
+    <div class="section hero-image"   data-aos="zoom-in" data-aos-duration="2000">
+        <div class="container-fluid text-center uno d-flex align-items-center"  >
+            <div class="content mx-auto ">
+                <h2>Gaming</h2>
+                <p>Descripcion</p>
+            </div>
+            
+        </div>   
+        <div class="bg-dark py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center" >
+                        <h2>gaming</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa accusantium hic, 
+                            sit unde deleniti quidem rem at laudantium distinctio qui necessitatibus.
+                             Fuga ducimus dolor neque nihil ab eveniet recusandae illo!</p>
+                        <a href="" class="btn btn-success topmargin-lg">Ver Mas</a>
+                    </div>
+                    <div class="col-md-6 ">
+                        <img src="./img/secciones/gamer.jpg" alt="" class="image-card">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="horizontal-divider mx-auto "  id="microelectronica"></div>
+    <div class="section hero-image" data-aos="zoom-in" data-aos-duration="2000">
+        <div class="text-center container-fluid dos d-flex align-items-center" >
+            <div class="content mx-auto">
+                <h2>Microelectronica</h2>
+                <p>Descripcion</p>
+            </div>
+            
+        </div>   
+        <div class="bg-dark py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center order-md-last">
+                        <h2>Microelectronica</h2>
+                        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa accusantium hic, 
+                            sit unde deleniti quidem rem at laudantium distinctio qui necessitatibus.
+                             Fuga ducimus dolor neque nihil ab eveniet recusandae illo!</p>
+                        <a href="" class="btn btn-success topmargin-lg">Ver Mas</a>
+                    </div>
+                    <div class="col-md-6 order-md-first">
+                        <img src="./img/secciones/electronica-hero-image.jpg" alt="" class="image-card">
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="horizontal-divider mx-auto" id="redes"></div> 
+    <div class="section hero-image"   data-aos="zoom-in" data-aos-duration="2000">
+        <div class="text-center container-fluid tres d-flex align-items-center"  >
+            <div class="content mx-auto ">
+                <h2>Redes y Servidores</h2>
+                <p>Descripcion</p>
+            </div>
+            
+        </div>   
+        <div class="bg-dark py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center" >
+                        <h2>Redes y Servidores</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa accusantium hic, 
+                            sit unde deleniti quidem rem at laudantium distinctio qui necessitatibus.
+                             Fuga ducimus dolor neque nihil ab eveniet recusandae illo!</p>
+                        <a href="" class="btn btn-success topmargin-lg">Ver Mas</a>
+                    </div>
+                    <div class="col-md-6 ">
+                        <img src="./img/secciones/gamer.jpg" alt="" class="image-card">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="horizontal-divider mx-auto "  id="express"></div>
+    <div class="section hero-image" data-aos="fade-up" data-aos-duration="1800">
+        <div class="text-center container-fluid cuatro d-flex align-items-center" >
+            <div class="content mx-auto">
+                <h2>Servicios Express</h2>
+                <p>Descripcion</p>
+            </div>
+            
+        </div>   
+        <div class="bg-dark py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center order-md-last">
+                        <h2>Microelectronica</h2>
+                        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa accusantium hic, 
+                            sit unde deleniti quidem rem at laudantium distinctio qui necessitatibus.
+                             Fuga ducimus dolor neque nihil ab eveniet recusandae illo!</p>
+                        <a href="" class="btn btn-success topmargin-lg">Ver Mas</a>
+                    </div>
+                    <div class="col-md-6 order-md-first">
+                        <img src="./img/secciones/electronica-hero-image.jpg" alt="" class="image-card">
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="horizontal-divider mx-auto" id="gaming"></div> 
     <div class="section hero-image py-md-5 my-2 m-md-4"   data-aos="zoom-in" data-aos-duration="2000">
         <div class="text-center uno d-flex align-items-center"  >
             <div class="content mx-auto ">
