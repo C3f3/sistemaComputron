@@ -591,6 +591,10 @@ b {
     height: 18px !important;
   }
 
+  .hero-image .uno, .hero-image .dos, .hero-image .tres, .hero-image .cuatro, .hero-image .cinco, .hero-image .seis {
+    height: 150px;
+  }
+
   .carousel-item {
     min-height: 350px;
     height: 100%;
@@ -610,10 +614,13 @@ b {
 
   .image-card {
     margin: 20px 0px;
+    height: 200px;
   }
 
   .about {
+    margin-top: 40px;
     min-height: 350px;
+    width: 100%;
   }
 
   .section {
