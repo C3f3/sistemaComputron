@@ -12,29 +12,33 @@
 
     </div>
     <div class="section bg-dark">
-        <div class="py-lg-5 py-sm-3 py-md-3 container">
-            <div class="content-text text-center">
-                <h2 class="font-weight-light text-white">Sobre Nosotros</h2>
-                <p class="text-white mt-4">Somos un emprendimiento constituido por un equipo de jovenes especializados en brindar distintas
-                    soluciones. Buscamos abordar cada desafio con una solucion personalizada. Acercate y te asesoramos...
-                </p>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6 text-center py-3" >
+                    <h2 class="font-weight-light text-white">Sobre Nosotros</h2>
+                    <p class="mt-4">Somos un emprendimiento constituido por un equipo de jovenes especializados en brindar distintas
+                        soluciones. Buscamos abordar cada desafio con una solucion personalizada. Acercate y te asesoramos...</p>
+                </div>
+                <div class="col-md-6 ">
+                    <img src="./img/about/repair-about.jpg" alt="" class="image-card">
+                </div>
             </div>
         </div>
     </div>
 </div>
-<div class="mx-auto horizontal-divider">
+<div class="mx-auto horizontal-divider my-5">
 </div>
 
 <!--cards-->
 <div class="section bg-dark">
-    <div class="py-lg-5 py-sm-3 py-md-3 container">
+    <div class=" py-sm-3 py-md-3 container">
         <div class="content text-center">
             <h2 class="font-weight-light text-white">Algunos de los valores que nos diferencian</h2>
         </div>
         <div class="row">
             <div class="col-lg-3 col-sm-6">
                 <div class="box-part text-center">
-                    <img src="img/eficiencia.png" alt="eficiencia">
+                    <img src="img/about/eficiencia.png" alt="eficiencia">
                     <div class="title">
                         <h4>Eficiencia</h4>
                     </div>
@@ -46,7 +50,7 @@
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="box-part text-center">
-                    <img src="img/calidad.png" alt="calidad">
+                    <img src="img/about/calidad.png" alt="calidad">
                     <div class="title">
                         <h4>Calidad</h4>
                     </div>
@@ -58,7 +62,7 @@
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="box-part text-center">
-                    <img src="img/innovacion.png" alt="innovacion">
+                    <img src="img/about/innovacion.png" alt="innovacion">
                     <div class="title">
                         <h4>Innovacion</h4>
                     </div>
@@ -70,7 +74,7 @@
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="box-part text-center">
-                    <img src="img/comunicacion.png" alt="comunicacion">
+                    <img src="img/about/comunicacion.png" alt="comunicacion">
                     <div class="title">
                         <h4>Comunicacion</h4>
                     </div>
@@ -84,7 +88,7 @@
     </div>
 </div>
 
-<div class="mx-auto horizontal-divider">
+<div class="mx-auto horizontal-divider my-5">
 </div>
 <div class="section testimonials mt-3">
     <div class="container">
