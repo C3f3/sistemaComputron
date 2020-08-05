@@ -93,16 +93,16 @@
 <div class="section testimonials mt-3">
     <div class="container">
         <div class="content-text mb-0 text-center">
-            <h3 class="font-weight-light text-white">Mira lo que algunos clientes dicen de nosotros</h2>
+            <h2 class="font-weight-light text-white">Mira lo que algunos clientes dicen de nosotros</h2>
         </div>
         <div class="col-lg-10 pt-lg-2 pt-sm-0 mt-lg-1 mt-sm-0 pb-2 offset-lg-1 bg-dark text-light">
             <div id="client-testimonial-carousel" class="carousel slide" data-ride="carousel" style="height:250px;">
                 <div class="carousel-inner">
-                    <div class="carousel-item active text-center p-2">
+                    <div class="carousel-item active text-center">
                         <blockquote class="blockquote text-center">
-                            <p class="mb-0"><ion-icon name="chevron-back"></ion-icon>Everybody is a genius. But if you judge
+                            <p class="mb-0">Everybody is a genius. But if you judge
                                 a fish by its ability to climb a tree, it will live its whole life believing that it
-                                is stupid.<ion-icon name="chevron-forward"></ion-icon>
+                                is stupid.
                             </p>
                             <footer class="blockquote-footer">Albert Einstein <cite
                                     title="Source Title">genius</cite></footer>
@@ -117,10 +117,10 @@
                             </p>
                         </blockquote>
                     </div>
-                    <div class="carousel-item text-center p-2">
+                    <div class="carousel-item text-center ">
                         <blockquote class="blockquote text-center">
-                            <p class="mb-0"><ion-icon name="chevron-back"></ion-icon> Imagination is more important than
-                                knowledge. Knowledge is limited. Imagination encircles the world.<ion-icon name="chevron-forward"></ion-icon>
+                            <p class="mb-0">  Imagination is more important than
+                                knowledge. Knowledge is limited. Imagination encircles the world.
                             </p>
                             <footer class="blockquote-footer">Albert Einstein <cite
                                     title="Source Title">genius</cite></footer>
@@ -135,10 +135,10 @@
                             </p>
                         </blockquote>
                     </div>
-                    <div class="carousel-item text-center p-2">
+                    <div class="carousel-item text-center">
                         <blockquote class="blockquote text-center">
-                            <p class="mb-0"><ion-icon name="chevron-back"></ion-icon> A person who never made a mistake never
-                                tried anything new.<ion-icon name="chevron-forward"></ion-icon>
+                            <p class="mb-0"> A person who never made a mistake never
+                                tried anything new.
                             </p>
                             <footer class="blockquote-footer">Albert Einstein <cite
                                     title="Source Title">genius</cite></footer>
