@@ -325,6 +325,28 @@ b {
   background-size: cover;
   width: 100%;
 }
+.hero-image .cinco {
+  background-image: url("../img/secciones/prog-hero-image.jpg");
+  background-color: #323232;
+  background-blend-mode: overlay;
+  background-position: center;
+  height: 350px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  width: 100%;
+}
+.hero-image .seis {
+  background-image: url("../img/secciones/design-hero-image.jpg");
+  background-color: #323232;
+  background-blend-mode: overlay;
+  background-position: center;
+  height: 350px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  width: 100%;
+}
 .hero-image .content {
   padding: 5px 20px;
   height: 100px;

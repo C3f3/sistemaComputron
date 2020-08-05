@@ -71,7 +71,7 @@
             </div>
         </div>
     </div>
-    <div class="horizontal-divider mx-auto" id="gaming"></div> 
+    <div class="horizontal-divider mx-auto my-5" id="gaming"></div> 
     <div class="section hero-image"   data-aos="zoom-in" data-aos-duration="2000">
         <div class="container-fluid text-center uno d-flex align-items-center"  >
             <div class="content mx-auto ">
@@ -97,7 +97,7 @@
             </div>
         </div>
     </div>
-    <div class="horizontal-divider mx-auto "  id="microelectronica"></div>
+    <div class="horizontal-divider mx-auto my-5"  id="microelectronica"></div>
     <div class="section hero-image" data-aos="zoom-in" data-aos-duration="2000">
         <div class="text-center container-fluid dos d-flex align-items-center" >
             <div class="content mx-auto">
@@ -125,7 +125,7 @@
             </div>
         </div>
     </div>
-    <div class="horizontal-divider mx-auto" id="redes"></div> 
+    <div class="horizontal-divider mx-auto my-5" id="redes"></div> 
     <div class="section hero-image"   data-aos="zoom-in" data-aos-duration="2000">
         <div class="text-center container-fluid tres d-flex align-items-center"  >
             <div class="content mx-auto ">
@@ -151,8 +151,8 @@
             </div>
         </div>
     </div>
-    <div class="horizontal-divider mx-auto "  id="express"></div>
-    <div class="section hero-image" data-aos="fade-up" data-aos-duration="1800">
+    <div class="horizontal-divider mx-auto my-5"  id="express"></div>
+    <div class="section hero-image" data-aos="zoom-in" data-aos-duration="2000">
         <div class="text-center container-fluid cuatro d-flex align-items-center" >
             <div class="content mx-auto">
                 <h2>Servicios Express</h2>
@@ -179,11 +179,11 @@
             </div>
         </div>
     </div>
-    <div class="horizontal-divider mx-auto" id="gaming"></div> 
-    <div class="section hero-image py-md-5 my-2 m-md-4"   data-aos="zoom-in" data-aos-duration="2000">
-        <div class="text-center uno d-flex align-items-center"  >
+    <div class="horizontal-divider mx-auto my-5" id="programacion"></div> 
+    <div class="section hero-image"   data-aos="zoom-in" data-aos-duration="2000">
+        <div class="text-center container-fluid cinco d-flex align-items-center"  >
             <div class="content mx-auto ">
-                <h2>Gaming</h2>
+                <h2>Web y Movil</h2>
                 <p>Descripcion</p>
             </div>
             
@@ -205,11 +205,11 @@
             </div>
         </div>
     </div>
-    <div class="horizontal-divider mx-auto "  id="microelectronica"></div>
-    <div class="section hero-image py-md-5 my-2 m-md-4" data-aos="fade-up" data-aos-duration="1800">
-        <div class="text-center dos d-flex align-items-center" >
+    <div class="horizontal-divider mx-auto my-5"  id="design"></div>
+    <div class="section hero-image" data-aos="zoom-in" data-aos-duration="2000">
+        <div class="text-center container-fluid seis d-flex align-items-center" >
             <div class="content mx-auto">
-                <h2>Microelectronica</h2>
+                <h2>Diseño</h2>
                 <p>Descripcion</p>
             </div>
             
