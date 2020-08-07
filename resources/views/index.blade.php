@@ -12,7 +12,7 @@
                     </ol>
                     <div class="carousel-inner" role="listbox">
                         <!-- Slide One - Set the background image for this slide in the line below -->
-                        <div class="carousel-item active" data-interval="2000">
+                        <div class="carousel-item active" data-interval="1500">
                             <a href="#gaming">
                                 <img src="/img/slider/slider0.jpg" alt="">
                                 <div class="carousel-caption d-md-block">
@@ -23,7 +23,7 @@
                             
                         </div>
                         <!-- Slide Two - Set the background image for this slide in the line below -->
-                        <div class="carousel-item" data-interval="2000">
+                        <div class="carousel-item" data-interval="1500">
                             <a href="#microelectronica">
                                 <img src="/img/slider/slider1.jpg" alt="" >
                                 <div class="carousel-caption d-md-block">
@@ -34,7 +34,7 @@
                             
                         </div>
                         <!-- Slide Three - Set the background image for this slide in the line below -->
-                        <div class="carousel-item" data-interval="2000">
+                        <div class="carousel-item" data-interval="1500">
                             <a href="">
                                 <img src="/img/slider/slider2.jpg" alt="">
                                 <div class="carousel-caption d-md-block">
@@ -72,7 +72,7 @@
         </div>
     </div>
     <div class="horizontal-divider mx-auto my-5" id="gaming"></div> 
-    <div class="section hero-image"   data-aos="zoom-in" data-aos-duration="2000">
+    <div class="section hero-image"   data-aos="zoom-in" data-aos-duration="1500">
         <div class="container-fluid text-center uno d-flex align-items-center"  >
             <div class="content mx-auto ">
                 <h2>Gaming</h2>
@@ -91,14 +91,14 @@
                         <a href="" class="btn btn-success topmargin-lg">Ver Mas</a>
                     </div>
                     <div class="col-md-6 ">
-                        <img src="./img/secciones/gamer.jpg" alt="" class="image-card">
+                        <img src="./img/secciones/gamer-small.jpg" alt="" class="image-card">
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="horizontal-divider mx-auto my-5"  id="microelectronica"></div>
-    <div class="section hero-image" data-aos="zoom-in" data-aos-duration="2000">
+    <div class="section hero-image" data-aos="zoom-in" data-aos-duration="1500">
         <div class="text-center container-fluid dos d-flex align-items-center" >
             <div class="content mx-auto">
                 <h2>Microelectronica</h2>
@@ -117,7 +117,7 @@
                         <a href="" class="btn btn-success topmargin-lg">Ver Mas</a>
                     </div>
                     <div class="col-md-6 order-md-first">
-                        <img src="./img/secciones/electronica-hero-image.jpg" alt="" class="image-card">
+                        <img src="./img/secciones/electronica-small.jpg" alt="" class="image-card">
                     </div>
                     
                     
@@ -126,7 +126,7 @@
         </div>
     </div>
     <div class="horizontal-divider mx-auto my-5" id="redes"></div> 
-    <div class="section hero-image"   data-aos="zoom-in" data-aos-duration="2000">
+    <div class="section hero-image"   data-aos="zoom-in" data-aos-duration="1500">
         <div class="text-center container-fluid tres d-flex align-items-center"  >
             <div class="content mx-auto ">
                 <h2>Redes y Servidores</h2>
@@ -145,14 +145,15 @@
                         <a href="" class="btn btn-success topmargin-lg">Ver Mas</a>
                     </div>
                     <div class="col-md-6 ">
-                        <img src="./img/secciones/gamer.jpg" alt="" class="image-card">
+                        <img src="./img/secciones/redes-small.jpg" alt="" class="image-card">
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <div class="horizontal-divider mx-auto my-5"  id="express"></div>
-    <div class="section hero-image" data-aos="zoom-in" data-aos-duration="2000">
+    <div class="section hero-image" data-aos="zoom-in" data-aos-duration="1500">
         <div class="text-center container-fluid cuatro d-flex align-items-center" >
             <div class="content mx-auto">
                 <h2>Servicios Express</h2>
@@ -171,7 +172,7 @@
                         <a href="" class="btn btn-success topmargin-lg">Ver Mas</a>
                     </div>
                     <div class="col-md-6 order-md-first">
-                        <img src="./img/secciones/electronica-hero-image.jpg" alt="" class="image-card">
+                        <img src="./img/secciones/express-small.jpg" alt="" class="image-card">
                     </div>
                     
                     
@@ -179,8 +180,9 @@
             </div>
         </div>
     </div>
+
     <div class="horizontal-divider mx-auto my-5" id="programacion"></div> 
-    <div class="section hero-image"   data-aos="zoom-in" data-aos-duration="2000">
+    <div class="section hero-image"   data-aos="zoom-in" data-aos-duration="1500">
         <div class="text-center container-fluid cinco d-flex align-items-center"  >
             <div class="content mx-auto ">
                 <h2>Web y Movil</h2>
@@ -199,14 +201,15 @@
                         <a href="" class="btn btn-success topmargin-lg">Ver Mas</a>
                     </div>
                     <div class="col-md-6 ">
-                        <img src="./img/secciones/gamer.jpg" alt="" class="image-card">
+                        <img src="./img/secciones/prog-small.jpg" alt="" class="image-card">
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <div class="horizontal-divider mx-auto my-5"  id="design"></div>
-    <div class="section hero-image" data-aos="zoom-in" data-aos-duration="2000">
+    <div class="section hero-image" data-aos="zoom-in" data-aos-duration="1500">
         <div class="text-center container-fluid seis d-flex align-items-center" >
             <div class="content mx-auto">
                 <h2>Diseño</h2>
