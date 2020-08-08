@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="section">
-    <div class="about">
+    <div class="about aos-item" data-aos="fade-up">
         <div class="content text-center">
             <img src="img/logo-redondo.png" class="img-fluid" alt="logo-de-fondo">
             <h1>COMPUTRON</h1>
@@ -11,7 +11,7 @@
         </div>
 
     </div>
-    <div class="section bg-dark">
+    <div class="section bg-dark aos-item" data-aos="zoom-in" data-aos-duration="1500">
         <div class="container mt-5">
             <div class="row">
                 <div class="col-md-6 text-center py-3" >
@@ -37,7 +37,7 @@
         </div>
         <div class="row">
             <div class="col-lg-3 col-sm-6">
-                <div class="box-part text-center">
+                <div class="box-part text-center"  data-aos="flip-left" data-aos-duration="1500">
                     <img src="img/about/eficienciaVerde.png" alt="eficiencia">
                     <div class="title">
                         <h4>Eficiencia</h4>
@@ -49,7 +49,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
-                <div class="box-part text-center">
+                <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500">
                     <img src="img/about/calidadVerde.png" alt="calidad">
                     <div class="title">
                         <h4>Calidad</h4>
@@ -61,7 +61,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
-                <div class="box-part text-center">
+                <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500">
                     <img src="img/about/innovacionVerde.png" alt="innovacion">
                     <div class="title">
                         <h4>Innovacion</h4>
@@ -73,7 +73,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
-                <div class="box-part text-center">
+                <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500"> 
                     <img src="img/about/comunicacionVerde.png" alt="comunicacion">
                     <div class="title">
                         <h4>Comunicacion</h4>
@@ -90,7 +90,7 @@
 
 <div class="mx-auto horizontal-divider my-5">
 </div>
-<div class="section testimonials mt-3">
+<div class="section testimonials mt-3" data-aos="zoom-in" data-aos-duration="1500">
     <div class="container">
         <div class="content-text mb-0 text-center">
             <h2 class="font-weight-light text-white">Mira lo que algunos clientes dicen de nosotros</h2>

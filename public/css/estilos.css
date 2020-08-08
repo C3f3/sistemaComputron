@@ -103,7 +103,7 @@ p {
 
 .display-4 {
   font-family: "spy-agency";
-  font-size: 50px;
+  font-size: 40px;
 }
 
 /*=====navegacion=====*/
@@ -366,7 +366,7 @@ b {
 .about {
   margin-top: 80px;
   padding-top: 60px;
-  min-height: 400px;
+  min-height: 500px;
   position: relative;
   display: block;
 }
@@ -584,6 +584,13 @@ b {
     font-size: 12px;
   }
 
+  .btn {
+    height: 40px;
+    font-size: 14px;
+    padding: 8px 20px;
+    min-width: 120px;
+  }
+
   .navbar-brand {
     font-size: 15px !important;
   }
@@ -614,7 +621,7 @@ b {
 
   .image-card {
     margin: 20px 0px;
-    height: 200px;
+    height: 120px;
   }
 
   .about {

@@ -57,7 +57,7 @@
             </header>
         </div>
     </div>
-    <div class="intro section" data-aos="fade-up">
+    <div class="intro section aos-item" data-aos="fade-up">
         <div class="bg-dark text-center py-5">
             <div class="container">
                 <h2 class="font-weight-light text-white">¿Buscas una solucion informatica?</h2>
@@ -72,7 +72,7 @@
         </div>
     </div>
     <div class="horizontal-divider mx-auto my-5" id="gaming"></div> 
-    <div class="section hero-image"   data-aos="zoom-in" data-aos-duration="1500">
+    <div class="section hero-image aos-item"   data-aos="zoom-in" data-aos-duration="1500">
         <div class="container-fluid text-center uno d-flex align-items-center"  >
             <div class="content mx-auto ">
                 <h2>Gaming</h2>
@@ -98,7 +98,7 @@
         </div>
     </div>
     <div class="horizontal-divider mx-auto my-5"  id="microelectronica"></div>
-    <div class="section hero-image" data-aos="zoom-in" data-aos-duration="1500">
+    <div class="section hero-image aos-item" data-aos="zoom-in" data-aos-duration="1500">
         <div class="text-center container-fluid dos d-flex align-items-center" >
             <div class="content mx-auto">
                 <h2>Microelectronica</h2>
@@ -153,7 +153,7 @@
     </div>
 
     <div class="horizontal-divider mx-auto my-5"  id="express"></div>
-    <div class="section hero-image" data-aos="zoom-in" data-aos-duration="1500">
+    <div class="section hero-image aos-item" data-aos="zoom-in" data-aos-duration="1500">
         <div class="text-center container-fluid cuatro d-flex align-items-center" >
             <div class="content mx-auto">
                 <h2>Servicios Express</h2>
@@ -182,7 +182,7 @@
     </div>
 
     <div class="horizontal-divider mx-auto my-5" id="programacion"></div> 
-    <div class="section hero-image"   data-aos="zoom-in" data-aos-duration="1500">
+    <div class="section hero-image aos-item"   data-aos="zoom-in" data-aos-duration="1500">
         <div class="text-center container-fluid cinco d-flex align-items-center"  >
             <div class="content mx-auto ">
                 <h2>Web y Movil</h2>
@@ -209,7 +209,7 @@
     </div>
 
     <div class="horizontal-divider mx-auto my-5"  id="design"></div>
-    <div class="section hero-image" data-aos="zoom-in" data-aos-duration="1500">
+    <div class="section hero-image aos-item" data-aos="zoom-in" data-aos-duration="1500">
         <div class="text-center container-fluid seis d-flex align-items-center" >
             <div class="content mx-auto">
                 <h2>Diseño</h2>

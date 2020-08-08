@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="section">
-    <div class="about">
+    <div class="about" data-aos="fade-up">
         <div class="content text-center">
             <img src="img/logo-redondo.png" class="img-fluid" alt="logo-de-fondo">
             <h1>COMPUTRON</h1>
@@ -11,7 +11,7 @@
         </div>
 
     </div>
-    <div class="section bg-dark">
+    <div class="section bg-dark" data-aos="zoom-in" data-aos-duration="1500">
         <div class="py-5 container">
             <div class="content text-center">
                 <h2 class="font-weight-light text-white">Contacto</h2>
@@ -20,10 +20,10 @@
         </div>
     </div>
 </div>
-<div class="section container">
+<div class="section container" data-aos="fade-up">
     <div id="contact">
-        <div class="row mb-3 mt-2">
-            <div class="col-lg-5 mb-lg-2 mb-4">
+        <div class="row mb-3 mt-2" >
+            <div class="col-lg-5 mb-lg-2 mb-4" data-aos="flip-left" data-aos-duration="1500">
                 <div class="card mx-2">
                     <div class="card-body">
                         <!-- Header -->
@@ -67,7 +67,7 @@
                 </div>
                 <!-- Form with header -->
             </div>
-            <div class="col-lg-7">
+            <div class="col-lg-7" data-aos="flip-left" data-aos-duration="1500">
                 <!--Google map-->
                 <div id="map-container-section" class="z-depth-1-half map-container-section mb-4 mx-2"
                     style="height: 450px">
