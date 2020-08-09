@@ -1,105 +1,47 @@
-.services.cards
-    display: block
-    box-sizing: border-box
-
-.grid
-    position: relative
-    margin: 0 auto
-    padding: 5px
-    list-style: none
-    text-align: center
-    margin: 0
-
-
-    figure 
-        position: relative
-        overflow: hidden
-        margin: 0.5em auto
-        width: 300px
+.hero-image
+    width: 100%
+    #reparacion
+        background-image: url('../img/secciones/reparacion-hero-image.jpg')
+        background-color: rgb(50,50 ,50 )
+        background-blend-mode: overlay
+        background-position: center
         height: 350px
-        
-        cursor: pointer
-        border-radius: 5px
+        -webkit-background-size: cover
+        -moz-background-size: cover
+        background-size: cover
+        width: 100%
+    #gaming
+        background-image: url('../img/secciones/gaming.jpg')
+        background-color: rgb(50,50 ,50 )
+        background-blend-mode: overlay
+        background-position: center
+        height: 350px
+        -webkit-background-size: cover
+        -moz-background-size: cover
+        background-size: cover
+        width: 100%
+    #design
+        background-image: url('../img/secciones/design-hero-image.jpg')
+        background-color: rgb(50,50 ,50 )
+        background-blend-mode: overlay
+        background-position: center
+        height: 350px
+        -webkit-background-size: cover
+        -moz-background-size: cover
+        background-size: cover
+        width: 100%
+    #microelectronica
+        background-image: url('../img/secciones/electronica-hero-image.jpg')
+        background-color: rgb(50,50 ,50 )
+        background-blend-mode: overlay
+        background-position: center
+        height: 350px
+        -webkit-background-size: cover
+        -moz-background-size: cover
+        background-size: cover
+        width: 100%
 
-        img 
-            display: block
-            height: 110px
-            margin: 6px auto
 
-        figcaption
-            padding: 10px
-            font-size: 1.25em
-            -webkit-backface-visibility: hidden
-            -moz-backface-visibility: hidden
-            backface-visibility: hidden
-            position: absolute
-            top: 0
-            left: 0
-            width: 100%
-            height: 100%
-
-        h2 
-            word-spacing: -0.15em
-            font-weight: 300
-
-            span 
-                font-weight: 800
-        p 
-            letter-spacing: 1px 
-            font-size: 68.5%
-
-
-        
-        p,h2 
-            position: absolute !important
-            right: 30px
-            left: 30px
-            padding: 10px 0 
-               
-        p
-            bottom: 30px
-            line-height: 1.5
-            -webkit-transform: translate3d(0,100%,0)
-            -moz-transform: translate3d(0,100%,0)
-            transform: translate3d(0,100%,0)
-        h2 
-            top: 4em
-            -webkit-transition: transform 0.35s
-            -moz-transition: transform 0.35s
-            transition: transform 0.35s 
-            -webkit-transform: translate3d(0,20px,0)
-            -moz-transform: translate3d(0,20px,0)
-            transform: translate3d(0,20px,0)
-
-        &:hover
-            h2
-                -webkit-transform: translate3d(0,0,0)
-                -moz-transform: translate3d(0,0,0) 
-                transform: translate3d(0,0,0)
-        h2 
-            &::after
-                position: absolute
-                top: 70%
-                left: 0 
-                width: 100%
-                height: 4px 
-                background-color: $color_iconos_redes
-                content: ''
-                -moz-transform: translate3d(0,40px,0)
-                -webkit-transform: translate3d(0,40px,0)
-                transform: translate3d(0,40px,0)
-        
-        h2 ::after,p 
-            opacity: 0
-            -webkit-transition: opacity 0.35s, -webkit-transform 0.35s
-            -moz-transition: opacity 0.35s, -moz-transform 0.35s
-            transition: opacity 0.35s, -webkit-transform 0.35s
-        
-        &:hover
-            h2 ::after, p 
-                opacity: 1
-                -webkit-transform: translate3d(0,0,0)
-                -moz-transform: translate3d(0,0,0)
-                transform: translate3d(0,0,0) 
+                
 
         
