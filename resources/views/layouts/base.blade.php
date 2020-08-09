@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="/css/estilos.css">
     <link rel="shortcut icon" href="/img/logo-redondo.png" type="image/x-icon">
-    <title>Computron</title>
+    <title>Computron || Tu Solucion Informatica</title>
 
 </head>
 
@@ -37,7 +37,7 @@
 
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav text-center ml-auto mr-auto py-4 py-md-0">
-                                    <li class="nav-item {{setActive('index')}} pl-md-0 ml-0 ml-md-4">
+                                    <li class="nav-item {{setActive('inicio')}} pl-md-0 ml-0 ml-md-4">
                                     <a class="nav-link" href="{{route('inicio')}}">Home</a>
                                     </li>
                                     <li class="nav-item {{setActive('about')}} pl-md-0 ml-0 ml-md-4">
