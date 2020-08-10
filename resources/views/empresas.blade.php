@@ -22,5 +22,173 @@
         </div>
     </div>
     
+    <div class="horizontal-divider mx-auto my-md-5" id="gaming"></div>
+
+    <!------------------Primera Seccion --Reparacion--------------->
+    <div class="section hero-image aos-item"   data-aos="zoom-in" data-aos-duration="1500">
+        <div class="container-fluid text-center d-flex align-items-center"  id="reparacion">
+            <div class="content mx-auto ">
+                <h2>Reparacion de</h2>
+                <h2>PC y Notebook</h2>
+                <p>Descripcion</p>
+            </div>
+            
+        </div>         
+    </div>
+    <!--cards-->
+    <div class="section bg-dark">
+        <div class=" py-sm-3 py-md-3 container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="box-part text-center"  data-aos="flip-left" data-aos-duration="1500">
+                        <img src="img/about/eficienciaVerde.png" alt="eficiencia">
+                   
+                        <div class="text">
+                            <p> Nos ocupamos de realizar mantenimiento general del equipo, limpieza de archivos y optimizamos para un mejor rendimiento</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500">
+                        <img src="img/about/calidadVerde.png" alt="calidad">
+                        
+                        <div class="text">
+                            <p>Instalación  y recambio de hardware en general: discos rígidos, memorias, placas, coolers, fuentes de alimentación y demas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500">
+                        <img src="img/about/innovacionVerde.png" alt="innovacion">
+                        
+                        <div class="text">
+                            <p>Hacemos formateo de computadora, instalacion de SO, antivirus, y programas. Recuperación de datos </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500"> 
+                        <img src="img/about/comunicacionVerde.png" alt="comunicacion">
+                        
+                        <div class="text">
+                            <p>Instalación de drivers, impresoras, escaners.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </div>
+
+
+    <!------------------Segunda Seccion --Redes y Servidores--------------->
+    <div class="section hero-image aos-item"   data-aos="zoom-in" data-aos-duration="1500">
+        <div class="container-fluid text-center d-flex align-items-center my-auto"  id="redes">
+            <div class="content mx-auto ">
+                <h2>Redes y Servidores</h2>
+                
+                <p>Nos encargamos de la instalación y configuración de redes cableadas e inalámbricas</p>
+            </div>
+            
+        </div>         
+    </div>
+    <!--cards-->
+    <div class="section bg-dark">
+        <div class=" py-sm-3 py-md-3 container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="box-part text-center"  data-aos="flip-left" data-aos-duration="1500">
+                        <img src="img/about/eficienciaVerde.png" alt="eficiencia">
+                   
+                        <div class="text">
+                            <p> Instalaciones de redes informáticas, cableado estructurado, redes de UTP y fibra óptica</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500">
+                        <img src="img/about/calidadVerde.png" alt="calidad">
+                        
+                        <div class="text">
+                            <p>Configuración de router, redes inalámbricas, Wifi y LAN</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500">
+                        <img src="img/about/innovacionVerde.png" alt="innovacion">
+                        
+                        <div class="text">
+                            <p>Administración de dominios y de redes. Control de usuarios, derechos y control de accesos </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500"> 
+                        <img src="img/about/comunicacionVerde.png" alt="comunicacion">
+                        
+                        <div class="text">
+                            <p>Configuración de Internet, configuración de correo electrónico, configuración de acceso remoto</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </div>
+
+     <!------------------Segunda Seccion --Camaras de Seguridad--------------->
+     <div class="section hero-image aos-item"   data-aos="zoom-in" data-aos-duration="1500">
+        <div class="container-fluid text-center d-flex align-items-center"  id="camaras">
+            <div class="content mx-auto ">
+                <h2>Camaras de Seguridad y Alarmas </h2>
+                
+                <p></p>
+            </div>
+            
+        </div>         
+    </div>
+    <!--cards-->
+    <div class="section bg-dark">
+        <div class=" py-sm-3 py-md-3 container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="box-part text-center"  data-aos="flip-left" data-aos-duration="1500">
+                        <img src="img/about/eficienciaVerde.png" alt="eficiencia">
+                   
+                        <div class="text">
+                            <p> Instalaciones de redes informáticas, cableado estructurado, redes de UTP y fibra óptica</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500">
+                        <img src="img/about/calidadVerde.png" alt="calidad">
+                        
+                        <div class="text">
+                            <p>Configuración de router, redes inalámbricas, Wifi y LAN</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500">
+                        <img src="img/about/innovacionVerde.png" alt="innovacion">
+                        
+                        <div class="text">
+                            <p>Administración de dominios y de redes. Control de usuarios, derechos y control de accesos </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500"> 
+                        <img src="img/about/comunicacionVerde.png" alt="comunicacion">
+                        
+                        <div class="text">
+                            <p>Configuración de Internet, configuración de correo electrónico, configuración de acceso remoto</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </div>
 </div>
+
 @endsection

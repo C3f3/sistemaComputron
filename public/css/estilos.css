@@ -474,6 +474,28 @@ b {
   background-size: cover;
   width: 100%;
 }
+.hero-image #redes {
+  background-image: url("../img/secciones/redes-hero-image.jpg");
+  background-color: #323232;
+  background-blend-mode: overlay;
+  background-position: center;
+  height: 350px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  width: 100%;
+}
+.hero-image #camaras {
+  background-image: url("../img/secciones/camara-hero-image.jpg");
+  background-color: #323232;
+  background-blend-mode: overlay;
+  background-position: center;
+  height: 350px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  width: 100%;
+}
 
 /*=======contactos======*/
 #map-container-section {
@@ -544,8 +566,8 @@ b {
     height: 18px !important;
   }
 
-  .hero-image .uno, .hero-image .dos, .hero-image .tres, .hero-image .cuatro, .hero-image .cinco, .hero-image .seis, .hero-image #reparacion, .hero-image #gaming, .hero-image #design, .hero-image #microelectronica {
-    height: 150px;
+  .hero-image .uno, .hero-image .dos, .hero-image .tres, .hero-image .cuatro, .hero-image .cinco, .hero-image .seis, .hero-image #reparacion, .hero-image #gaming, .hero-image #design, .hero-image #microelectronica, .hero-image #redes {
+    height: 200px;
   }
 
   .carousel-item {
