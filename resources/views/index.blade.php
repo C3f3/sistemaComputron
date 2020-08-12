@@ -61,14 +61,14 @@
     <div class="intro section aos-item" data-aos="fade-up">
         <div class="bg-dark text-center py-md-5">
             <div class="container">
-                <h2 class="font-weight-light text-white">¿Buscas una solucion informatica?</h2>
-                <p class="text-white mt-4">¿Necesitas arreglar una computadora?¿Montar una red?¿Instalar camaras de vigilancia?
-                    ¿Buscas armar una campaña de marketing digital? ¿O tener tu propia aplicacion movil? 
+                <h2 class="font-weight-light text-white">¿Buscas una solución informática?</h2>
+                <p class="text-white mt-4">¿Necesitas arreglar una computadora?¿Montar una red?¿Instalar cámaras de vigilancia?
+                    ¿Buscas armar una campaña de marketing digital? ¿O tener tu propia aplicación móvil?
                 </p>
-                <p class="text-white mt-4">Desde computron nos centramos en soluciones integrales orientadas tanto a empresas como a 
-                    personas particulares. Acercate y te asesoramos....
+                <p class="text-white mt-4">Desde Computron nos centramos en soluciones integrales orientadas tanto a empresas como a
+                    personas particulares. Acércate y te asesoramos...
                 </p>
-                <a href="" class="mt-4 btn btn-success">Conocenos!</a>
+                <a href="{{route('about')}}" class="mt-4 btn btn-success">¡Conócenos!</a>
             </div>
         </div>
     </div>

@@ -16,8 +16,12 @@
             <div class="row">
                 <div class="col-md-6 text-center py-3" >
                     <h2 class="font-weight-light text-white">Sobre Nosotros</h2>
-                    <p class="mt-4">Somos un emprendimiento constituido por un equipo de jovenes especializados en brindar distintas
-                        soluciones. Buscamos abordar cada desafio con una solucion personalizada. Acercate y te asesoramos...</p>
+                    <p class="mt-4">Somos un emprendimiento constituido por un grupo de jóvenes especializados en tecnología. 
+                        Nos abocamos a brindar soluciones tanto al ámbito corporativo como al usuario medio. 
+                        Buscamos afrontar cada desafío con una solución personalizada que se adapte a la realidad de cada cliente. 
+                        Nuestro objetivo es posicionarnos como referentes en innovación tecnológica.</p>
+                    <p class="mt-4">Acércate, atendemos cada consulta de forma personalizada. 
+                        Estamos dispuestos a compartir nuestro conocimiento para brindarte la solución que buscas...</p>
                 </div>
                 <div class="col-md-6 ">
                     <img src="./img/about/repair-about.jpg" alt="" class="image-card">
@@ -38,13 +42,13 @@
         <div class="row">
             <div class="col-lg-3 col-sm-6">
                 <div class="box-part text-center"  data-aos="flip-left" data-aos-duration="1500">
-                    <img src="img/about/eficienciaVerde.png" alt="eficiencia">
+                    <img src="img/about/eficienciaVerde.png" alt="Honestidad">
                     <div class="title">
-                        <h4>Eficiencia</h4>
+                        <h4>Honestidad</h4>
                     </div>
                     <div class="text">
-                        <p>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr
-                            scripta ocurreret qui ad.</p>
+                        <p>Queremos que nuestros clientes confíen en nosotros y en nuestro trabajo. Aseguramos transparencia y confiabilidad. 
+                        </p>
                     </div>
                 </div>
             </div>
