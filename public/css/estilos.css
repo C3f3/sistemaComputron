@@ -106,6 +106,19 @@ p {
   font-size: 40px;
 }
 
+.wsp {
+  position: fixed;
+  bottom: 5%;
+  left: 5%;
+}
+.wsp .btn {
+  font-size: 50px;
+  padding: 9px;
+  border-radius: 50px;
+  min-width: 90px;
+  height: 90px;
+}
+
 /*=====navegacion=====*/
 /*navegacion*/
 .start-header {
@@ -620,6 +633,14 @@ b {
 
   .topmargin-lg {
     margin-top: 50px;
+  }
+
+  .wsp .btn {
+    font-size: 40px;
+    padding: 7px;
+    border-radius: 50px;
+    min-width: 70px;
+    height: 70px;
   }
 }
 /* Small devices (landscape phones, 576px and up)*/
