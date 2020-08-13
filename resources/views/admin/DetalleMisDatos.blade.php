@@ -1,52 +1,50 @@
-@extends('admin.layouts.baseAdmin')
+@extends ('admin.layouts.baseAdmin')
 
-@section('content')
-
-<div id="layoutSidenav_content">
-    <main>
+    @section('content')
+    <div id="layoutSidenav_content">
+      <main>
         <div class="container-fluid">
           @if (Session::has('mensaje'))
                 <div class="alert alert-info mt-3">{{ Session::get('mensaje') }}</div>
           @endif
             <h1 class="mt-4">Panel de Control</h1>
             <ol class="breadcrumb mb-4">
-                <li class="breadcrumb-item active">Clientes</li>
+                <li class="breadcrumb-item active">Mis Datos</li>
             </ol>
             <div class="card mb-4">
                 <div class="card-header">
                     <i class="fas fa-table mr-1"></i>
-                    Detalle Cliente
+                    Detalle Mis Datos
             </div>
-
-        <form method="POST" action="{{route('actualizarCliente',$usuario)}}" class="mt-3">
+  
+        <form method="POST" action="" class="mt-3">
             @csrf
             @method('PATCH')
-
+  
           <div class="form-row">
             <div class="form-group col-md-6">
               <label for="name">Nombre y apellido</label>
-              <input type="text" name="name" class="form-control" id="name" placeholder="Nombre..." value='{{$usuario['name']}}'>
+              <input type="text" name="name" class="form-control" id="name" placeholder="Nombre..." value=''>
             </div>
             <div class="form-group col-md-6">
                 <label for="email">Email address</label>
-                <input type="email" name="email" class="form-control" id="email" placeholder="nombre@correo.com" value='{{$usuario['email']}}'>
+                <input type="email" name="email" class="form-control" id="email" placeholder="nombre@correo.com" value=''>
               </div>
           </div>
           <div class="form-row">
             <div class="form-group col-md-4">
               <label for="rol">Rol</label>
               <select class="form-control" name="rol" value='cliente' id="rol" >
-                <option {{$usuario['role']=='admin' ? 'selected': ''}}>admin</option>
-                <option {{$usuario['role']=='cliente' ? 'selected': ''}}>cliente</option>
+                
               </select>
             </div>
             <div class="form-group col-md-4">
                 <label for="telefono">Telefono</label>
-                <input type="tel" name='telefono' class="form-control" id="telefono" placeholder="12345678" value='{{$usuario['telefono']}}'>
+                <input type="tel" name='telefono' class="form-control" id="telefono" placeholder="12345678" value=''>
             </div>
             <div class="form-group col-md-4" >
                 <label for="coins">coins</label>
-                <input type="number" name="puntos" class="form-control" id="coins" placeholder="0" value='{{$usuario['puntos']}}'>
+                <input type="number" name="puntos" class="form-control" id="coins" placeholder="0" value=''>
             </div>
           </div>
               <div class="row text-center">
@@ -58,7 +56,7 @@
                   </div>
               </div>
           </form>    
-    </main>
-</div>
-
-@endsection  
+      </main>
+    </div>
+    
+    @endsection

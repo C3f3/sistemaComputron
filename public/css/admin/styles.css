@@ -10260,3 +10260,8 @@ body {
 .sb-sidenav-light .sb-sidenav-footer {
   background-color: #e9ecef;
 }
+
+.navbar-brand img{
+  margin: auto 5px;
+  height: 27px;
+}
