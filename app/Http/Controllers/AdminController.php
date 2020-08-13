@@ -16,7 +16,7 @@ class AdminController extends Controller
         if(Auth::user()->role=='admin')
             return view('admin.admin');
         else
-            return view('admin.clienteAdmin');
+            return view('admin.adminCliente.clienteAdmin');
     }
     public function listarClientes(){
         $clientes = User::get();
