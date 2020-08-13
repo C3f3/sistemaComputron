@@ -5,7 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
-        <meta name="author" content="" />
+        <meta name="author" content="Armando Herrera" />
+        <link rel="shortcut icon" href="/img/logo-redondo.png" type="image/x-icon">
         <title>Computron-Admin</title>
         <link href="/css/admin/styles.css" rel="stylesheet" />
         <link rel="stylesheet" href="/vendor/bootstrap-fileinput/css/fileinput.min.css">
@@ -58,37 +59,77 @@
            @endguest
             </ul>
         </nav>
+
+
         <div id="layoutSidenav">
             <div id="layoutSidenav_nav">
                 <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
                     <div class="sb-sidenav-menu">
                         <div class="nav">
+
+                            <!--para el link para el panel principal-->
+                            <div class="sb-sidenav-menu-heading">Principal</div>
+                            <a class="nav-link" href="{{route('index')}}">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                Dashboard
+                            </a>
+
+                            <!--Para las secciones-->
                             <div class="sb-sidenav-menu-heading">Acciones</div>
-                            <div class="sb-sidenav-menu-heading">Interface</div>
-                            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseLayouts" 
-                            aria-expanded="false" aria-controls="collapseLayouts">
-                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
-                                Clientes
-                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                            </a>
-                            <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
-                                <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link" href="{{route('listaClientes')}}">Ver Clientes</a>
+
+                                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseCount" 
+                                aria-expanded="false" aria-controls="collapseLayouts">
+
+                                    <!-- cabecera Mi Cuenta-->
+                                    <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                    Mi Cuenta
+                                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                </a>
+                                <div class="collapse" id="collapseCount" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
                             
-                                </nav>
-                            </div>
-                            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" 
-                            aria-expanded="false" aria-controls="collapseLayouts">
-                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
-                                Campaña
-                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                            </a>
-                            <div class="collapse" id="collapsePages" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
-                                <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link" href="{{route('listaFlyers')}}">Ver Flyers</a>
-                                <a class="nav-link" href="{{route('nuevoFlyer')}}">Nuevo Flyer</a>
-                                </nav>
-                            </div>
+                                    <!--submenu para la clientes-->
+                                    <nav class="sb-sidenav-menu-nested nav">
+
+                                        <a class="nav-link" href="">Mis Datos</a>
+
+                                    </nav>
+                                </div>
+
+
+                                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseLayouts" 
+                                aria-expanded="false" aria-controls="collapseLayouts">
+
+                                    <!-- cabecera clientes-->
+                                    <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                    Clientes
+                                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                </a>
+                                <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+                                
+                                    <!--submenu para la clientes-->
+                                    <nav class="sb-sidenav-menu-nested nav">
+
+                                        <a class="nav-link" href="{{route('listaClientes')}}">Ver Clientes</a>
+                            
+                                    </nav>
+                                </div>
+
+                                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" 
+                                aria-expanded="false" aria-controls="collapseLayouts">
+
+                                    <!-- cabecera campaña-->
+                                    <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                    Campaña
+                                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                </a>
+
+                                    <!--submenu para campañas-->
+                                <div class="collapse" id="collapsePages" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+                                    <nav class="sb-sidenav-menu-nested nav">
+                                        <a class="nav-link" href="{{route('listaFlyers')}}">Ver Flyers</a>
+                                        <a class="nav-link" href="{{route('nuevoFlyer')}}">Nuevo Flyer</a>
+                                    </nav>
+                                </div>
                            
                         </div>
                     </div>
