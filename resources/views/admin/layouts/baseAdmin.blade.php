@@ -148,7 +148,7 @@
                                 <div class="collapse" id="collapseWorks" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
                                     <!--submenu para trabajos-->
                                     <nav class="sb-sidenav-menu-nested nav">
-                                        <a class="nav-link" href="">Ver Trabajos</a>
+                                        <a class="nav-link" href="{{route('listarTrabajos')}}">Ver Trabajos</a>
                                         <a class="nav-link" href="">Nuevo Trabajo</a>
                                     </nav>
                                 </div>

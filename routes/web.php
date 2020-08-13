@@ -35,18 +35,25 @@ Route::get('/empresas',function(){
 
 Auth::routes();
 
-
+//rutas para campañas de flyers
 Route::get('/admin/eliminarFlyer/{id?}','FlyerController@destroy')->name('eliminarFlyer');
 Route::get('/admin/nuevoFlyer','FlyerController@create')->name('nuevoFlyer');
 Route::post('/admin/nuevoFlyer','FlyerController@store')->name('guardarFlyer');
 Route::get('/admin/listafFlyers','FlyerController@index')->name('listaFlyers');
+
+
+//Rutas para datos personales
 Route::get('/admin/misDatos','CountController@index')->name('verMisDatos');
 
-Route::get('/admin/eliminarCliente/{id}','AdminController@deleteCliente')->name('eliminarCliente');
 
+//Rutas para trabajar con los clientes
+Route::get('/admin/eliminarCliente/{id}','AdminController@deleteCliente')->name('eliminarCliente');
 Route::get('/admin/clientes','AdminController@listarClientes')->name('listaClientes');
 
+//rutas para manejar trabajos
+Route::get('/admin/verTrabajos','WorksController@index')->name('listarTrabajos');
 
+//Rutas basicas
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/admin','AdminController@index')->name('index');
 Route::get('/admin/{id}','AdminController@verCliente')->name('verCliente');
