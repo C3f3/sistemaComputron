@@ -33,6 +33,11 @@ Route::get('/empresas',function(){
     return view('empresas');
 })->name('empresas');
 
+Route::get('/test',function(){
+    $user=App\User::findOrFail(2);
+    return $user->trabajos;
+});
+
 Auth::routes();
 
 //rutas para campañas de flyers
