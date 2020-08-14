@@ -43,8 +43,11 @@ Route::get('/admin/listafFlyers','FlyerController@index')->name('listaFlyers');
 
 
 //Rutas para datos personales
-Route::get('/admin/misDatos','CountController@index')->name('verMisDatos');
-Route::get('/cliente/misDatos','CountController@index')->name('clientesMisDatos');
+Route::get('/admin/misDatos','CountController@index')->name('verMisDatos');//ADMIN
+Route::get('/cliente/misDatos','CountController@index')->name('clientesMisDatos');//CLIENTE
+
+Route::patch('/admin/MisDatos/{id}','CountController@updateDatos')->name('actualizarMisDatosAdmin');//ADMIN
+Route::patch('/cliente/MisDatos/{id}','CountController@updateDatos')->name('actualizarMisDatosClient');//CLIENTE
 
 
 //Rutas para trabajar con los clientes

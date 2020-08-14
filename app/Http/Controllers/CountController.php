@@ -92,4 +92,21 @@ class CountController extends Controller
     {
         //
     }
+
+    public function updateDatos($id,Request $request){
+        
+        $usuario = User::find($id);
+        $usuario->update([
+            'name'=>$request->get('name'),
+            'telefono'=>$request->get('telefono'),
+            'puntos'=>$request->get('puntos'),
+            'email'=>$request->get('email'),
+            
+        ]);
+        
+        if(Auth::user()->role=='admin')
+            return redirect()->route('verMisDatos')->with('mensaje','las modifiaciones fueron guardadas');
+        else
+            return redirect()->route('clientesMisDatos')->with('mensaje','las modificaciones fueron guardadas');
+    }
 }

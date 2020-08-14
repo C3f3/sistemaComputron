@@ -40,7 +40,7 @@ class AdminController extends Controller
             'email'=>$request->get('email'),
             
         ]);
-        return redirect()->route('verCliente',$usuario)->with('mensaje','las modifiaciones fueron guardadas');
+        return redirect()->route('verCliente',$usuario)->with('mensaje','las modificaciones fueron guardadas');
         //return view('admin.actualizarCliente',compact('usuario'));
     }
     public function deleteCliente($id){

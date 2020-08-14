@@ -17,9 +17,9 @@
                     Detalle Mis Datos
             </div>
   
-        <form method="POST" action="" class="mt-3">
+        <form method="POST" action="{{route('actualizarMisDatosAdmin',Auth::user())}}" class="mt-3">
             @csrf
-            @method('PATCH')
+            @method('PATCH')  
           
           <div class="form-row">
             <div class="form-group col-md-6">
