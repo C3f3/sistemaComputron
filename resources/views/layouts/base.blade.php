@@ -37,21 +37,25 @@
 
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav text-center ml-auto mr-auto py-4 py-md-0">
-                                    <li class="nav-item {{setActive('inicio')}} pl-md-0 ml-0 ml-md-4">
-                                    <a class="nav-link" href="{{route('inicio')}}">Home</a>
-                                    </li>
                                     <li class="nav-item {{setActive('about')}} pl-md-0 ml-0 ml-md-4">
-                                    <a class="nav-link" href="{{route('about')}}">Quienes Somos</a>
+                                        <a class="nav-link" href="{{route('about')}}">Quienes Somos</a>
                                     </li>
                                     <li class="nav-item dropdown pl-md-0 ml-0 ml-md-4">
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                           Servicios
                                         </a>
+
                                         <div class="dropdown-menu " aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="{{route('personas')}}">Personas</a>
+                                        <a class="dropdown-item" href="{{route('personas')}}">Hogares </a>
                                           <div class="dropdown-divider"></div>
                                         <a class="dropdown-item" href="{{ route('empresas')}}">Empresas</a>
                                         </div>
+                                    </li>
+                                    <li class="nav-item {{setActive('productos')}} pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="">Productos</a>
+                                    </li>
+                                    <li class="nav-item {{setActive('marketing')}} pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="">Marketing</a>
                                     </li>
                                     <li class="nav-item {{setActive('contact')}} pl-md-0 ml-0 ml-md-4">
                                     <a class="nav-link" href="{{route('contact')}}">Contacto</a>
