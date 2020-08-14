@@ -249,6 +249,12 @@ p {
   transition: all 200ms linear;
 }
 
+.navbar .dropdown-menu {
+  border: none;
+  background: black;
+  width: 300px;
+}
+
 /*==iconos login ==*/
 .login a {
   width: 70px;
@@ -689,6 +695,16 @@ b {
   }
 }
 /* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .dropdown-menu {
+    width: 270px !important;
+  }
+}
 /*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .dropdown-menu {
+    width: 270px !important;
+  }
+}
 
 /*# sourceMappingURL=estilos.css.map */

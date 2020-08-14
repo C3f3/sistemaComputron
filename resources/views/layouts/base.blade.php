@@ -40,16 +40,53 @@
                                     <li class="nav-item {{setActive('about')}} pl-md-0 ml-0 ml-md-4">
                                         <a class="nav-link" href="{{route('about')}}">Quienes Somos</a>
                                     </li>
+
+
                                     <li class="nav-item dropdown pl-md-0 ml-0 ml-md-4">
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                          Servicios
-                                        </a>
+                                            Servicios
+                                          </a>
 
-                                        <div class="dropdown-menu " aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="{{route('personas')}}">Hogares </a>
-                                          <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="{{ route('empresas')}}">Empresas</a>
-                                        </div>
+                                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+          
+                                            <div class="container">
+                                              <div class="row">
+                                                <div class="col-md-6">
+                                                  
+                                                  <ul class="nav flex-column">
+                                                  <li class="nav-item">
+                                                    <a class="nav-link active" href="#">Hogares</a>
+                                                  </li>
+                                                  <li class="nav-item">
+                                                    <a class="nav-link" href="#">Link item</a>
+                                                  </li>
+                                                  <li class="nav-item">
+                                                    <a class="nav-link" href="#">Link item</a>
+                                                  </li>
+                                                </ul>
+                                                </div>
+                                                <!-- /.col-md-4  -->
+                                                <div class="col-md-6">
+                                                  <ul class="nav flex-column">
+                                                  <li class="nav-item">
+                                                    <a class="nav-link active" href="#">Empresas</a>
+                                                  </li>
+                                                  <li class="nav-item">
+                                                    <a class="nav-link" href="#">Link item</a>
+                                                  </li>
+                                                  <li class="nav-item">
+                                                    <a class="nav-link" href="#">Link item</a>
+                                                  </li>
+                                                </ul>
+                                                </div>
+                                              
+                                              </div>
+                                            </div>
+                                            <!--  /.container  -->
+                                  
+                                  
+                                          </div>
                                     </li>
                                     <li class="nav-item {{setActive('productos')}} pl-md-0 ml-0 ml-md-4">
                                         <a class="nav-link" href="">Productos</a>
