@@ -86,6 +86,8 @@
                <p>Designed with <ion-icon name="heart"></ion-icon> by <a href="#">C3F3</a></p>
             </div>
         </div>
+
+        <!--boton wsp-->
         <div class="section wsp" data-aos="fade-left" data-aos-duration="1500">
             <a class="btn btn-success" href="https://api.whatsapp.com/send?phone=543876370500">
                 <ion-icon name="logo-whatsapp"></ion-icon>
