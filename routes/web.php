@@ -44,7 +44,8 @@ Auth::routes();
 Route::get('/admin/eliminarFlyer/{id?}','FlyerController@destroy')->name('eliminarFlyer');
 Route::get('/admin/nuevoFlyer','FlyerController@create')->name('nuevoFlyer');
 Route::post('/admin/nuevoFlyer','FlyerController@store')->name('guardarFlyer');
-Route::get('/admin/listafFlyers','FlyerController@index')->name('listaFlyers');
+Route::get('/admin/listaFlyers','FlyerController@index')->name('listaFlyers');
+Route::get('/cliente/listaFlyers','FlyerController@index')->name('listaFlyersCliente');
 
 
 //Rutas para datos personales

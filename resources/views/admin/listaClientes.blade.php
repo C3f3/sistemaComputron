@@ -51,8 +51,10 @@
                                     <td>{{$clienteItem['telefono']}}</td>
                                     <td>{{$clienteItem['puntos']}}</td>
                                     <td>
-                                    <a href="{{route('verCliente',$clienteItem)}}" class="btn btn-success">Ver</a>
-                                    <a href="{{route('eliminarCliente',$clienteItem)}}" class="btn btn-danger">Eliminar</a>
+                                    <a href="{{route('verCliente',$clienteItem)}}" class="btn btn-success" alt="ver"><ion-icon name="eye"></ion-icon></a>
+                                    <a href="{{route('eliminarCliente',$clienteItem)}}" class="btn btn-danger"><ion-icon name="trash"></ion-icon></a>
+                                    <a href="" class="btn btn-primary"><ion-icon name="build"></ion-icon></a>
+
                                     </td>
                                     
                                 </tr>
@@ -63,8 +65,9 @@
                                     <td></td>
                                     <td></td>
                                     <td>
-                                        <a href="" class="btn btn-success">Ver</a>
-                                        <a href="" class="btn btn-danger">Eliminar</a>
+                                        <a href="" class="btn btn-success"><ion-icon name="eye"></ion-icon></a>
+                                        <a href="" class="btn btn-danger"><ion-icon name="trash"></ion-icon></a>
+                                        <a href="" class="btn btn-primary"><ion-icon name="build"></ion-icon></a>
                                     </td>
                                 
                                  </tr>

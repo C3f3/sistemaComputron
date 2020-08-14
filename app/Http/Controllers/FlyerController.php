@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use App\Flyer;
 
 class FlyerController extends Controller
@@ -22,7 +23,11 @@ class FlyerController extends Controller
         //
         $imagenes= Flyer::get();
 
-        return view('admin.flyerAdmin.listaFlyers',compact('imagenes'));
+        if(Auth::user()->role=='admin')
+            return view('admin.flyerAdmin.listaFlyers',compact('imagenes'));
+        else
+            return view('admin.flyerAdmin.listaFlyersCliente',compact('imagenes'));
+  
     }
 
     /**
@@ -48,6 +53,8 @@ class FlyerController extends Controller
             $request->request->add(['foto'=>$foto]);
 
             Flyer::create($request->all());
+
+            
 
             return redirect()->route('nuevoFlyer')->with('mensaje','la imagen se guardo');
 

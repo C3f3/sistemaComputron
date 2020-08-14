@@ -38,7 +38,7 @@
             </div>
             <div class="form-group col-md-4" >
                 <label for="coins">coins</label>
-                <input type="number" name="puntos" class="form-control" id="coins" placeholder="0" value='{{Auth::user()->puntos}}'>
+                <input type="number" name="puntos" class="form-control" id="coins" placeholder="0" value='{{Auth::user()->puntos}} disabled'>
             </div>
           </div>
               <div class="row text-center">
