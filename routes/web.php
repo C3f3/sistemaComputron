@@ -44,6 +44,7 @@ Route::get('/admin/listafFlyers','FlyerController@index')->name('listaFlyers');
 
 //Rutas para datos personales
 Route::get('/admin/misDatos','CountController@index')->name('verMisDatos');
+Route::get('/cliente/misDatos','CountController@index')->name('clientesMisDatos');
 
 
 //Rutas para trabajar con los clientes

@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use Illuminate\Support\Facades\Auth;
+use App\User;
+
 class CountController extends Controller
 {
     /**
@@ -17,7 +20,11 @@ class CountController extends Controller
     }
     public function index()
     {
-        return view('admin.DetalleMisDatos');
+        if(Auth::user()->role=='admin')
+            return view('admin.DetalleMisDatos');
+        else
+            return view('admin.adminCliente.detalleMisDatos');
+        
     }
 
     /**

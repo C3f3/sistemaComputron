@@ -91,7 +91,7 @@
                                     <!--submenu para los datos personales-->
                                     <nav class="sb-sidenav-menu-nested nav">
 
-                                        <a class="nav-link" href="{{route('verMisDatos')}}">Mis Datos</a>
+                                        <a class="nav-link" href="{{route('clientesMisDatos')}}">Mis Datos</a>
 
                                     </nav>
                                 </div>

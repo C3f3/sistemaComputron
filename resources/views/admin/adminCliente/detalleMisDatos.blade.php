@@ -1,4 +1,4 @@
-@extends ('admin.layouts.baseAdmin')
+@extends ('admin.layouts.baseCliente')
 
     @section('content')
     <div id="layoutSidenav_content">
