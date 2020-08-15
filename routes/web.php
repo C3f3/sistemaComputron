@@ -28,6 +28,9 @@ Route::get('/contact',function(){
 Route::get('/personas',function(){
     return view('personas');
 })->name('personas');
+Route::get('/gaming',function(){
+    return view('gaming');
+});
 
 Route::get('/empresas',function(){
     return view('empresas');

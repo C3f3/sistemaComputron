@@ -88,7 +88,7 @@ body {
 .horizontal-divider {
   width: 30%;
   height: 3px;
-  background-color: #ff6400;
+  background-color: #00ff00;
 }
 
 p {
@@ -309,7 +309,7 @@ b {
   background-color: #3c3c3c;
   background-blend-mode: overlay;
   background-position: center;
-  height: 650px;
+  height: 750px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -321,55 +321,60 @@ b {
   background-color: #323232;
   background-blend-mode: overlay;
   background-position: center;
-  height: 350px;
+  height: 750px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   width: 100%;
+  text-decoration: none;
 }
 .hero-image .tres {
   background-image: url("../img/secciones/redes-hero-image.jpg");
   background-color: #323232;
   background-blend-mode: overlay;
   background-position: center;
-  height: 350px;
+  height: 750px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   width: 100%;
+  text-decoration: none;
 }
 .hero-image .cuatro {
   background-image: url("../img/secciones/express-hero-image.jpg");
   background-color: #323232;
   background-blend-mode: overlay;
   background-position: center;
-  height: 350px;
+  height: 750px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   width: 100%;
+  text-decoration: none;
 }
 .hero-image .cinco {
   background-image: url("../img/secciones/prog-hero-image.jpg");
   background-color: #323232;
   background-blend-mode: overlay;
   background-position: center;
-  height: 350px;
+  height: 750px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   width: 100%;
+  text-decoration: none;
 }
 .hero-image .seis {
   background-image: url("../img/secciones/design-hero-image.jpg");
   background-color: #323232;
   background-blend-mode: overlay;
   background-position: center;
-  height: 350px;
+  height: 750px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   width: 100%;
+  text-decoration: none;
 }
 .hero-image .content {
   margin: 70px 30px;
@@ -536,6 +541,20 @@ b {
   width: 100%;
 }
 
+.gallery {
+  width: 100%;
+}
+.gallery .col-md-6 {
+  width: 100%;
+  height: 400px;
+  padding: 0 5px 5px 0;
+}
+.gallery .col-md-6 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /*=======contactos======*/
 #map-container-section {
   border-radius: 5px;
@@ -602,11 +621,32 @@ b {
     font-size: 15px !important;
   }
   .navbar-brand img {
-    height: 18px !important;
+    height: 25px !important;
+    width: 25px;
   }
 
   .hero-image .uno, .hero-image .dos, .hero-image .tres, .hero-image .cuatro, .hero-image .cinco, .hero-image .seis, .hero-image #reparacion, .hero-image #gaming, .hero-image #design, .hero-image #microelectronica, .hero-image #redes {
-    height: 200px;
+    height: 400px;
+  }
+  .hero-image .content {
+    margin: 10px 10px;
+    padding: 5px 10px;
+    height: 80px;
+    width: 100%;
+    text-decoration: none;
+  }
+  .hero-image .content h2 {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bolder;
+  }
+  .hero-image .content p {
+    margin-top: 8px;
+    color: #00ff00;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: lighter;
   }
 
   .carousel-item {
@@ -695,8 +735,13 @@ b {
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
   .carousel-item {
-    min-height: 350px;
-    height: 100%;
+    margin-top: 40px;
+    min-height: 550px;
+    height: 550px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
   }
   .carousel-item img {
     min-height: 350px;
@@ -713,12 +758,35 @@ b {
 }
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  .carousel-item {
+    margin-top: 60px;
+    min-height: 550px;
+    height: 550px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+  }
+
   .dropdown-menu {
     width: 270px !important;
   }
 }
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+  .carousel-item {
+    margin-top: 50px;
+    min-height: 650px;
+    height: 650px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+  }
+  .carousel-item a {
+    display: block;
+  }
+
   .dropdown-menu {
     width: 270px !important;
   }

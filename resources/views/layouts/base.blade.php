@@ -149,6 +149,7 @@
             crossorigin="anonymous"></script>
         <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
         <script src="/js/aos.js"></script>
+        <script src="/js/animacion.js"></script>
         <script>
           AOS.init();
         </script>

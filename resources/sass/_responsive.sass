@@ -15,10 +15,31 @@
     .navbar-brand
         font-size: 15px !important
         img
-            height: 18px !important
+            height: 25px !important
+            width: 25px
     .hero-image
+        
         .uno, .dos, .tres, .cuatro, .cinco, .seis, #reparacion,#gaming, #design,#microelectronica, #redes
-            height: 200px
+            height: 400px
+        .content
+            margin: 10px 10px
+            padding: 5px 10px
+            height: 80px
+            width: 100%
+            text-decoration: none
+
+            h2 
+                color: #fff
+                text-decoration: none
+                font-size: 22px
+                font-weight: bolder
+
+            p
+                margin-top: 8px
+                color: #00ff00
+                text-decoration: none
+                font-size: 18px
+                font-weight: lighter
 
     .carousel-item
         min-height: 350px
@@ -85,8 +106,13 @@
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px)
     .carousel-item
-        min-height: 350px
-        height: 100%
+        margin-top: 40px
+        min-height: 550px
+        height: 550px
+        background: no-repeat center center scroll
+        -webkit-background-size: cover
+        -moz-background-size: cover
+        background-size: cover
         img
             min-height: 350px
             height: 100%
@@ -99,10 +125,30 @@
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px)
+    .carousel-item
+        margin-top: 60px
+        min-height: 550px
+        height: 550px
+        background: no-repeat center center scroll
+        -webkit-background-size: cover
+        -moz-background-size: cover
+        background-size: cover
+
     .dropdown-menu
         width: 270px !important
 
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px)
+    .carousel-item
+        margin-top: 50px
+        min-height: 650px
+        height: 650px
+        background: no-repeat center center scroll
+        -webkit-background-size: cover
+        -moz-background-size: cover
+        background-size: cover
+        a 
+            display: block
+        
     .dropdown-menu
         width: 270px !important
