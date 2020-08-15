@@ -74,35 +74,27 @@
     </div>
 
 
+
+
+
+
+
+
     <div class="horizontal-divider mx-auto my-md-5" id="gaming"></div>
-    
-    <!------------------Primera Seccion --Gaming --------------->
+
+
+    <!---------------copia de seccion gaming ------------------>
+
+
     <div class="section hero-image aos-item"   data-aos="zoom-in" data-aos-duration="1500">
-        <div class="container-fluid text-center uno d-flex align-items-center"  >
-            <div class="content mx-auto ">
-                <h2>Gaming</h2>
-                <p>Descripcion</p>
+        <a class="container-fluid text-center uno  d-flex align-items-center"  href="">
+            <div class="content mx-auto">
+                <h2>ARMA LA PC DE TUS SUEÑOS</h2>
+                <P>Nada supera el rendimiento de una pc a medida</P>
             </div>
             
-        </div>   
-        <div class="bg-dark py-md-5">
-            <div class="container">
-                <div class="row mt-4">
-                    <div class="col-md-6 text-center" >
-                        <h2>gaming</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa accusantium hic, 
-                            sit unde deleniti quidem rem at laudantium distinctio qui necessitatibus.
-                             Fuga ducimus dolor neque nihil ab eveniet recusandae illo!</p>
-                        <a href="" class="btn btn-success topmargin-lg">Ver Mas</a>
-                    </div>
-                    <div class="col-md-6 ">
-                        <img src="./img/secciones/gamer-small.jpg" alt="" class="image-card">
-                    </div>
-                </div>
-            </div>
-        </div>
+        </a>
     </div>
-
 
     <div class="horizontal-divider mx-auto my-md-5"  id="microelectronica"></div>
 

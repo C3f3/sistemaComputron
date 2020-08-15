@@ -192,6 +192,7 @@ p {
 }
 .navbar-brand img {
   height: 52px;
+  width: 52px;
 }
 
 /*==menu boton ==*/
@@ -305,14 +306,15 @@ b {
 }
 .hero-image .uno {
   background-image: url("../img/secciones/gaming.jpg");
-  background-color: #323232;
+  background-color: #3c3c3c;
   background-blend-mode: overlay;
   background-position: center;
-  height: 350px;
+  height: 650px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   width: 100%;
+  text-decoration: none;
 }
 .hero-image .dos {
   background-image: url("../img/secciones/electronica-hero-image.jpg");
@@ -370,9 +372,24 @@ b {
   width: 100%;
 }
 .hero-image .content {
+  margin: 70px 30px;
   padding: 5px 20px;
   height: 100px;
   width: 80%;
+  text-decoration: none;
+}
+.hero-image .content h2 {
+  color: #fff;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: bolder;
+}
+.hero-image .content p {
+  margin-top: 8px;
+  color: #00ff00;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: lighter;
 }
 
 .image-card {
