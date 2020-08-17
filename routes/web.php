@@ -41,9 +41,9 @@ Route::get('/microelectronica', function(){
     return view('microelectronica');
 })->name('microelectronica');
 
-Route::get('/empresas',function(){
-    return view('empresas');
-})->name('empresas');
+Route::get('/design', function(){
+    return view('design');
+})->name('diseño');
 
 Route::get('/test',function(){
     $user=App\User::findOrFail(2);
