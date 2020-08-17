@@ -4,7 +4,8 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -37,10 +38,10 @@
 
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav text-center ml-auto mr-auto py-4 py-md-0">
+
                                     <li class="nav-item {{setActive('about')}} pl-md-0 ml-0 ml-md-4">
                                         <a class="nav-link" href="{{route('about')}}">Quienes Somos</a>
                                     </li>
-
 
                                     <li class="nav-item dropdown pl-md-0 ml-0 ml-md-4">
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -99,7 +100,7 @@
                                     </li>
                                 </ul>
                                 <!--login-->
-                                <div class="login mr-4 ml-4 pl-4 pr-4 my-auto text-center">
+                                <div class="login mr-2 ml-2 pl-2 pr-2 my-auto text-center">
                                 <a href="{{route('login')}}">
                                         <ion-icon name="person-circle-outline"></ion-icon>
                                         Ingresar

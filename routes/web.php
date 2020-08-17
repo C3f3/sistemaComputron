@@ -28,9 +28,18 @@ Route::get('/contact',function(){
 Route::get('/personas',function(){
     return view('personas');
 })->name('personas');
+
 Route::get('/gaming',function(){
     return view('gaming');
-});
+})->name('gaming');
+
+Route::get('/reparacion', function(){
+    return view('reparacion');
+})->name('reparacion');
+
+Route::get('/microelectronica', function(){
+    return view('microelectronica');
+})->name('microelectronica');
 
 Route::get('/empresas',function(){
     return view('empresas');

@@ -87,7 +87,7 @@
 
 
     <div class="section hero-image aos-item"   data-aos="zoom-in" data-aos-duration="1500">
-        <a class="container-fluid text-center uno  d-flex align-items-center"  href="">
+    <a class="container-fluid text-center uno  d-flex align-items-center"  href="{{route('gaming')}}">
             <div class="content mx-auto">
                 <h2>ARMA LA PC DE TUS SUEÑOS</h2>
                 <p id="headline">Nada supera el rendimiento de una pc a medida.</p>
