@@ -7,7 +7,7 @@
         <div class="content text-center">
             <img src="img/logo-redondo.png" class="img-fluid" alt="logo-de-fondo">
             <h1>COMPUTRON</h1>
-            <p>Tu Solucion Informatica</p>
+            <p>Tu Solución Informática</p>
         </div>
 
     </div>
@@ -17,11 +17,12 @@
                 <div class="col-md-6 text-center py-3" >
                     <h2 class="font-weight-light text-white">Sobre Nosotros</h2>
                     <p class="mt-4">Somos un emprendimiento constituido por un grupo de jóvenes especializados en tecnología. 
-                        Nos abocamos a brindar soluciones tanto al ámbito corporativo como al usuario medio. 
+                        Nos abocamos a brindar soluciones dirigidas tanto al ámbito corporativo como al usuario medio.</p>
+                        <p class="mt-4"> 
                         Buscamos afrontar cada desafío con una solución personalizada que se adapte a la realidad de cada cliente. 
                         Nuestro objetivo es posicionarnos como referentes en innovación tecnológica.</p>
                     <p class="mt-4">Acércate, atendemos cada consulta de forma personalizada. 
-                        Estamos dispuestos a compartir nuestro conocimiento para brindarte la solución que buscas...</p>
+                        Estamos dispuestos a asesorarte para brindar la solución que buscas...</p>
                 </div>
                 <div class="col-md-6 ">
                     <img src="./img/about/repair-about.jpg" alt="" class="image-card">
@@ -59,8 +60,7 @@
                         <h4>Calidad</h4>
                     </div>
                     <div class="text">
-                        <p>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr
-                            scripta ocurreret qui ad.</p>
+                        <p>Queremos aportarte valor. Buscamos ofrecer productos y servicios superiores y a un precio accesible.</p>
                     </div>
                 </div>
             </div>
@@ -68,11 +68,11 @@
                 <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500">
                     <img src="img/about/innovacionVerde.png" alt="innovacion">
                     <div class="title">
-                        <h4>Innovacion</h4>
+                        <h4>Innovación</h4>
                     </div>
                     <div class="text">
-                        <p>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr
-                            scripta ocurreret qui ad.</p>
+                        <p>Nos capacitamos constantemente en nuevas tecnologías y metodologías. 
+                            Nuestro objetivo es llevar estas soluciones a las personas que las necesitan.</p>
                     </div>
                 </div>
             </div>
@@ -80,11 +80,11 @@
                 <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500"> 
                     <img src="img/about/comunicacionVerde.png" alt="comunicacion">
                     <div class="title">
-                        <h4>Comunicacion</h4>
+                        <h4>Comunicación</h4>
                     </div>
                     <div class="text">
-                        <p>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr
-                            scripta ocurreret qui ad.</p>
+                        <p>Aspiramos a que la relación con nuestros clientes y socios sea sana, cordial, constructiva y fluida. 
+                            Creemos en el enriquecimiento personal de todas las partes.</p>
                     </div>
                 </div>
             </div>
@@ -97,7 +97,7 @@
 <div class="section testimonials mt-3" data-aos="zoom-in" data-aos-duration="1500">
     <div class="container">
         <div class="content-text mb-0 text-center">
-            <h2 class="font-weight-light text-white">Mira lo que algunos clientes dicen de nosotros</h2>
+            <h2 class="font-weight-light text-white">Mira lo que nuestros clientes dicen de nosotros</h2>
         </div>
         <div class="col-lg-10 pt-lg-2 pt-sm-0 mt-lg-1 mt-sm-0 pb-2 offset-lg-1 bg-dark text-light">
             <div id="client-testimonial-carousel" class="carousel slide" data-ride="carousel" style="height:250px;">

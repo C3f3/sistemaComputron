@@ -5,28 +5,20 @@
     <div class="about">
         <div class="content text-center">
             <img src="img/logo-redondo.png" class="img-fluid" alt="logo-de-fondo">
+        
             <h1>COMPUTRON</h1>
             <p>Tu Solucion Informatica</p>
         </div>
     </div>
-    <div class="section bg-dark">
-        <div class="py-5 container">
-            <div class="content text-center">
-                <h2 class="font-weight-light text-white">Nuestro Servicios</h2>
-                <p class="text-white mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis iure,
-                    dolor vel eos corrupti in recusandae incidunt ipsum nihil praesentium doloremque
-                    commodi
-                    hic neque quae illo veniam repudiandae illum repellat?</p>
-            </div>
-        </div>
+   
     </div>
     <div class="horizontal-divider mx-auto my-md-5"></div>
     
     <!------------------Primera Seccion --Reparacion--------------->
     <div class="section hero-image aos-item"   data-aos="zoom-in" data-aos-duration="1500">
-        <div class="container-fluid text-center d-flex align-items-center"  id="design">
+        <div class="container-fluid text-center d-flex align-items-center"  id="redes">
             <div class="content mx-auto ">
-                <h2>Diseño Grafico</h2>
+                <h2>Redes y Servidores</h2>
                 <p>Descripcion</p>
             </div>
             
@@ -83,18 +75,18 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="/img/secciones/design/design1.jpg" alt="">
+                    <img src="/img/secciones/redes/redes1.jpg" alt="">
                 </div>
                 <div class="col-md-6">
-                    <img src="/img/secciones/design/design2.jpg" alt="">
+                    <img src="/img/secciones/redes/redes2.jpg" alt="">
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <img src="/img/secciones/design/design3.jpg" alt="">
+                    <img src="/img/secciones/redes/redes3.jpg" alt="">
                 </div>
                 <div class="col-md-6">
-                    <img src="/img/secciones/microelectronica/micro4.jpg" alt="">
+                    <img src="/img/secciones/redes/redes4.jpg" alt="">
                 </div>
             </div>
             

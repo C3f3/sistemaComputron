@@ -250,6 +250,17 @@ p {
   transition: all 200ms linear;
 }
 
+.menu-services .nav-item span {
+  color: #ffffff;
+}
+.menu-services .nav-item .nav-link {
+  color: #999999 !important;
+  font-size: 12px;
+}
+.menu-services .nav-item .nav {
+  margin: auto 15px;
+}
+
 .navbar .dropdown-menu {
   border: none;
   background: black;
@@ -518,8 +529,30 @@ b {
   background-size: cover;
   width: 100%;
 }
+.hero-image #express {
+  background-image: url("../img/secciones/express-hero-image.jpg");
+  background-color: #323232;
+  background-blend-mode: overlay;
+  background-position: center;
+  height: 350px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  width: 100%;
+}
 .hero-image #redes {
   background-image: url("../img/secciones/redes-hero-image.jpg");
+  background-color: #323232;
+  background-blend-mode: overlay;
+  background-position: center;
+  height: 350px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  width: 100%;
+}
+.hero-image #programar {
+  background-image: url("../img/secciones/prog-hero-image.jpg");
   background-color: #323232;
   background-blend-mode: overlay;
   background-position: center;
@@ -635,6 +668,15 @@ b {
     width: 25px;
   }
 
+  .navbar .dropdown-menu {
+    width: 100% !important;
+  }
+  .navbar .dropdown-menu .row {
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+
   .hero-image .uno, .hero-image .dos, .hero-image .tres, .hero-image .cuatro, .hero-image .cinco, .hero-image .seis, .hero-image #reparacion, .hero-image #gaming, .hero-image #design, .hero-image #microelectronica, .hero-image #redes {
     height: 400px;
   }
@@ -729,6 +771,10 @@ b {
     height: 50px !important;
   }
 
+  .navbar .dropdown-menu {
+    width: 100% !important;
+  }
+
   .carousel-item {
     min-height: 350px;
     height: 100%;
@@ -804,7 +850,12 @@ b {
   }
 
   .dropdown-menu {
-    width: 270px !important;
+    width: 470px !important;
+  }
+  .dropdown-menu .row {
+    width: 350px !important;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 /*// Extra large devices (large desktops, 1200px and up)*/
@@ -823,7 +874,12 @@ b {
   }
 
   .dropdown-menu {
-    width: 270px !important;
+    width: 470px !important;
+  }
+  .dropdown-menu .row {
+    width: 350px !important;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

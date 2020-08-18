@@ -17,7 +17,7 @@
                                 <img src="/img/slider/slider0.jpg" alt="">
                                 <div class="carousel-caption d-md-block">
                                     <h3 href="#" class="display-4">Gaming</h3>
-                                    <p class="lead">Cumplimos con todas las normativas vigentes.</p>
+                                    <p class="lead">Imagina tu equipo. ¡Nosotros lo armamos!</p>
                                 </div>
                             </a>
                             
@@ -62,8 +62,8 @@
         <div class="bg-dark text-center py-md-5">
             <div class="container">
                 <h2 class="font-weight-light text-white">¿Buscas una solución informática?</h2>
-                <p class="text-white mt-4">¿Necesitas arreglar una computadora?¿Montar una red?¿Instalar cámaras de vigilancia?
-                    ¿Buscas armar una campaña de marketing digital? ¿O tener tu propia aplicación móvil?
+                <p class="text-white mt-4">¿Necesitas arreglar una computadora?¿Montar una red? ¿Optimizar un servidor? ¿Instalar cámaras de vigilancia?
+                    ¿Buscas potenciar tu emprendimiento con una campaña de marketing digital? ¿O tener tu propia aplicación móvil?
                 </p>
                 <p class="text-white mt-4">Desde Computron nos centramos en soluciones integrales orientadas tanto a empresas como a
                     personas particulares. Acércate y te asesoramos...
@@ -100,10 +100,10 @@
 
     <!------------------Segunda Seccion --Microelectronica --------------->
     <div class="section hero-image aos-item"   data-aos="zoom-in" data-aos-duration="1500">
-        <a class="container-fluid text-center dos  d-flex align-items-center"  href="">
+    <a class="container-fluid text-center dos  d-flex align-items-center"  href="{{route('microelectronica')}}">
             <div class="content mx-auto">
-                <h2>HACEMOS MICROELECTRONICA</h2>
-                <p id="headline">Arreglamos tus placas dañadas!!</p>
+                <h2>HACEMOS MICROELECTRÓNICA</h2>
+                <p id="headline">¡Arreglamos tus placas y equipos dañados!</p>
             </div>
             
         </a>
@@ -116,7 +116,7 @@
         <a class="container-fluid text-center tres  d-flex align-items-center"  href="">
             <div class="content mx-auto">
                 <h2>REDES Y SERVIDORES</h2>
-                <P id="headline2">Montamos tu red y optimizamos tus servidores</P>
+                <P id="headline2">Montamos tu red y optimizamos tus servidores.</P>
             </div>
             
         </a>
@@ -126,7 +126,7 @@
 
     <!------------------Cuarta Seccion --Express --------------->    
     <div class="section hero-image aos-item"   data-aos="zoom-in" data-aos-duration="1500">
-        <a class="container-fluid text-center cuatro d-flex align-items-center"  href="">
+        <a class="container-fluid text-center cuatro d-flex align-items-center"  href="{{route('express')}}">
             <div class="content mx-auto">
                 <h2>SERVICIOS EXPRESS</h2>
                 <p id="headline">Conoce nuestros soluciones inmediatas.</p>
@@ -139,10 +139,10 @@
 
     <!------------------Quinta Seccion --Programacion --------------->   
     <div class="section hero-image aos-item"   data-aos="zoom-in" data-aos-duration="1500">
-        <a class="container-fluid text-center cinco d-flex align-items-center"  href="">
+        <a class="container-fluid text-center cinco d-flex align-items-center"  href="{{route('programacion')}}">
             <div class="content mx-auto">
                 <h2>WEB Y MOVIL</h2>
-                <p id="headline3">Hacemos apps y webs. Entra al mundo digital.</p>
+                <p id="headline3">Hacemos apps y webs ¡Entra al mundo digital!</p>
             </div>
             
         </a>
@@ -153,9 +153,24 @@
 
     <!------------------Sexta Seccion --Diseño --------------->  
     <div class="section hero-image aos-item"   data-aos="zoom-in" data-aos-duration="1500">
-        <a class="container-fluid text-center seis d-flex align-items-center"  href="">
+    <a class="container-fluid text-center seis d-flex align-items-center"  href="{{route('diseño')}}">
             <div class="content mx-auto">
                 <h2>HACEMOS DISEÑO</h2>
+                <p id="headline3">¡Creamos estrategias y soluciones digitales para vos!
+
+                </p>
+            </div>
+            
+        </a>
+    </div>
+
+    <div class="horizontal-divider mx-auto my-md-5"  id="reparacion"></div>
+
+    <!------------------Septima Seccion --reparacion --------------->  
+    <div class="section hero-image aos-item"   data-aos="zoom-in" data-aos-duration="1500">
+    <a class="container-fluid text-center siete d-flex align-items-center"  href="{{route('reparacion')}}">
+            <div class="content mx-auto">
+                <h2>Reparamos tu compu</h2>
                 <p id="headline3">Creamos estrategias y soluciones digitales para vos
 
                 </p>
@@ -163,5 +178,6 @@
             
         </a>
     </div>
+
     @endsection
     

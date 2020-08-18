@@ -7,7 +7,7 @@
         <div class="content text-center">
             <img src="img/logo-redondo.png" class="img-fluid" alt="logo-de-fondo">
             <h1>COMPUTRON</h1>
-            <p>Tu Solucion Informatica</p>
+            <p>Tu Solución Informática</p>
         </div>
 
     </div>

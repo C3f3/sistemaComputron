@@ -45,6 +45,18 @@ Route::get('/design', function(){
     return view('design');
 })->name('diseño');
 
+Route::get('/express', function(){
+    return view('express');
+})->name('express');
+
+Route::get('/redes', function(){
+    return view('redes');
+})->name('redes');
+
+Route::get('/prog', function(){
+    return view('programar');
+})->name('programacion');
+
 Route::get('/test',function(){
     $user=App\User::findOrFail(2);
     return $user->trabajos;

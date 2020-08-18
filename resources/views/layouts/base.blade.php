@@ -29,7 +29,8 @@
                         <nav id="myMenu" class="navbar navbar-expand-md navbar-dark fixed">
                             <a class="navbar-brand" href="{{route('inicio')}}">
                                 <img src="/img/logo-redondo.png" alt="logo" loading="lazy">
-                                COMPUTRON</a>
+                                COMPUTRON
+                            </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse"
                                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                 aria-expanded="false" aria-label="Toggle navigation">
@@ -44,42 +45,51 @@
                                     </li>
 
                                     <li class="nav-item dropdown pl-md-0 ml-0 ml-md-4">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <a class="nav-link dropdown-toggle" href="#" id="menu-services" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             Servicios
                                           </a>
 
-                                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                          <div class="dropdown-menu" aria-labelledby="menu-services">
 
-          
-                                            <div class="container">
+                                            <div class="container menu-services">
                                               <div class="row">
                                                 <div class="col-md-6">
-                                                  
+
                                                   <ul class="nav flex-column">
-                                                  <li class="nav-item">
-                                                    <a class="nav-link active" href="#">Hogares</a>
-                                                  </li>
-                                                  <li class="nav-item">
-                                                    <a class="nav-link" href="#">Link item</a>
-                                                  </li>
-                                                  <li class="nav-item">
-                                                    <a class="nav-link" href="#">Link item</a>
-                                                  </li>
-                                                </ul>
+                                                    <li class="nav-item text-center">
+                                                      <span>Hogares</span>
+                                                    </li>
+                                                    <li class="nav-item text-center">
+                                                      <a class="nav-link">Gaming</a>
+                                                    </li>
+                                                    <li class="nav-item text-center">
+                                                      <a class="nav-link" href="#">Pc y Notebook</a>
+                                                    </li>
+                                                    <li class="nav-item text-center">
+                                                      <a class="nav-link" href="#">Microelectronica</a>
+                                                    </li>
+                                                    <li class="nav-item text-center">
+                                                      <a class="nav-link" href="#">Diseño</a>
+                                                    </li>
+                                                    <li class="nav-item text-center">
+                                                      <a class="nav-link" href="#">Serv. Express</a>
+                                                    </li>
+                                                  </ul>
+
                                                 </div>
-                                                <!-- /.col-md-4  -->
+                                               
                                                 <div class="col-md-6">
                                                   <ul class="nav flex-column">
-                                                  <li class="nav-item">
-                                                    <a class="nav-link active" href="#">Empresas</a>
-                                                  </li>
-                                                  <li class="nav-item">
-                                                    <a class="nav-link" href="#">Link item</a>
-                                                  </li>
-                                                  <li class="nav-item">
-                                                    <a class="nav-link" href="#">Link item</a>
-                                                  </li>
-                                                </ul>
+                                                    <li class="nav-item text-center">
+                                                      <span>Empresas</span>
+                                                    </li>
+                                                    <li class="nav-item text-center">
+                                                      <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item text-center">
+                                                      <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                  </ul>
                                                 </div>
                                               
                                               </div>
@@ -96,7 +106,7 @@
                                         <a class="nav-link" href="">Marketing</a>
                                     </li>
                                     <li class="nav-item {{setActive('contact')}} pl-md-0 ml-0 ml-md-4">
-                                    <a class="nav-link" href="{{route('contact')}}">Contacto</a>
+                                      <a class="nav-link" href="{{route('contact')}}">Contacto</a>
                                     </li>
                                 </ul>
                                 <!--login-->
