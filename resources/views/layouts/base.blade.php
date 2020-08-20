@@ -21,105 +21,101 @@
 <body>
     <div class="header">
         <!--menu-->
-        <div class="navigation-wrap bg-dark start-header start-style">
+        <div class="navigation-wrap bg-dark start-header">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12">
+              <nav id="myMenu" class="navbar navbar-expand-md navbar-dark fixed">
+                <a class="navbar-brand" href="{{route('inicio')}}">
+                    <img src="/img/logo-redondo.png" alt="logo" loading="lazy">
+                    COMPUTRON
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                        <nav id="myMenu" class="navbar navbar-expand-md navbar-dark fixed">
-                            <a class="navbar-brand" href="{{route('inicio')}}">
-                                <img src="/img/logo-redondo.png" alt="logo" loading="lazy">
-                                COMPUTRON
-                            </a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav text-center ml-auto mr-auto py-4 py-md-0">
 
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav text-center ml-auto mr-auto py-4 py-md-0">
+                        <li class="nav-item {{setActive('about')}} pl-md-0 ml-0 ml-md-4">
+                            <a class="nav-link" href="{{route('about')}}">Quienes Somos</a>
+                        </li>
 
-                                    <li class="nav-item {{setActive('about')}} pl-md-0 ml-0 ml-md-4">
-                                        <a class="nav-link" href="{{route('about')}}">Quienes Somos</a>
-                                    </li>
+                        <li class="nav-item dropdown pl-md-0 ml-0 ml-md-4">
+                            <a class="nav-link dropdown-toggle" href="#" id="menu-services" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Servicios
+                              </a>
 
-                                    <li class="nav-item dropdown pl-md-0 ml-0 ml-md-4">
-                                        <a class="nav-link dropdown-toggle" href="#" id="menu-services" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            Servicios
-                                          </a>
+                              <div class="dropdown-menu" aria-labelledby="menu-services">
 
-                                          <div class="dropdown-menu" aria-labelledby="menu-services">
+                                <div class="container menu-services">
+                                  <div class="row">
+                                    <div class="col-md-6">
 
-                                            <div class="container menu-services">
-                                              <div class="row">
-                                                <div class="col-md-6">
+                                      <ul class="nav flex-column">
+                                        <li class="nav-item text-center">
+                                          <span>Hogares</span>
+                                        </li>
+                                        <li class="nav-item text-center">
+                                          <a class="nav-link">Gaming</a>
+                                        </li>
+                                        <li class="nav-item text-center">
+                                          <a class="nav-link" href="#">Pc y Notebook</a>
+                                        </li>
+                                        <li class="nav-item text-center">
+                                          <a class="nav-link" href="#">Microelectronica</a>
+                                        </li>
+                                        <li class="nav-item text-center">
+                                          <a class="nav-link" href="#">Diseño</a>
+                                        </li>
+                                        <li class="nav-item text-center">
+                                          <a class="nav-link" href="#">Serv. Express</a>
+                                        </li>
+                                      </ul>
 
-                                                  <ul class="nav flex-column">
-                                                    <li class="nav-item text-center">
-                                                      <span>Hogares</span>
-                                                    </li>
-                                                    <li class="nav-item text-center">
-                                                      <a class="nav-link">Gaming</a>
-                                                    </li>
-                                                    <li class="nav-item text-center">
-                                                      <a class="nav-link" href="#">Pc y Notebook</a>
-                                                    </li>
-                                                    <li class="nav-item text-center">
-                                                      <a class="nav-link" href="#">Microelectronica</a>
-                                                    </li>
-                                                    <li class="nav-item text-center">
-                                                      <a class="nav-link" href="#">Diseño</a>
-                                                    </li>
-                                                    <li class="nav-item text-center">
-                                                      <a class="nav-link" href="#">Serv. Express</a>
-                                                    </li>
-                                                  </ul>
-
-                                                </div>
-                                               
-                                                <div class="col-md-6">
-                                                  <ul class="nav flex-column">
-                                                    <li class="nav-item text-center">
-                                                      <span>Empresas</span>
-                                                    </li>
-                                                    <li class="nav-item text-center">
-                                                      <a class="nav-link" href="#">Link item</a>
-                                                    </li>
-                                                    <li class="nav-item text-center">
-                                                      <a class="nav-link" href="#">Link item</a>
-                                                    </li>
-                                                  </ul>
-                                                </div>
-                                              
-                                              </div>
-                                            </div>
-                                            <!--  /.container  -->
+                                    </div>
+                                   
+                                    <div class="col-md-6">
+                                      <ul class="nav flex-column">
+                                        <li class="nav-item text-center">
+                                          <span>Empresas</span>
+                                        </li>
+                                        <li class="nav-item text-center">
+                                          <a class="nav-link" href="#">Link item</a>
+                                        </li>
+                                        <li class="nav-item text-center">
+                                          <a class="nav-link" href="#">Link item</a>
+                                        </li>
+                                      </ul>
+                                    </div>
                                   
-                                  
-                                          </div>
-                                    </li>
-                                    <li class="nav-item {{setActive('productos')}} pl-md-0 ml-0 ml-md-4">
-                                        <a class="nav-link" href="">Productos</a>
-                                    </li>
-                                    <li class="nav-item {{setActive('marketing')}} pl-md-0 ml-0 ml-md-4">
-                                        <a class="nav-link" href="">Marketing</a>
-                                    </li>
-                                    <li class="nav-item {{setActive('contact')}} pl-md-0 ml-0 ml-md-4">
-                                      <a class="nav-link" href="{{route('contact')}}">Contacto</a>
-                                    </li>
-                                </ul>
-                                <!--login-->
-                                <div class="login mr-2 ml-2 pl-2 pr-2 my-auto text-center">
-                                <a href="{{route('login')}}">
-                                        <ion-icon name="person-circle-outline"></ion-icon>
-                                        Ingresar
-                                    </a>
+                                  </div>
                                 </div>
-                            </div>
-                        </nav>
+                                <!--  /.container  -->
+                      
+                      
+                              </div>
+                        </li>
+                        <li class="nav-item {{setActive('productos')}} pl-md-0 ml-0 ml-md-4">
+                            <a class="nav-link" href="">Productos</a>
+                        </li>
+                        <li class="nav-item {{setActive('marketing')}} pl-md-0 ml-0 ml-md-4">
+                            <a class="nav-link" href="">Marketing</a>
+                        </li>
+                        <li class="nav-item {{setActive('contact')}} pl-md-0 ml-0 ml-md-4">
+                          <a class="nav-link" href="{{route('contact')}}">Contacto</a>
+                        </li>
+                    </ul>
+                    <!--login-->
+                    <div class="login mr-2 ml-2 pl-2 pr-2 my-auto text-center">
+                    <a href="{{route('login')}}">
+                            <ion-icon name="person-circle-outline"></ion-icon>
+                            Ingresar
+                        </a>
                     </div>
                 </div>
+              </nav>
+                
             </div>
         </div>
 

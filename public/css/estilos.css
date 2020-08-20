@@ -294,10 +294,6 @@ p {
   margin-top: 60px;
   min-height: 550px;
   height: 550px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
 }
 .carousel-item img {
   width: 100%;
@@ -377,6 +373,18 @@ b {
 }
 .hero-image .seis {
   background-image: url("../img/secciones/design-hero-image.jpg");
+  background-color: #323232;
+  background-blend-mode: overlay;
+  background-position: center;
+  height: 750px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  text-decoration: none;
+}
+.hero-image .siete {
+  background-image: url("../img/secciones/reparacion-hero-image.jpg");
   background-color: #323232;
   background-blend-mode: overlay;
   background-position: center;
@@ -774,6 +782,11 @@ b {
   .navbar .dropdown-menu {
     width: 100% !important;
   }
+  .navbar .dropdown-menu .row {
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+  }
 
   .carousel-item {
     min-height: 350px;
@@ -862,15 +875,15 @@ b {
 @media (min-width: 1200px) {
   .carousel-item {
     margin-top: 50px;
-    min-height: 650px;
-    height: 650px;
+    min-height: 600px;
+    height: 600px;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
   }
-  .carousel-item a {
-    display: block;
+  .carousel-item img {
+    height: 600px;
   }
 
   .dropdown-menu {
