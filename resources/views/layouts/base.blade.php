@@ -47,50 +47,70 @@
                               </a>
 
                               <div class="dropdown-menu" aria-labelledby="menu-services">
-
-                                <div class="container menu-services">
-                                  <div class="row">
-                                    <div class="col-md-6">
-
-                                      <ul class="nav flex-column">
-                                        <li class="nav-item text-center">
-                                          <span>Hogares</span>
-                                        </li>
-                                        <li class="nav-item text-center">
-                                          <a class="nav-link">Gaming</a>
-                                        </li>
-                                        <li class="nav-item text-center">
-                                          <a class="nav-link" href="#">Pc y Notebook</a>
-                                        </li>
-                                        <li class="nav-item text-center">
-                                          <a class="nav-link" href="#">Microelectronica</a>
-                                        </li>
-                                        <li class="nav-item text-center">
-                                          <a class="nav-link" href="#">Diseño</a>
-                                        </li>
-                                        <li class="nav-item text-center">
-                                          <a class="nav-link" href="#">Serv. Express</a>
-                                        </li>
-                                      </ul>
-
+                                <div class="menu-services">
+                                  <div class="container ">
+                                    <div class="row">
+                                      <div class="col-md-6">
+  
+                                        <ul class="nav flex-column">
+                                          <li class="nav-item text-center">
+                                            <span>Hogares</span>
+                                          </li>
+                                          <li class="nav-item text-center">
+                                            <a class="nav-link">Gaming</a>
+                                          </li>
+                                          <li class="nav-item text-center">
+                                            <a class="nav-link" href="#">Pc y Notebook</a>
+                                          </li>
+                                          <li class="nav-item text-center">
+                                            <a class="nav-link" href="#">Microelectronica</a>
+                                          </li>
+                                          <li class="nav-item text-center">
+                                            <a class="nav-link" href="#">Diseño</a>
+                                          </li>
+                                          <li class="nav-item text-center">
+                                            <a class="nav-link" href="#">Serv. Express</a>
+                                          </li>
+                                        </ul>
+  
+                                      </div>
+                                     
+                                      <div class="col-md-6">
+                                        <ul class="nav flex-column">
+                                          <li class="nav-item text-center">
+                                            <span>Empresas</span>
+                                          </li>
+                                          <li class="nav-item text-center">
+                                            <a class="nav-link" href="#">Link item</a>
+                                          </li>
+                                          <li class="nav-item text-center">
+                                            <a class="nav-link" href="#">Link item</a>
+                                          </li>
+                                          <li class="nav-item text-center">
+                                            <a class="nav-link" href="#">Link item</a>
+                                          </li>
+                                          <li class="nav-item text-center">
+                                            <a class="nav-link" href="#">Link item</a>
+                                          </li>
+                                          <li class="nav-item text-center">
+                                            <a class="nav-link" href="#">Link item</a>
+                                          </li>
+                                          <li class="nav-item text-center">
+                                            <a class="nav-link" href="#">Link item</a>
+                                          </li>
+                                          <li class="nav-item text-center">
+                                            <a class="nav-link" href="#">Link item</a>
+                                          </li>
+                                          <li class="nav-item text-center">
+                                            <a class="nav-link" href="#">Link item</a>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    
                                     </div>
-                                   
-                                    <div class="col-md-6">
-                                      <ul class="nav flex-column">
-                                        <li class="nav-item text-center">
-                                          <span>Empresas</span>
-                                        </li>
-                                        <li class="nav-item text-center">
-                                          <a class="nav-link" href="#">Link item</a>
-                                        </li>
-                                        <li class="nav-item text-center">
-                                          <a class="nav-link" href="#">Link item</a>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                  
                                   </div>
                                 </div>
+                               
                                 <!--  /.container  -->
                       
                       

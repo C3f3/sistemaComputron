@@ -684,6 +684,9 @@ b {
     margin-left: 0;
     width: 100%;
   }
+  .navbar .dropdown-menu .row .nav-item {
+    height: 30px !important;
+  }
 
   .hero-image .uno, .hero-image .dos, .hero-image .tres, .hero-image .cuatro, .hero-image .cinco, .hero-image .seis, .hero-image #reparacion, .hero-image #gaming, .hero-image #design, .hero-image #microelectronica, .hero-image #redes {
     height: 400px;
@@ -776,16 +779,20 @@ b {
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
   .nav-item {
-    height: 50px !important;
+    height: 40px !important;
   }
 
   .navbar .dropdown-menu {
     width: 100% !important;
+    position: absolute !important;
   }
   .navbar .dropdown-menu .row {
     margin-right: 0;
     margin-left: 0;
     width: 100%;
+  }
+  .navbar .dropdown-menu .nav-item {
+    height: 30px !important;
   }
 
   .carousel-item {
@@ -861,15 +868,6 @@ b {
     -moz-background-size: cover;
     background-size: cover;
   }
-
-  .dropdown-menu {
-    width: 470px !important;
-  }
-  .dropdown-menu .row {
-    width: 350px !important;
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
@@ -884,15 +882,6 @@ b {
   }
   .carousel-item img {
     height: 600px;
-  }
-
-  .dropdown-menu {
-    width: 470px !important;
-  }
-  .dropdown-menu .row {
-    width: 350px !important;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 
