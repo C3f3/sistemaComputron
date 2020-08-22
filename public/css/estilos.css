@@ -415,6 +415,9 @@ b {
   font-size: 22px;
   font-weight: lighter;
 }
+.hero-image .content .indicador {
+  font-size: 40px !important;
+}
 
 .image-card {
   margin: 20px 5px;

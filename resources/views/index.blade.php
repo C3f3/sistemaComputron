@@ -91,6 +91,7 @@
             <div class="content mx-auto">
                 <h2>ARMA LA PC DE TUS SUEÑOS</h2>
                 <p id="headline">Nada supera el rendimiento de una pc a medida.</p>
+                <p class="indicador mt-4"><ion-icon name="arrow-forward-circle-outline"></ion-icon></p>
             </div>
             
         </a>
@@ -104,6 +105,8 @@
             <div class="content mx-auto">
                 <h2>HACEMOS MICROELECTRÓNICA</h2>
                 <p id="headline">¡Arreglamos tus placas y equipos dañados!</p>
+                <p class="indicador mt-4"><ion-icon name="arrow-forward-circle-outline"></ion-icon></p>
+
             </div>
             
         </a>
@@ -116,7 +119,9 @@
         <a class="container-fluid text-center tres  d-flex align-items-center"  href="">
             <div class="content mx-auto">
                 <h2>REDES Y SERVIDORES</h2>
-                <P id="headline2">Montamos tu red y optimizamos tus servidores.</P>
+                <p id="headline2">Montamos tu red y optimizamos tus servidores.</p>
+                <p class="indicador mt-4"><ion-icon name="arrow-forward-circle-outline"></ion-icon></p>
+
             </div>
             
         </a>
@@ -130,6 +135,8 @@
             <div class="content mx-auto">
                 <h2>SERVICIOS EXPRESS</h2>
                 <p id="headline">Conoce nuestros soluciones inmediatas.</p>
+                <p class="indicador mt-4"><ion-icon name="arrow-forward-circle-outline"></ion-icon></p>
+
             </div>
             
         </a>
@@ -143,6 +150,8 @@
             <div class="content mx-auto">
                 <h2>WEB Y MOVIL</h2>
                 <p id="headline3">Hacemos apps y webs ¡Entra al mundo digital!</p>
+                <p class="indicador mt-4"><ion-icon name="arrow-forward-circle-outline"></ion-icon></p>
+
             </div>
             
         </a>
@@ -156,9 +165,9 @@
     <a class="container-fluid text-center seis d-flex align-items-center"  href="{{route('diseño')}}">
             <div class="content mx-auto">
                 <h2>HACEMOS DISEÑO</h2>
-                <p id="headline3">¡Creamos estrategias y soluciones digitales para vos!
+                <p id="headline3">¡Creamos estrategias y soluciones digitales para vos!</p>
+                <p class="indicador mt-4"><ion-icon name="arrow-forward-circle-outline"></ion-icon></p>
 
-                </p>
             </div>
             
         </a>
@@ -171,9 +180,9 @@
     <a class="container-fluid text-center siete d-flex align-items-center"  href="{{route('reparacion')}}">
             <div class="content mx-auto">
                 <h2>Reparamos tu compu</h2>
-                <p id="headline3">Creamos estrategias y soluciones digitales para vos
+                <p id="headline3">Creamos estrategias y soluciones digitales para vos</p>
+                <p class="indicador mt-4"><ion-icon name="arrow-forward-circle-outline"></ion-icon></p>
 
-                </p>
             </div>
             
         </a>

@@ -57,19 +57,19 @@
                                             <span>Hogares</span>
                                           </li>
                                           <li class="nav-item text-center">
-                                            <a class="nav-link">Gaming</a>
+                                            <a class="nav-link" href="{{route('gaming')}}">Gaming</a>
                                           </li>
                                           <li class="nav-item text-center">
-                                            <a class="nav-link" href="#">Pc y Notebook</a>
+                                            <a class="nav-link" href="{{route('reparacion')}}">Pc y Notebook</a>
                                           </li>
                                           <li class="nav-item text-center">
-                                            <a class="nav-link" href="#">Microelectronica</a>
+                                            <a class="nav-link" href="{{route('microelectronica')}}">Microelectronica</a>
                                           </li>
                                           <li class="nav-item text-center">
-                                            <a class="nav-link" href="#">Diseño</a>
+                                            <a class="nav-link" href="{{route('diseño')}}">Diseño</a>
                                           </li>
                                           <li class="nav-item text-center">
-                                            <a class="nav-link" href="#">Serv. Express</a>
+                                            <a class="nav-link" href="{{route('express')}}">Serv. Express</a>
                                           </li>
                                         </ul>
   
@@ -81,28 +81,25 @@
                                             <span>Empresas</span>
                                           </li>
                                           <li class="nav-item text-center">
-                                            <a class="nav-link" href="#">Link item</a>
+                                            <a class="nav-link" href="">Redes y Servidores</a>
                                           </li>
                                           <li class="nav-item text-center">
-                                            <a class="nav-link" href="#">Link item</a>
+                                            <a class="nav-link" href="#">Camaras</a>
                                           </li>
                                           <li class="nav-item text-center">
-                                            <a class="nav-link" href="#">Link item</a>
+                                            <a class="nav-link" href="#">Diseño Corporativo</a>
                                           </li>
                                           <li class="nav-item text-center">
-                                            <a class="nav-link" href="#">Link item</a>
+                                            <a class="nav-link" href="#">Microelectronica</a>
                                           </li>
                                           <li class="nav-item text-center">
-                                            <a class="nav-link" href="#">Link item</a>
+                                            <a class="nav-link" href="#">Recuperacion de Datos</a>
                                           </li>
                                           <li class="nav-item text-center">
-                                            <a class="nav-link" href="#">Link item</a>
+                                            <a class="nav-link" href="#">Equipos</a>
                                           </li>
                                           <li class="nav-item text-center">
-                                            <a class="nav-link" href="#">Link item</a>
-                                          </li>
-                                          <li class="nav-item text-center">
-                                            <a class="nav-link" href="#">Link item</a>
+                                            <a class="nav-link" href="#">Consultoria</a>
                                           </li>
                                         </ul>
                                       </div>
