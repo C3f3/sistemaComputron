@@ -81,22 +81,25 @@
                                             <span>Empresas</span>
                                           </li>
                                           <li class="nav-item text-center">
-                                            <a class="nav-link" href="">Redes y Servidores</a>
+                                          <a class="nav-link" href="{{route('redes')}}">Redes y Servidores</a>
                                           </li>
                                           <li class="nav-item text-center">
-                                            <a class="nav-link" href="#">Camaras</a>
+                                          <a class="nav-link" href="{{route('camaras')}}">Camaras</a>
                                           </li>
                                           <li class="nav-item text-center">
-                                            <a class="nav-link" href="#">Diseño Corporativo</a>
+                                          <a class="nav-link" href="{{route('diseño')}}">Diseño Corporativo</a>
                                           </li>
                                           <li class="nav-item text-center">
-                                            <a class="nav-link" href="#">Microelectronica</a>
+                                          <a class="nav-link" href="{{route('equipos')}}">Equipos</a>
+                                          </li>
+                                          <li class="nav-item text-center">
+                                          <a class="nav-link" href="{{route('programacion')}}">Web y Movil</a>
+                                          </li>
+                                          <li class="nav-item text-center">
+                                          <a class="nav-link" href="{{route('microelectronica')}}">Microelectronica</a>
                                           </li>
                                           <li class="nav-item text-center">
                                             <a class="nav-link" href="#">Recuperacion de Datos</a>
-                                          </li>
-                                          <li class="nav-item text-center">
-                                            <a class="nav-link" href="#">Equipos</a>
                                           </li>
                                           <li class="nav-item text-center">
                                             <a class="nav-link" href="#">Consultoria</a>

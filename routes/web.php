@@ -49,6 +49,10 @@ Route::get('/express', function(){
     return view('express');
 })->name('express');
 
+Route::get('/equipos', function(){
+    return view('equipos');
+})->name('equipos');
+
 Route::get('/redes', function(){
     return view('redes');
 })->name('redes');
@@ -57,6 +61,25 @@ Route::get('/prog', function(){
     return view('programar');
 })->name('programacion');
 
+Route::get('/camaras',function(){
+    return view('camaras');
+})->name('camaras');
+
+Route::get('/equipos',function(){
+    return view('equipos');
+})->name('equipos');
+
+route::get('/recuperar',function(){
+    return view('recuperacion');
+})->name('recuperacion');
+
+
+route::get('/consultoria',function(){
+    return view('consultoria');
+})->name('consultoria');
+
+
+//ruta de prueba
 Route::get('/test',function(){
     $user=App\User::findOrFail(2);
     return $user->trabajos;

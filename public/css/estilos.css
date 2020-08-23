@@ -384,7 +384,7 @@ b {
   text-decoration: none;
 }
 .hero-image .siete {
-  background-image: url("../img/secciones/reparacion-hero-image.jpg");
+  background-image: url("../img/secciones/camaras/camara-hero-image.jpg");
   background-color: #323232;
   background-blend-mode: overlay;
   background-position: center;
@@ -495,13 +495,14 @@ b {
 /*=====services=====*/
 .hero-image {
   width: 100%;
+  margin-top: 50px;
 }
 .hero-image #reparacion {
   background-image: url("../img/secciones/reparacion-hero-image.jpg");
   background-color: #323232;
   background-blend-mode: overlay;
   background-position: center;
-  height: 350px;
+  height: 450px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -512,7 +513,7 @@ b {
   background-color: #323232;
   background-blend-mode: overlay;
   background-position: center;
-  height: 350px;
+  height: 450px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -523,7 +524,7 @@ b {
   background-color: #323232;
   background-blend-mode: overlay;
   background-position: center;
-  height: 350px;
+  height: 450px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -534,7 +535,7 @@ b {
   background-color: #323232;
   background-blend-mode: overlay;
   background-position: center;
-  height: 350px;
+  height: 450px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -545,7 +546,7 @@ b {
   background-color: #323232;
   background-blend-mode: overlay;
   background-position: center;
-  height: 350px;
+  height: 450px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -556,7 +557,7 @@ b {
   background-color: #323232;
   background-blend-mode: overlay;
   background-position: center;
-  height: 350px;
+  height: 450px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -567,7 +568,7 @@ b {
   background-color: #323232;
   background-blend-mode: overlay;
   background-position: center;
-  height: 350px;
+  height: 450px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -578,7 +579,40 @@ b {
   background-color: #323232;
   background-blend-mode: overlay;
   background-position: center;
-  height: 350px;
+  height: 450px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  width: 100%;
+}
+.hero-image #equipos {
+  background-image: url("../img/secciones/equipos/equipos-hero-image.jpg");
+  background-color: #323232;
+  background-blend-mode: overlay;
+  background-position: center;
+  height: 450px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  width: 100%;
+}
+.hero-image #recuperacion {
+  background-image: url("../img/secciones/recuperacion/recuperacion-hero-image.jpg");
+  background-color: #323232;
+  background-blend-mode: overlay;
+  background-position: center;
+  height: 450px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  width: 100%;
+}
+.hero-image #consultoria {
+  background-image: url("../img/secciones/consultoria/consultoria-hero-image.jpg");
+  background-color: #323232;
+  background-blend-mode: overlay;
+  background-position: center;
+  height: 450px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -691,7 +725,10 @@ b {
     height: 30px !important;
   }
 
-  .hero-image .uno, .hero-image .dos, .hero-image .tres, .hero-image .cuatro, .hero-image .cinco, .hero-image .seis, .hero-image #reparacion, .hero-image #gaming, .hero-image #design, .hero-image #microelectronica, .hero-image #redes {
+  .hero-image {
+    margin-top: 10px;
+  }
+  .hero-image .uno, .hero-image .dos, .hero-image .tres, .hero-image .cuatro, .hero-image .cinco, .hero-image .seis, .hero-image .siete, .hero-image #reparacion, .hero-image #gaming, .hero-image #design, .hero-image #microelectronica, .hero-image #redes {
     height: 400px;
   }
   .hero-image .content {
@@ -744,7 +781,7 @@ b {
   }
 
   .section {
-    padding: 5px 5px;
+    padding: 0;
   }
 
   .testimonials .carousel-item {

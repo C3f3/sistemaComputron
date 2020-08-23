@@ -3,18 +3,17 @@
 @section('content')
 <div class="section">
     
-    <!------------------Segunda Seccion --Gaming--------------->
+    <!------------------Primera Seccion --Reparacion--------------->
     <div class="section hero-image aos-item"   data-aos="zoom-in" data-aos-duration="1500">
-        <div class="container-fluid text-center d-flex align-items-center"  id="gaming">
+        <div class="container-fluid text-center d-flex align-items-center"  id="equipos">
             <div class="content mx-auto ">
-                <h2>Gaming</h2>
+                <h2>Armamos los equipos para tu emprendimiento</h2>
                 
                 <p>Descripcion</p>
             </div>
             
         </div>         
     </div>
-
     <div class="section bg-dark">
         <div class="py-5 container">
             <div class="content text-center">
@@ -27,8 +26,9 @@
         </div>
     </div>
     <div class="horizontal-divider mx-auto my-md-5" id="gaming"></div>
-     <!--cards-->
-     <div class="section bg-dark">
+
+    <!--cards-->
+    <div class="section bg-dark">
         <div class=" py-sm-3 py-md-3 container">
             <div class="row">
                 <div class="col-lg-3 col-sm-6">
@@ -36,7 +36,7 @@
                         <img src="img/about/eficienciaVerde.png" alt="eficiencia">
                    
                         <div class="text">
-                            <p>Nada supera un equipo a la medida de tus necesidades. Nosotros te asesoramos, armamos y configuramos tu computadora adaptada a tus requerimientos</p>
+                            <p> Nos ocupamos de realizar mantenimiento general del equipo, limpieza de archivos y optimizamos para un mejor rendimiento</p>
                         </div>
                     </div>
                 </div>
@@ -45,7 +45,7 @@
                         <img src="img/about/calidadVerde.png" alt="calidad">
                         
                         <div class="text">
-                            <p>Armamos PC gamers, PC para diseño grafico, equipos para oficina, o de uso particular. </p>
+                            <p>Instalación  y recambio de hardware en general: discos rígidos, memorias, placas, coolers, fuentes de alimentación y demas</p>
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
                         <img src="img/about/innovacionVerde.png" alt="innovacion">
                         
                         <div class="text">
-                            <p>Tu propio PC siempre tiene ventajas sobre rendimiento,personalizacion y precio.</p>
+                            <p>Hacemos formateo de computadora, instalacion de SO, antivirus, y programas. Recuperación de datos </p>
                         </div>
                     </div>
                 </div>
@@ -70,7 +70,7 @@
             </div>
           </div>
     </div>
-    
+
     <div class="horizontal-divider mx-auto my-5"></div>
 
     <div class="gallery">
@@ -78,18 +78,18 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="/img/secciones/gaming/gaming1.jpg" alt="">
+                    <img src="/img/secciones/equipos/computadora1.jpg" alt="">
                 </div>
                 <div class="col-md-6">
-                    <img src="/img/secciones/gaming/gaming2.jpg" alt="">
+                    <img src="/img/secciones/equipos/computadora2.jpg" alt="">
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <img src="/img/secciones/gaming/gaming3.jpg" alt="">
+                    <img src="/img/secciones/equipos/computadora3.jpg" alt="">
                 </div>
                 <div class="col-md-6">
-                    <img src="/img/secciones/gaming/gaming4.jpg" alt="">
+                    <img src="/img/secciones/equipos/computadora4.jpg" alt="">
                 </div>
             </div>
             
@@ -97,7 +97,7 @@
         </div>
     </div>
     <div class="horizontal-divider mx-auto my-5"></div>
-
+ 
 
 
 
