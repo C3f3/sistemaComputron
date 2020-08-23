@@ -99,10 +99,10 @@
                                           <a class="nav-link" href="{{route('microelectronica')}}">Microelectronica</a>
                                           </li>
                                           <li class="nav-item text-center">
-                                            <a class="nav-link" href="#">Recuperacion de Datos</a>
+                                          <a class="nav-link" href="{{route('recuperacion')}}">Recuperacion de Datos</a>
                                           </li>
                                           <li class="nav-item text-center">
-                                            <a class="nav-link" href="#">Consultoria</a>
+                                            <a class="nav-link" href="{{route('consultoria')}}">Consultoria</a>
                                           </li>
                                         </ul>
                                       </div>
@@ -117,10 +117,10 @@
                               </div>
                         </li>
                         <li class="nav-item {{setActive('productos')}} pl-md-0 ml-0 ml-md-4">
-                            <a class="nav-link" href="">Productos</a>
+                            <a class="nav-link" href="{{route('error')}}">Productos</a>
                         </li>
                         <li class="nav-item {{setActive('marketing')}} pl-md-0 ml-0 ml-md-4">
-                            <a class="nav-link" href="">Marketing</a>
+                            <a class="nav-link" href="{{route('error')}}">Marketing</a>
                         </li>
                         <li class="nav-item {{setActive('contact')}} pl-md-0 ml-0 ml-md-4">
                           <a class="nav-link" href="{{route('contact')}}">Contacto</a>
@@ -128,7 +128,7 @@
                     </ul>
                     <!--login-->
                     <div class="login mr-2 ml-2 pl-2 pr-2 my-auto text-center">
-                    <a href="{{route('login')}}">
+                    <a href="{{route('error')}}">
                             <ion-icon name="person-circle-outline"></ion-icon>
                             Ingresar
                         </a>

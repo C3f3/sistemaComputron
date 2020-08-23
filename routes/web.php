@@ -78,6 +78,9 @@ route::get('/consultoria',function(){
     return view('consultoria');
 })->name('consultoria');
 
+route::get('/error',function(){
+    return view('error');
+})->name('error');
 
 //ruta de prueba
 Route::get('/test',function(){
