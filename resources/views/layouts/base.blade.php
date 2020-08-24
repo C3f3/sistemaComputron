@@ -69,6 +69,9 @@
                                             <a class="nav-link" href="{{route('diseño')}}">Diseño</a>
                                           </li>
                                           <li class="nav-item text-center">
+                                            <a class="nav-link" href="{{route('camaras')}}">Camaras</a>
+                                          </li>
+                                          <li class="nav-item text-center">
                                             <a class="nav-link" href="{{route('express')}}">Serv. Express</a>
                                           </li>
                                         </ul>
