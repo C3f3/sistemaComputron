@@ -9,6 +9,16 @@
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+
+
+
+
                     </ol>
                     <div class="carousel-inner" role="listbox">
                         <!-- Slide One - Set the background image for this slide in the line below -->
@@ -17,7 +27,7 @@
                                 <img src="/img/slider/slider0.jpg" alt="">
                                 <div class="carousel-caption d-md-block">
                                     <h3 href="#" class="display-4">Gaming</h3>
-                                    <p class="lead">Imagina tu equipo. ¡Nosotros lo armamos!</p>
+                                    <p class="lead">Imaginá tu equipo. ¡Nosotros lo armamos!</p>
                                 </div>
                             </a>
                             
@@ -35,16 +45,87 @@
                         </div>
                         <!-- Slide Three - Set the background image for this slide in the line below -->
                         <div class="carousel-item" data-interval="1500">
-                            <a href="">
+                            <a href="#redes">
                                 <img src="/img/slider/slider2.jpg" alt="">
                                 <div class="carousel-caption d-md-block">
-                                    <h3 class="display-4">Compromiso</h3>
-                                    <p class="lead">Priorizamos las necesidades de nuestros clientes.</p>
+                                    <h3 class="display-4">Redes y Servidores</h3>
+                                    <p class="lead">!Hacemos instalación y manteniento¡</p>
+                                </div>
+                            </a>
+                            
+                        </div>
+                         <!-- Slide four -  -->
+
+                        <div class="carousel-item" data-interval="1500">
+                            <a href="#express">
+                                <img src="/img/slider/slider3.jpg" alt="">
+                                <div class="carousel-caption d-md-block">
+                                    <h3 class="display-4">Servicios Express</h3>
+                                    <p class="lead">Soluciones inmediatas</p>
+                                </div>
+                            </a>
+                            
+                        </div>
+
+                        <!--slider Five--->
+                        <div class="carousel-item" data-interval="1500">
+                            <a href="#programacion">
+                                <img src="/img/slider/slider4.jpg" alt="">
+                                <div class="carousel-caption d-md-block">
+                                    <h3 class="display-4">Paginas y Apps</h3>
+                                    <p class="lead">Potencia tu emprendimiento!</p>
+                                </div>
+                            </a>
+                            
+                        </div>
+
+                        <!--slider Six--->
+                        <div class="carousel-item" data-interval="1500">
+                            <a href="#diseño">
+                                <img src="/img/slider/slider5.jpg" alt="">
+                                <div class="carousel-caption d-md-block">
+                                    <h3 class="display-4">Diseño Grafico</h3>
+                                    <p class="lead">Construimos tu imagen</p>
+                                </div>
+                            </a>
+                            
+                        </div>
+                         <!--slider Seven--->
+                         <div class="carousel-item" data-interval="1500">
+                            <a href="#reparacion">
+                                <img src="/img/slider/slider6.jpg" alt="">
+                                <div class="carousel-caption d-md-block">
+                                    <h3 class="display-4">Notebook y Pc</h3>
+                                    <p class="lead">¡Arreglamos tu compu!</p>
+                                </div>
+                            </a>
+                            
+                        </div>
+                         <!--slider Eight--->
+                         <div class="carousel-item" data-interval="1500">
+                            <a href="#reparacion">
+                                <img src="/img/slider/slider7.jpg" alt="">
+                                <div class="carousel-caption d-md-block">
+                                    <h3 class="display-4">Lcd y Smart</h3>
+                                    <p class="lead">¡Arreglamos tu tele!</p>
+                                </div>
+                            </a>
+                            
+                        </div>
+
+                         <!--slider nine--->
+                         <div class="carousel-item" data-interval="1500">
+                            <a href="#reparacion">
+                                <img src="/img/slider/slider8.jpg" alt="">
+                                <div class="carousel-caption d-md-block">
+                                    <h3 class="display-4">Camaras</h3>
+                                    <p class="lead">¡descripcion!</p>
                                 </div>
                             </a>
                             
                         </div>
                     </div>
+
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Prev</span>
@@ -74,12 +155,6 @@
     </div>
 
 
-
-
-
-
-
-
     <div class="horizontal-divider mx-auto my-md-5" id="gaming"></div>
 
 
@@ -87,10 +162,10 @@
 
 
     <div class="section hero-image aos-item"   data-aos="zoom-in" data-aos-duration="1500">
-    <a class="container-fluid text-center uno  d-flex align-items-center"  href="{{route('gaming')}}">
+        <a class="container-fluid text-center uno  d-flex align-items-center"  href="{{route('gaming')}}">
             <div class="content mx-auto">
                 <h2>ARMA LA PC DE TUS SUEÑOS</h2>
-                <p id="headline">Nada supera el rendimiento de una pc a medida.</p>
+                <p id="headline2">Nada supera el rendimiento de una pc a medida.</p>
                 <p class="indicador mt-4"><ion-icon name="arrow-forward-circle-outline"></ion-icon></p>
             </div>
             
@@ -101,7 +176,7 @@
 
     <!------------------Segunda Seccion --Microelectronica --------------->
     <div class="section hero-image aos-item"   data-aos="zoom-in" data-aos-duration="1500">
-    <a class="container-fluid text-center dos  d-flex align-items-center"  href="{{route('microelectronica')}}">
+        <a class="container-fluid text-center dos  d-flex align-items-center"  href="{{route('microelectronica')}}">
             <div class="content mx-auto">
                 <h2>HACEMOS MICROELECTRÓNICA</h2>
                 <p id="headline">¡Arreglamos tus placas y equipos dañados!</p>
@@ -119,7 +194,7 @@
         <a class="container-fluid text-center tres  d-flex align-items-center"  href="">
             <div class="content mx-auto">
                 <h2>REDES Y SERVIDORES</h2>
-                <p id="headline2">Montamos tu red y optimizamos tus servidores.</p>
+                <p id="headline3">!Hacemos instalación y manteniento¡</p>
                 <p class="indicador mt-4"><ion-icon name="arrow-forward-circle-outline"></ion-icon></p>
 
             </div>
@@ -134,7 +209,7 @@
         <a class="container-fluid text-center cuatro d-flex align-items-center"  href="{{route('express')}}">
             <div class="content mx-auto">
                 <h2>SERVICIOS EXPRESS</h2>
-                <p id="headline">Conoce nuestros soluciones inmediatas.</p>
+                <p id="headline4">Conocé nuestros soluciones inmediatas.</p>
                 <p class="indicador mt-4"><ion-icon name="arrow-forward-circle-outline"></ion-icon></p>
 
             </div>
@@ -149,7 +224,7 @@
         <a class="container-fluid text-center cinco d-flex align-items-center"  href="{{route('programacion')}}">
             <div class="content mx-auto">
                 <h2>WEB Y MOVIL</h2>
-                <p id="headline3">Hacemos apps y webs ¡Entra al mundo digital!</p>
+                <p id="headline5">Hacemos apps y webs ¡Entra al mundo digital!</p>
                 <p class="indicador mt-4"><ion-icon name="arrow-forward-circle-outline"></ion-icon></p>
 
             </div>
@@ -165,7 +240,7 @@
     <a class="container-fluid text-center seis d-flex align-items-center"  href="{{route('diseño')}}">
             <div class="content mx-auto">
                 <h2>HACEMOS DISEÑO</h2>
-                <p id="headline3">¡Creamos estrategias y soluciones digitales para vos!</p>
+                <p id="headline6">¡Creamos estrategias y soluciones digitales para vos!</p>
                 <p class="indicador mt-4"><ion-icon name="arrow-forward-circle-outline"></ion-icon></p>
 
             </div>
@@ -177,10 +252,25 @@
 
     <!------------------Septima Seccion --reparacion --------------->  
     <div class="section hero-image aos-item"   data-aos="zoom-in" data-aos-duration="1500">
-    <a class="container-fluid text-center siete d-flex align-items-center"  href="{{route('reparacion')}}">
+        <a class="container-fluid text-center siete d-flex align-items-center"  href="{{route('reparacion')}}">
             <div class="content mx-auto">
                 <h2>Reparamos tu compu</h2>
-                <p id="headline3">Creamos estrategias y soluciones digitales para vos</p>
+                <p id="headline7">Creamos estrategias y soluciones digitales para vos</p>
+                <p class="indicador mt-4"><ion-icon name="arrow-forward-circle-outline"></ion-icon></p>
+
+            </div>
+            
+        </a>
+    </div>
+
+    <div class="horizontal-divider mx-auto my-md-5"  id="camaras"></div>
+
+    <!------------------Octava Seccion --camaras --------------->  
+    <div class="section hero-image aos-item"   data-aos="zoom-in" data-aos-duration="1500">
+        <a class="container-fluid text-center siete d-flex align-items-center"  href="{{route('reparacion')}}">
+            <div class="content mx-auto">
+                <h2>Camaras de Seguridad</h2>
+                <p id="headline7">Hay que poner algo aqui</p>
                 <p class="indicador mt-4"><ion-icon name="arrow-forward-circle-outline"></ion-icon></p>
 
             </div>

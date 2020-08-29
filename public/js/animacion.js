@@ -29,3 +29,7 @@ async  function tipear(id){
   document.onload =tipear("headline");
   document.onload = tipear("headline2");
   document.onload = tipear("headline3");
+  document.onload = tipear("headline4");
+  document.onload = tipear("headline5");
+  document.onload = tipear("headline6");
+  document.onload = tipear("headline7");

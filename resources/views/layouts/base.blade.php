@@ -14,7 +14,7 @@
 
     <link rel="stylesheet" href="/css/estilos.css">
     <link rel="shortcut icon" href="/img/logo-redondo.png" type="image/x-icon">
-    <title>Computron || Tu Solucion Informatica</title>
+    <title>Computron || Tu Solución Informatica</title>
 
 </head>
 
