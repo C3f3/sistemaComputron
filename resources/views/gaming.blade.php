@@ -9,7 +9,7 @@
             <div class="content mx-auto ">
                 <h2>Gaming</h2>
                 
-                <p>Descripcion</p>
+                <p>Conseguí la PC de tus sueños</p>
             </div>
             
         </div>         
@@ -18,11 +18,10 @@
     <div class="section bg-dark">
         <div class="py-5 container">
             <div class="content text-center">
-                <h2 class="font-weight-light text-white">Nuestro Servicios</h2>
-                <p class="text-white mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis iure,
-                    dolor vel eos corrupti in recusandae incidunt ipsum nihil praesentium doloremque
-                    commodi
-                    hic neque quae illo veniam repudiandae illum repellat?</p>
+                <h2 class="font-weight-light text-white">¿Que hacemos?</h2>
+                <p class="text-white mt-4 text-justify" >Al momento de intentar adquirir una PC, seguramente te preguntaras ¿Es mejor comprar o armar una computadora? 
+                    Ambas opciones tienen sus ventajas y desventajas, pero ambas opciones no son tarea fácil para la mayoría de las personas. </p>
+                <p class="text-white mt-4 text-justify">Nosotros somos especialistas en tecnología gamer. Acercate y te ayudamos.</p>
             </div>
         </div>
     </div>
@@ -31,42 +30,34 @@
      <div class="section bg-dark">
         <div class=" py-sm-3 py-md-3 container">
             <div class="row">
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-4 col-sm-4">
                     <div class="box-part text-center"  data-aos="flip-left" data-aos-duration="1500">
-                        <img src="img/about/eficienciaVerde.png" alt="eficiencia">
+                        <img src="img/about/gaming.png" alt="eficiencia">
                    
                         <div class="text">
-                            <p>Nada supera un equipo a la medida de tus necesidades. Nosotros te asesoramos, armamos y configuramos tu computadora adaptada a tus requerimientos</p>
+                            <p > Hacemos ensamblado y configuración para un mejor rendimiento. Nada supera un equipo a la medida de tus necesidades.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-4 col-sm-4">
                     <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500">
-                        <img src="img/about/calidadVerde.png" alt="calidad">
+                        <img src="img/about/presupuesto.png" alt="calidad">
                         
                         <div class="text">
-                            <p>Armamos PC gamers, PC para diseño grafico, equipos para oficina, o de uso particular. </p>
+                            <p>Encontra el equilibrio entre precio y calidad.Asesoramiento y ensamblado sin cargo.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-4 col-sm-4">
                     <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500">
-                        <img src="img/about/innovacionVerde.png" alt="innovacion">
+                        <img src="img/about/tendencia.png" alt="innovacion">
                         
                         <div class="text">
-                            <p>Tu propio PC siempre tiene ventajas sobre rendimiento,personalizacion y precio.</p>
+                            <p>Nos mantenemos informados de las ultimas tendencias. Compra tecnología de ultima generación</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500"> 
-                        <img src="img/about/comunicacionVerde.png" alt="comunicacion">
-                        
-                        <div class="text">
-                            <p>Instalación de drivers, impresoras, escaners.</p>
-                        </div>
-                    </div>
-                </div>
+    
             </div>
           </div>
     </div>

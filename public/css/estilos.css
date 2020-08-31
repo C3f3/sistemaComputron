@@ -469,7 +469,7 @@ b {
   margin: 20px 0px;
 }
 .box-part img {
-  height: 40px;
+  height: 80px;
 }
 
 .title {
@@ -721,6 +721,9 @@ b {
     margin-left: 0;
     width: 100%;
   }
+  .navbar .dropdown-menu .row #submenuEmpresa, .navbar .dropdown-menu .row #submenuHogar {
+    display: none;
+  }
   .navbar .dropdown-menu .row .nav-item {
     height: 30px !important;
   }
@@ -830,6 +833,9 @@ b {
     margin-right: 0;
     margin-left: 0;
     width: 100%;
+  }
+  .navbar .dropdown-menu .row #submenuEmpresa, .navbar .dropdown-menu .row #submenuHogar {
+    display: none;
   }
   .navbar .dropdown-menu .nav-item {
     height: 30px !important;

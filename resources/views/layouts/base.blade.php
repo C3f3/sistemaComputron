@@ -42,71 +42,80 @@
                         </li>
 
                         <li class="nav-item dropdown pl-md-0 ml-0 ml-md-4">
-                            <a class="nav-link dropdown-toggle" href="#" id="menu-services" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" id="menu-services" role="button" onclick="habilitarBoton()" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Servicios
                               </a>
 
-                              <div class="dropdown-menu" aria-labelledby="menu-services">
+                              <div class="dropdown-menu" aria-labelledby="menu-services" id="dropdown-menu">
                                 <div class="menu-services">
                                   <div class="container ">
                                     <div class="row">
                                       <div class="col-md-6">
   
                                         <ul class="nav flex-column">
-                                          <li class="nav-item text-center">
+                                          <li class="nav-item text-center" onclick="mostrarHogar()" >
                                             <span>Hogares</span>
                                           </li>
-                                          <li class="nav-item text-center">
-                                            <a class="nav-link" href="{{route('gaming')}}">Gaming</a>
-                                          </li>
-                                          <li class="nav-item text-center">
-                                            <a class="nav-link" href="{{route('reparacion')}}">Pc y Notebook</a>
-                                          </li>
-                                          <li class="nav-item text-center">
-                                            <a class="nav-link" href="{{route('microelectronica')}}">Microelectronica</a>
-                                          </li>
-                                          <li class="nav-item text-center">
-                                            <a class="nav-link" href="{{route('diseño')}}">Diseño</a>
-                                          </li>
-                                          <li class="nav-item text-center">
-                                            <a class="nav-link" href="{{route('camaras')}}">Camaras</a>
-                                          </li>
-                                          <li class="nav-item text-center">
-                                            <a class="nav-link" href="{{route('express')}}">Serv. Express</a>
-                                          </li>
+                                          <div id="submenuHogar">
+                                            <li class="nav-item text-center">
+                                              <a class="nav-link" href="{{route('gaming')}}">Gaming</a>
+                                            </li>
+                                            <li class="nav-item text-center">
+                                              <a class="nav-link" href="{{route('reparacion')}}">Pc y Notebook</a>
+                                            </li>
+                                            <li class="nav-item text-center">
+                                              <a class="nav-link" href="{{route('microelectronica')}}">Microelectronica</a>
+                                            </li>
+                                            <li class="nav-item text-center">
+                                              <a class="nav-link" href="{{route('diseño')}}">Diseño</a>
+                                            </li>
+                                            <li class="nav-item text-center">
+                                              <a class="nav-link" href="{{route('camaras')}}">Camaras</a>
+                                            </li>
+                                            <li class="nav-item text-center">
+                                              <a class="nav-link" href="{{route('express')}}">Serv. Express</a>
+                                            </li>
+                                            <li class="nav-item text-center">
+                                              <a class="nav-link" href="">Tv, LCD y Smart</a>
+                                            </li>
+                                          </div>
+                                         
                                         </ul>
   
                                       </div>
                                      
                                       <div class="col-md-6">
                                         <ul class="nav flex-column">
-                                          <li class="nav-item text-center">
+                                          <li class="nav-item text-center" onclick="mostrarEmpresa()">
                                             <span>Empresas</span>
                                           </li>
-                                          <li class="nav-item text-center">
-                                          <a class="nav-link" href="{{route('redes')}}">Redes y Servidores</a>
-                                          </li>
-                                          <li class="nav-item text-center">
-                                          <a class="nav-link" href="{{route('camaras')}}">Camaras</a>
-                                          </li>
-                                          <li class="nav-item text-center">
-                                          <a class="nav-link" href="{{route('diseño')}}">Diseño Corporativo</a>
-                                          </li>
-                                          <li class="nav-item text-center">
-                                          <a class="nav-link" href="{{route('equipos')}}">Equipos</a>
-                                          </li>
-                                          <li class="nav-item text-center">
-                                          <a class="nav-link" href="{{route('programacion')}}">Web y Movil</a>
-                                          </li>
-                                          <li class="nav-item text-center">
-                                          <a class="nav-link" href="{{route('microelectronica')}}">Microelectronica</a>
-                                          </li>
-                                          <li class="nav-item text-center">
-                                          <a class="nav-link" href="{{route('recuperacion')}}">Recuperacion de Datos</a>
-                                          </li>
-                                          <li class="nav-item text-center">
-                                            <a class="nav-link" href="{{route('consultoria')}}">Consultoria</a>
-                                          </li>
+                                          <div id="submenuEmpresa">
+                                            <li class="nav-item text-center">
+                                              <a class="nav-link" href="{{route('redes')}}">Redes y Servidores</a>
+                                              </li>
+                                              <li class="nav-item text-center">
+                                              <a class="nav-link" href="{{route('camaras')}}">Camaras</a>
+                                              </li>
+                                              <li class="nav-item text-center">
+                                              <a class="nav-link" href="{{route('diseño')}}">Diseño Corporativo</a>
+                                              </li>
+                                              <li class="nav-item text-center">
+                                              <a class="nav-link" href="{{route('equipos')}}">Equipos</a>
+                                              </li>
+                                              <li class="nav-item text-center">
+                                              <a class="nav-link" href="{{route('programacion')}}">Web y Movil</a>
+                                              </li>
+                                              <li class="nav-item text-center">
+                                              <a class="nav-link" href="{{route('microelectronica')}}">Microelectronica</a>
+                                              </li>
+                                              <li class="nav-item text-center">
+                                              <a class="nav-link" href="{{route('recuperacion')}}">Recuperacion de Datos</a>
+                                              </li>
+                                              <li class="nav-item text-center">
+                                                <a class="nav-link" href="{{route('consultoria')}}">Consultoria</a>
+                                              </li>
+                                          </div>
+                                          
                                         </ul>
                                       </div>
                                     
@@ -182,7 +191,55 @@
         <script src="/js/animacion.js"></script>
         <script>
           AOS.init();
+
+          function mostrarHogar(){
+
+            if(window.innerWidth <=767){
+              document.getElementById('menu-services').setAttribute('data-toggle','disabled');   
+          
+            var submenu= document.getElementById('submenuHogar');
+            var estilo =window.getComputedStyle(submenu);
+            var propiedad = estilo.getPropertyValue('display');
+            
+            if(propiedad == 'none'){
+               submenu.style.display='block';
+               
+               
+            }
+            else{
+              submenu.style.display  = 'none';
+            }
+            }
+            
+           
+          }
+
+          function mostrarEmpresa(){
+            if(window.innerWidth <=767){
+              document.getElementById('menu-services').setAttribute('data-toggle','disabled');
+
+            var submenu= document.getElementById('submenuEmpresa');
+            var estilo =window.getComputedStyle(submenu);
+            var propiedad = estilo.getPropertyValue('display');
+            
+            if(propiedad == 'none'){
+               submenu.style.display='block';
+               
+               
+            }
+            else{
+              submenu.style.display  = 'none';
+            }
+            }
+            
+              
+          }
+
+          function habilitarBoton(){
+            var boton = document.getElementById('menu-services').setAttribute('data-toggle','dropdown');
+          }
         </script>
+
     </body>
     
     </html>

@@ -14,6 +14,8 @@
 
 	<!-- Custom stlylesheet -->
 	<link type="text/css" rel="stylesheet" href="/css/errores/style.css" />
+	<link rel="shortcut icon" href="/img/logo-redondo.png" type="image/x-icon">
+    <title>Computron || Tu Solución Informatica</title>
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,7 +32,7 @@
 		<div class="notfound">
 			<div class="notfound-404">
 				<h1>Oops!</h1>
-				<h2>Esta Seccion esta en construccion</h2>
+				<h2>Esta Sección esta en construcción</h2>
 			</div>
         <a href="{{route('inicio')}}">Volver a INICIO</a>
 		</div>
