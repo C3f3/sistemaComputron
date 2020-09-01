@@ -8,7 +8,7 @@
         <div class="container-fluid text-center d-flex align-items-center"  id="design">
             <div class="content mx-auto ">
                 <h2>Diseño Grafico</h2>
-                <p>Descripcion</p>
+                <p>Creamos la imagen visual y brindamos soluciones gráficas a particulares y empresas.</p>
             </div>
             
         </div>         
@@ -16,11 +16,8 @@
     <div class="section bg-dark">
         <div class="py-5 container">
             <div class="content text-center">
-                <h2 class="font-weight-light text-white">Nuestro Servicios</h2>
-                <p class="text-white mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis iure,
-                    dolor vel eos corrupti in recusandae incidunt ipsum nihil praesentium doloremque
-                    commodi
-                    hic neque quae illo veniam repudiandae illum repellat?</p>
+                <h2 class="font-weight-light text-white">¿Que ofrecemos?</h2>
+                <p class="text-white mt-4">Tenemos la experiencia y la formacion para darte soluciones graficas orientadas a comunicar y promover tus productos y servicios. Ofrecemos un servicio personalizado y flexible según las necesidades de cada cliente.</p>
             </div>
         </div>
     </div>
@@ -34,7 +31,7 @@
                         <img src="img/about/eficienciaVerde.png" alt="eficiencia">
                    
                         <div class="text">
-                            <p> Nos ocupamos de realizar mantenimiento general del equipo, limpieza de archivos y optimizamos para un mejor rendimiento</p>
+                            <p> </p>
                         </div>
                     </div>
                 </div>

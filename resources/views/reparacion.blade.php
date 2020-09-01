@@ -9,7 +9,7 @@
             <div class="content mx-auto ">
                 <h2>Reparacion de</h2>
                 <h2>PC y Notebook</h2>
-                <p>Descripcion</p>
+                <p>Reparamos, mejoramos y mantenemos tu equipo en su mejor funcionamiento</p>
             </div>
             
         </div>         
@@ -17,11 +17,9 @@
     <div class="section bg-dark">
         <div class="py-5 container">
             <div class="content text-center">
-                <h2 class="font-weight-light text-white">Nuestro Servicios</h2>
-                <p class="text-white mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis iure,
-                    dolor vel eos corrupti in recusandae incidunt ipsum nihil praesentium doloremque
-                    commodi
-                    hic neque quae illo veniam repudiandae illum repellat?</p>
+                <h2 class="font-weight-light text-white">Nuestro Servicio</h2>
+                <p class="text-white mt-4 text-justify">Nos dedicamos a ofrecer servicios técnicos integrales de equipos informáticos, 
+                    asegurando calidad y confiabilidad en todos nuestros trabajos. Ofrecemos un diagnóstico preciso y atención personalizada.</p>
             </div>
         </div>
     </div>
@@ -33,37 +31,37 @@
             <div class="row">
                 <div class="col-lg-3 col-sm-6">
                     <div class="box-part text-center"  data-aos="flip-left" data-aos-duration="1500">
-                        <img src="img/about/eficienciaVerde.png" alt="eficiencia">
+                        <img src="img/secciones/reparacion/icono-1.png" alt="eficiencia">
                    
                         <div class="text">
-                            <p> Nos ocupamos de realizar mantenimiento general del equipo, limpieza de archivos y optimizamos para un mejor rendimiento</p>
+                            <p>Realizamos mantenimiento de equipos, formateo  y configuraciones para mejorar el rendimiento.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500">
-                        <img src="img/about/calidadVerde.png" alt="calidad">
+                        <img src="img/secciones/reparacion/icono-2.png" alt="calidad">
                         
                         <div class="text">
-                            <p>Instalación  y recambio de hardware en general: discos rígidos, memorias, placas, coolers, fuentes de alimentación y demas</p>
+                            <p>Instalación  y recambio de hardware en general: discos rígidos, memorias, placas, coolers, fuentes de alimentación y mucho más.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500">
-                        <img src="img/about/innovacionVerde.png" alt="innovacion">
+                        <img src="img/secciones/reparacion/icono-3.png" alt="innovacion">
                         
                         <div class="text">
-                            <p>Hacemos formateo de computadora, instalacion de SO, antivirus, y programas. Recuperación de datos </p>
+                            <p>Hacemos instalación de SO, antivirus y programas en gral. Formateamos tu compu para un mejor funcionamiento.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500"> 
-                        <img src="img/about/comunicacionVerde.png" alt="comunicacion">
+                        <img src="img/secciones/reparacion/icono-4.png" alt="comunicacion">
                         
                         <div class="text">
-                            <p>Instalación de drivers, impresoras, escaners.</p>
+                            <p>Instalación de drivers, impresoras, escaners. Recuperación de datos. Reprogramacion de bios.</p>
                         </div>
                     </div>
                 </div>
