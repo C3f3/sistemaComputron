@@ -28,37 +28,37 @@
             <div class="row">
                 <div class="col-lg-3 col-sm-6">
                     <div class="box-part text-center"  data-aos="flip-left" data-aos-duration="1500">
-                        <img src="img/about/eficienciaVerde.png" alt="eficiencia">
+                        <img src="img/secciones/design/icono-1.png" alt="eficiencia">
                    
                         <div class="text">
-                            <p> </p>
+                            <p> Elaboramos logotipos, folletos, tarjetas personales, flyers, catálogos, menús y mucho más. Creamos tu identidad visual.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500">
-                        <img src="img/about/calidadVerde.png" alt="calidad">
+                        <img src="img/secciones/design/icono-2.png" alt="calidad">
                         
                         <div class="text">
-                            <p>Instalación  y recambio de hardware en general: discos rígidos, memorias, placas, coolers, fuentes de alimentación y demas</p>
+                            <p>Diseñamos material grafico para eventos sociales y corporativos. Confeccionamos invitaciones para cumpleaños, casamientos, bautismos y celebraciones en general.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500">
-                        <img src="img/about/innovacionVerde.png" alt="innovacion">
+                        <img src="img/secciones/design/icono-3.png" alt="innovacion">
                         
                         <div class="text">
-                            <p>Hacemos formateo de computadora, instalacion de SO, antivirus, y programas. Recuperación de datos </p>
+                            <p>Ideamos ilustraciones para marketing. Diseñamos material para portadas de redes sociales, publicidad, perfiles corporativos, fan pages y posteos. Creamos etiquetas para packaging.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500"> 
-                        <img src="img/about/comunicacionVerde.png" alt="comunicacion">
+                        <img src="img/secciones/design/icono-4.png" alt="comunicacion">
                         
                         <div class="text">
-                            <p>Instalación de drivers, impresoras, escaners.</p>
+                            <p>Trabajamos con fotógrafos profesionales. Hacemos producción, edición y retoque digital de fotos. También edición de videos. </p>
                         </div>
                     </div>
                 </div>

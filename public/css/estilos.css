@@ -575,7 +575,7 @@ b {
   width: 100%;
 }
 .hero-image #camaras {
-  background-image: url("../img/secciones/camara-hero-image.jpg");
+  background-image: url("../img/secciones/camaras/camara-hero-image.jpg");
   background-color: #323232;
   background-blend-mode: overlay;
   background-position: center;

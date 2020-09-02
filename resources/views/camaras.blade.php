@@ -3,12 +3,12 @@
 @section('content')
 <div class="section">
     
-    <!------------------Primera Seccion --Reparacion--------------->
+    <!------------------camaras--------------->
     <div class="section hero-image aos-item"   data-aos="zoom-in" data-aos-duration="1500">
-        <div class="container-fluid text-center d-flex align-items-center"  id="reparacion">
+        <div class="container-fluid text-center d-flex align-items-center"  id="camaras">
             <div class="content mx-auto ">
                 <h2>Camaras de  seguridad</h2>
-                <p>Descripcion</p>
+                <p>La solución que necesitas.</p>
             </div>
             
         </div>         
@@ -16,15 +16,13 @@
     <div class="section bg-dark">
         <div class="py-5 container">
             <div class="content text-center">
-                <h2 class="font-weight-light text-white">Nuestro Servicios</h2>
-                <p class="text-white mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis iure,
-                    dolor vel eos corrupti in recusandae incidunt ipsum nihil praesentium doloremque
-                    commodi
-                    hic neque quae illo veniam repudiandae illum repellat?</p>
+                <h2 class="font-weight-light text-white">Sobre el Servicio</h2>
+                <p class="text-white mt-4">Hace un tiempo pensar que un negocio o particular pueda tener su propio sistema de cámaras de seguridad implicaba un gran costo. 
+                    Hoy es posible tener el control total de nuestros bienes con un sistema de vigilancia a precios muy económicos, que hasta puede ser monitoreado desde internet por medio de cualquier dispositivo.</p>
             </div>
         </div>
     </div>
-    <div class="horizontal-divider mx-auto my-md-5" id="gaming"></div>
+    <div class="horizontal-divider mx-auto my-md-5"></div>
 
     <!--cards-->
     <div class="section bg-dark">
@@ -32,37 +30,37 @@
             <div class="row">
                 <div class="col-lg-3 col-sm-6">
                     <div class="box-part text-center"  data-aos="flip-left" data-aos-duration="1500">
-                        <img src="img/about/eficienciaVerde.png" alt="eficiencia">
+                        <img src="img/secciones/camaras/icono-1.png" alt="eficiencia">
                    
                         <div class="text">
-                            <p> Nos ocupamos de realizar mantenimiento general del equipo, limpieza de archivos y optimizamos para un mejor rendimiento</p>
+                            <p>Instalaciones en exterior e interior de sistema CCTV o IP. Podra ver su vivienda o negocio a traves de internet en vivo las 24hs. </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500">
-                        <img src="img/about/calidadVerde.png" alt="calidad">
+                        <img src="img/secciones/camaras/icono-2.png" alt="calidad">
                         
                         <div class="text">
-                            <p>Instalación  y recambio de hardware en general: discos rígidos, memorias, placas, coolers, fuentes de alimentación y demas</p>
+                            <p>Realizamos trabajos en interior y exterior, adaptandolos al tamaño de los espacios y la distribucion de los elementos. Sin puntos ciegos.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500">
-                        <img src="img/about/innovacionVerde.png" alt="innovacion">
+                        <img src="img/secciones/camaras/icono-3.png" alt="innovacion">
                         
                         <div class="text">
-                            <p>Hacemos formateo de computadora, instalacion de SO, antivirus, y programas. Recuperación de datos </p>
+                            <p>Trabajamos con varias marcas. Aseguramos calidad y seguridad. Nos adaptamosa tu presupuesto. </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
+                    <img src="img/secciones/camaras/icono-4.png" alt="comunicacion">
                     <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500"> 
-                        <img src="img/about/comunicacionVerde.png" alt="comunicacion">
                         
                         <div class="text">
-                            <p>Instalación de drivers, impresoras, escaners.</p>
+                            <p>Luego de la instalación te enseñamos a usar el sistema de camaras, visualizaciones de grabaciones y vista remota.</p>
                         </div>
                     </div>
                 </div>
