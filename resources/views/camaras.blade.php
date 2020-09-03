@@ -51,16 +51,16 @@
                         <img src="img/secciones/camaras/icono-3.png" alt="innovacion">
                         
                         <div class="text">
-                            <p>Trabajamos con varias marcas. Aseguramos calidad y seguridad. Nos adaptamosa tu presupuesto. </p>
+                            <p>Trabajamos con varias marcas. Aseguramos calidad y seguridad. Nos adaptamos a tu presupuesto. </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
-                    <img src="img/secciones/camaras/icono-4.png" alt="comunicacion">
+                   
                     <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500"> 
-                        
+                        <img src="img/secciones/camaras/icono-4.png" alt="comunicacion">
                         <div class="text">
-                            <p>Luego de la instalación te enseñamos a usar el sistema de camaras, visualizaciones de grabaciones y vista remota.</p>
+                            <p>Luego de la instalación te enseñamos a usar el sistema de camaras, las visualizaciones de las grabaciones y vistas remota.</p>
                         </div>
                     </div>
                 </div>
