@@ -76,7 +76,7 @@
                                               <a class="nav-link" href="{{route('express')}}">Serv. Express</a>
                                             </li>
                                             <li class="nav-item text-center">
-                                              <a class="nav-link" href="">Tv, LCD y Smart</a>
+                                            <a class="nav-link" href="{{route('tv')}}">Tv, LCD y Smart</a>
                                             </li>
                                           </div>
                                          

@@ -618,6 +618,17 @@ b {
   background-size: cover;
   width: 100%;
 }
+.hero-image #televisores {
+  background-image: url("../img/secciones/televisores/tv-hero-image.jpg");
+  background-color: #323232;
+  background-blend-mode: overlay;
+  background-position: center;
+  height: 450px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  width: 100%;
+}
 
 .gallery {
   width: 100%;
