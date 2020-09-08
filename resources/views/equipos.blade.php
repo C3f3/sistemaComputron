@@ -9,7 +9,7 @@
             <div class="content mx-auto ">
                 <h2>Armamos los equipos para tu emprendimiento</h2>
                 
-                <p>Descripcion</p>
+                <p>Potencia tu negocio</p>
             </div>
             
         </div>         
@@ -17,11 +17,8 @@
     <div class="section bg-dark">
         <div class="py-5 container">
             <div class="content text-center">
-                <h2 class="font-weight-light text-white">Nuestro Servicios</h2>
-                <p class="text-white mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis iure,
-                    dolor vel eos corrupti in recusandae incidunt ipsum nihil praesentium doloremque
-                    commodi
-                    hic neque quae illo veniam repudiandae illum repellat?</p>
+                <h2 class="font-weight-light text-white">Nuestro Servicio</h2>
+                <p class="text-white mt-4">Asesoramos en forma personal en el proceso de compra de partes y componentes de PC con los mejores precios del mercado, y los componentes de mayor calidad. Además realizamos el mantenimiento adecuado de las mismas.</p>
             </div>
         </div>
     </div>
@@ -36,7 +33,7 @@
                         <img src="img/about/eficienciaVerde.png" alt="eficiencia">
                    
                         <div class="text">
-                            <p> Nos ocupamos de realizar mantenimiento general del equipo, limpieza de archivos y optimizamos para un mejor rendimiento</p>
+                            <p> Lo mejor es tener un equipo a medida para que cumpla con tus expectativas. Nosotros te armamos y configuramos tu computadora adaptada a las necesidades de tu negocio.</p>
                         </div>
                     </div>
                 </div>
@@ -45,7 +42,7 @@
                         <img src="img/about/calidadVerde.png" alt="calidad">
                         
                         <div class="text">
-                            <p>Instalación  y recambio de hardware en general: discos rígidos, memorias, placas, coolers, fuentes de alimentación y demas</p>
+                            <p>Trabajamos con PC para diseño grafico, equipo para oficina, o de uso particular</p>                        
                         </div>
                     </div>
                 </div>
@@ -54,7 +51,9 @@
                         <img src="img/about/innovacionVerde.png" alt="innovacion">
                         
                         <div class="text">
-                            <p>Hacemos formateo de computadora, instalacion de SO, antivirus, y programas. Recuperación de datos </p>
+                            <p>Armar un PC propio tiene ventajas sobre personalización, precio y actualización.
+
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -63,7 +62,7 @@
                         <img src="img/about/comunicacionVerde.png" alt="comunicacion">
                         
                         <div class="text">
-                            <p>Instalación de drivers, impresoras, escaners.</p>
+                            <p>Vas tener el control entero del hardware decidiendo sobre la calidad de los componentes. Nosotros te asesoramos</p>
                         </div>
                     </div>
                 </div>
