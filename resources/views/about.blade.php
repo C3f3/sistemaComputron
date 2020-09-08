@@ -104,12 +104,10 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active text-center">
                         <blockquote class="blockquote text-center">
-                            <p class="mb-0">Everybody is a genius. But if you judge
-                                a fish by its ability to climb a tree, it will live its whole life believing that it
-                                is stupid.
+                            <p class="mb-0">Excelente servicio. Lleve mi Smart y en tiempo y forma me lo entregaron. Felicitaciones!!
                             </p>
-                            <footer class="blockquote-footer">Albert Einstein <cite
-                                    title="Source Title">genius</cite></footer>
+                            <footer class="blockquote-footer">Jairo Vasquez<cite
+                                    title="Source Title">Cliente</cite></footer>
                             <!-- Client review stars -->
                             <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
                             <p class="client-review-stars">
@@ -123,11 +121,11 @@
                     </div>
                     <div class="carousel-item text-center ">
                         <blockquote class="blockquote text-center">
-                            <p class="mb-0">  Imagination is more important than
-                                knowledge. Knowledge is limited. Imagination encircles the world.
+                            <p class="mb-0">Me encanto la asistencia y la atención. Los recomiendo. Se nota el compromiso con sus 
+                                clientes. Gracias Computron.
                             </p>
-                            <footer class="blockquote-footer">Albert Einstein <cite
-                                    title="Source Title">genius</cite></footer>
+                            <footer class="blockquote-footer">Marcos Cardozo <cite
+                                    title="Source Title">Cliente</cite></footer>
                             <!-- Client review stars -->
                             <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
                             <p class="client-review-stars">
