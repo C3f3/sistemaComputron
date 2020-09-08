@@ -496,7 +496,6 @@ b {
 /*=====services=====*/
 .hero-image {
   width: 100%;
-  margin-top: 50px;
 }
 .hero-image #reparacion {
   background-image: url("../img/secciones/reparacion-hero-image.jpg");
@@ -880,6 +879,11 @@ b {
     min-height: 350px;
     height: 350px;
     width: 100%;
+  }
+
+  .horizontal-divider {
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
 /* Medium devices (tablets, 768px and up)*/
