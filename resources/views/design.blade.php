@@ -84,7 +84,7 @@
                     <img src="/img/secciones/design/design3.jpg" alt="">
                 </div>
                 <div class="col-md-6">
-                    <img src="/img/secciones/microelectronica/micro4.jpg" alt="">
+                    <img src="/img/secciones/design/design4.jpg" alt="">
                 </div>
             </div>
             
