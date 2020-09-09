@@ -17,7 +17,9 @@
         <div class="py-5 container">
             <div class="content text-center">
                 <h2 class="font-weight-light text-white">Nuestro Servicio</h2>
-                <p class="text-white mt-4 text-justify">Reparamos fallas en Televisores LCD LED  y  SMART TV. Una vez recibido el televisor en nuestro taller (consulte nuestros SERVICIOS EXPRESS), hacemos el diagnostico y te los comunicamos lo mas rapido posible. Trabajos garantizados y presupuestos sin cargo.</p>
+                <p class="text-white mt-4 text-justify">Reparamos fallas en Televisores LCD LED  y  SMART TV. 
+                    Una vez recibido el televisor en nuestro taller o retirado del domicilio(consulte nuestros SERVICIOS EXPRESS), hacemos el diagnostico y te los comunicamos lo mas rapido posible. 
+                    Trabajos garantizados y presupuestos sin cargo.</p>
             </div>
         </div>
     </div>
@@ -27,42 +29,34 @@
     <div class="section bg-dark">
         <div class=" py-sm-3 py-md-3 container">
             <div class="row">
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-4 col-sm-12">
                     <div class="box-part text-center"  data-aos="flip-left" data-aos-duration="1500">
-                        <img src="img/secciones/reparacion/icono-1.png" alt="eficiencia">
+                        <img src="img/secciones/televisores/icono-1.png" alt="garantia">
                    
                         <div class="text">
-                            <p>Realizamos mantenimiento de equipos, formateo  y configuraciones para mejorar el rendimiento.</p>
+                            <p>No pases un minuto mas con tu tele roto, reparalo hoy en nuestro laboratorio tecnico. Garantia local asegurada.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-4 col-sm-12">
                     <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500">
-                        <img src="img/secciones/reparacion/icono-2.png" alt="calidad">
+                        <img src="img/secciones/televisores/icono-2.png" alt="reparacion">
                         
                         <div class="text">
-                            <p>Instalación  y recambio de hardware en general: discos rígidos, memorias, placas, coolers, fuentes de alimentación y mucho más.</p>
+                            <p>Hacemos hacemos diagnosticos generales. Reparamos las principales fallas. Recambios de LEDs, filtros y capacitores. </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-4 col-sm-12">
                     <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500">
-                        <img src="img/secciones/reparacion/icono-3.png" alt="innovacion">
+                        <img src="img/secciones/televisores/icono-3.png" alt="electronica">
                         
                         <div class="text">
-                            <p>Hacemos instalación de SO, antivirus y programas en gral. Formateamos tu compu para un mejor funcionamiento.</p>
+                            <p>Realizamos trabajos a nivel de microelectronica. Reprogramacion de EEPROM. Reducción de voltajes.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500"> 
-                        <img src="img/secciones/reparacion/icono-4.png" alt="comunicacion">
-                        
-                        <div class="text">
-                            <p>Instalación de drivers, impresoras, escaners. Recuperación de datos. Reprogramacion de bios.</p>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
           </div>
     </div>
