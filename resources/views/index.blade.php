@@ -119,7 +119,7 @@
                                 <img src="/img/slider/slider8.jpg" alt="">
                                 <div class="carousel-caption d-md-block">
                                     <h3 class="display-4">Camaras</h3>
-                                    <p class="lead">¡descripcion!</p>
+                                    <p class="lead">Seguridad y Calidad.</p>
                                 </div>
                             </a>
                             
@@ -255,7 +255,7 @@
         <a class="container-fluid text-center siete d-flex align-items-center"  href="{{route('reparacion')}}">
             <div class="content mx-auto">
                 <h2>Reparamos tu compu</h2>
-                <p id="headline7">Creamos estrategias y soluciones digitales para vos</p>
+                <p id="headline7">Garantia y profesionalismo</p>
                 <p class="indicador mt-4"><ion-icon name="arrow-forward-circle-outline"></ion-icon></p>
 
             </div>
@@ -267,10 +267,10 @@
 
     <!------------------Octava Seccion --camaras --------------->  
     <div class="section hero-image aos-item"   data-aos="zoom-in" data-aos-duration="1500">
-        <a class="container-fluid text-center siete d-flex align-items-center"  href="{{route('reparacion')}}">
+        <a class="container-fluid text-center ocho d-flex align-items-center"  href="{{route('camaras')}}">
             <div class="content mx-auto">
                 <h2>Camaras de Seguridad</h2>
-                <p id="headline7">Hay que poner algo aqui</p>
+                <p id="headline8">¡Seguridad al mejor costo!</p>
                 <p class="indicador mt-4"><ion-icon name="arrow-forward-circle-outline"></ion-icon></p>
 
             </div>
