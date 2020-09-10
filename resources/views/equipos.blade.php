@@ -30,7 +30,7 @@
             <div class="row">
                 <div class="col-lg-3 col-sm-6">
                     <div class="box-part text-center"  data-aos="flip-left" data-aos-duration="1500">
-                        <img src="img/about/eficienciaVerde.png" alt="eficiencia">
+                        <img src="img/secciones/equipos/icono-1.png" alt="eficiencia">
                    
                         <div class="text">
                             <p> Lo mejor es tener un equipo a medida para que cumpla con tus expectativas. Nosotros te armamos y configuramos tu computadora adaptada a las necesidades de tu negocio.</p>
@@ -39,7 +39,7 @@
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500">
-                        <img src="img/about/calidadVerde.png" alt="calidad">
+                        <img src="img/secciones/equipos/icono-2.png" alt="calidad">
                         
                         <div class="text">
                             <p>Trabajamos con PC para diseño grafico, equipo para oficina, o de uso particular</p>                        
@@ -48,7 +48,7 @@
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500">
-                        <img src="img/about/innovacionVerde.png" alt="innovacion">
+                        <img src="img/secciones/equipos/icono-3.png" alt="innovacion">
                         
                         <div class="text">
                             <p>Armar un PC propio tiene ventajas sobre personalización, precio y actualización.
@@ -59,7 +59,7 @@
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500"> 
-                        <img src="img/about/comunicacionVerde.png" alt="comunicacion">
+                        <img src="img/secciones/equipos/icono-4.png" alt="comunicacion">
                         
                         <div class="text">
                             <p>Vas tener el control entero del hardware decidiendo sobre la calidad de los componentes. Nosotros te asesoramos</p>
