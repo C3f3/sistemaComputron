@@ -10,7 +10,7 @@
         <div class="container-fluid text-center d-flex align-items-center"  id="programar">
             <div class="content mx-auto ">
                 <h2>Webs y Apps</h2>
-                <p>Descripcion</p>
+                <p>Poténcia tu emprendimiento</p>
             </div>
             
         </div>         
@@ -19,11 +19,8 @@
     <div class="section bg-dark">
         <div class="py-5 container">
             <div class="content text-center">
-                <h2 class="font-weight-light text-white">Nuestro Servicios</h2>
-                <p class="text-white mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis iure,
-                    dolor vel eos corrupti in recusandae incidunt ipsum nihil praesentium doloremque
-                    commodi
-                    hic neque quae illo veniam repudiandae illum repellat?</p>
+                <h2 class="font-weight-light text-white">Nuestros Servicios</h2>
+                <p class="text-white mt-4">¡Obten el maximo potencial para tu negocio, entra al mundo digital! Desarrollamos sistemas a medida, paginas webs y aplicaciones moviles. Ayudamos a mejorar cualquier industria mediante la tecnologia adecuada. Acercate y te asesoramos sin cargo.</p>
             </div>
         </div>
     </div>
@@ -36,38 +33,38 @@
             <div class="row">
                 <div class="col-lg-3 col-sm-6">
                     <div class="box-part text-center"  data-aos="flip-left" data-aos-duration="1500">
-                        <img src="img/about/eficienciaVerde.png" alt="eficiencia">
+                        <img src="img/secciones/programacion/icono-1.png" alt="diseño">
                    
                         <div class="text">
-                            <p> Nos ocupamos de realizar mantenimiento general del equipo, limpieza de archivos y optimizamos para un mejor rendimiento</p>
+                            <p> Nos especializamos en el desarrollo de paginas webs y aplicaciones moviles adaptadas a tus necesidades y tus gustos.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500">
-                        <img src="img/about/calidadVerde.png" alt="calidad">
+                        <img src="img/secciones/programacion/icono-2.png" alt="web">
                         
                         <div class="text">
-                            <p>Instalación  y recambio de hardware en general: discos rígidos, memorias, placas, coolers, fuentes de alimentación y demas</p>
+                            <p>Hacemos paginas institucionales, landing-pages, tiendas on-line, sistemas administrativos y aplicaciones webs en general. 100% adaptables a multiples dispositivos. ¡Nos adaptamos a tu presupuesto! </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500">
-                        <img src="img/about/innovacionVerde.png" alt="innovacion">
+                        <img src="img/secciones/programacion/icono-3.png" alt="movil">
                         
                         <div class="text">
-                            <p>Hacemos formateo de computadora, instalacion de SO, antivirus, y programas. Recuperación de datos </p>
+                            <p>Desarrollamos aplicaciones moviles nativas orientadas a tus necesidades. Nos encargamos de todo el ciclo de desarrollo (requerimientos, interfaz, backend, testing, deployment,ect). Acercate y te asesoramos.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500"> 
-                        <img src="img/about/comunicacionVerde.png" alt="comunicacion
+                        <img src="img/secciones/programacion/icono-4.png" alt="wordpress">
 ">
                         
                         <div class="text">
-                            <p>Instalación de drivers, impresoras, escaners.</p>
+                            <p>Trabajamos con los principales CMS y LTS. Te ofrecemos paginas en Wordpress y plataformas como Woocomerce, Prestashop, Moodle y Chamilo. Tambien desarrollamos plugins personalizados. </p>
                         </div>
                     </div>
                 </div>
