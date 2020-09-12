@@ -7,9 +7,9 @@
     <div class="section hero-image aos-item"   data-aos="zoom-in" data-aos-duration="1500">
         <div class="container-fluid text-center d-flex align-items-center"  id="recuperacion">
             <div class="content mx-auto ">
-                <h2>Recuperamos tus datos</h2>
+                <h2>Recuperacion y Backup</h2>
                 
-                <p>Descripcion</p>
+                <p>Recuperamos tus datos</p>
             </div>
             
         </div>         
