@@ -18,7 +18,7 @@
         <div class="py-5 container">
             <div class="content text-center">
                 <h2 class="font-weight-light text-white">Nuestro Servicios</h2>
-                <p class="text-white mt-4">La recuperación de datos es una tarea compleja,por medio de la cual se recuera información de discos rígidos, RAIDS, pendrives, memorias flash y otros medios dañados. En Computron contamos con tecnología de punta junto con software inteligente y seguro para recuperar tus datos. </p>
+                <p class="text-white mt-4">La recuperación de datos es una tarea compleja,por medio de la cual se recupera información de discos rígidos, RAIDS, pendrives, memorias flash y otros medios dañados. En Computron contamos con tecnología de punta junto con software inteligente y seguro para recuperar tus datos. </p>
             </div>
         </div>
     </div>
