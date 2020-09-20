@@ -18,14 +18,11 @@
         <div class="py-5 container">
             <div class="content text-center">
                 <h2 class="font-weight-light text-white">Nuestro Servicios</h2>
-                <p class="text-white mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis iure,
-                    dolor vel eos corrupti in recusandae incidunt ipsum nihil praesentium doloremque
-                    commodi
-                    hic neque quae illo veniam repudiandae illum repellat?</p>
+                <p class="text-white mt-4">La recuperación de datos es una tarea compleja,por medio de la cual se recuera información de discos rígidos, RAIDS, pendrives, memorias flash y otros medios dañados. En Computron contamos con tecnología de punta junto con software inteligente y seguro para recuperar tus datos. </p>
             </div>
         </div>
     </div>
-    <div class="horizontal-divider mx-auto my-md-5" id="gaming"></div>
+    <div class="horizontal-divider mx-auto my-md-5" id="recuperacion"></div>
 
     <!--cards-->
     <div class="section bg-dark">
@@ -33,37 +30,37 @@
             <div class="row">
                 <div class="col-lg-3 col-sm-6">
                     <div class="box-part text-center"  data-aos="flip-left" data-aos-duration="1500">
-                        <img src="img/about/eficienciaVerde.png" alt="eficiencia">
+                        <img src="img/secciones/recuperacion/icono-1.png" alt="privacidad">
                    
                         <div class="text">
-                            <p> Nos ocupamos de realizar mantenimiento general del equipo, limpieza de archivos y optimizamos para un mejor rendimiento</p>
+                            <p>Te aseguramos atención personalizada y responsabilidad pero sobre todas las cosas, privacidad en tu información. </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500">
-                        <img src="img/about/calidadVerde.png" alt="calidad">
+                        <img src="img/secciones/recuperacion/icono-2.png" alt="dispositivos">
                         
                         <div class="text">
-                            <p>Instalación  y recambio de hardware en general: discos rígidos, memorias, placas, coolers, fuentes de alimentación y demas</p>
+                            <p> Recuperamos datos de discos rigidos(mecanicos o solidos), discos externos, pendrives y memorias flash. </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500">
-                        <img src="img/about/innovacionVerde.png" alt="innovacion">
+                        <img src="img/secciones/recuperacion/icono-3.png" alt="backups">
                         
                         <div class="text">
-                            <p>Hacemos formateo de computadora, instalacion de SO, antivirus, y programas. Recuperación de datos </p>
+                            <p>Hacemos formateo de discos. Borramos tu información de manera segura. Gestionamos tus backups. </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500"> 
-                        <img src="img/about/comunicacionVerde.png" alt="comunicacion">
+                        <img src="img/secciones/recuperacion/icono-4.png" alt="diagnostico">
                         
                         <div class="text">
-                            <p>Instalación de drivers, impresoras, escaners.</p>
+                            <p>Diagnóstico y presupuesto sin cargo. Atendemos a empresas y particulares.</p>
                         </div>
                     </div>
                 </div>

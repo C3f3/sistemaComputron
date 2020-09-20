@@ -42,7 +42,7 @@
                         <img src="img/secciones/redes/icono-2.png" alt="calidad">
                         
                         <div class="text">
-                            <p>Configuración de routers, redes inalámbricas, Wifi y LAN</p>
+                            <p>Instalación y configuración de routers, redes inalámbricas, Wifi y LAN</p>
                         </div>
                     </div>
                 </div>
