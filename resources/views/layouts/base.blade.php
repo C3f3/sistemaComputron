@@ -53,7 +53,7 @@
                                       <div class="col-md-6">
   
                                         <ul class="nav flex-column">
-                                          <li class="nav-item text-center" onclick="mostrarHogar()" >
+                                          <li class="nav-item text-center" onclick="mostrarOpciones('submenuHogar')" >
                                             <span>Hogares</span>
                                           </li>
                                           <div id="submenuHogar">
@@ -86,7 +86,7 @@
                                      
                                       <div class="col-md-6">
                                         <ul class="nav flex-column">
-                                          <li class="nav-item text-center" onclick="mostrarEmpresa()">
+                                          <li class="nav-item text-center" onclick="mostrarOpciones('submenuEmpresa')">
                                             <span>Empresas</span>
                                           </li>
                                           <div id="submenuEmpresa">
@@ -192,49 +192,37 @@
         <script>
           AOS.init();
 
-          function mostrarHogar(){
-
-            if(window.innerWidth <=767){
-              document.getElementById('menu-services').setAttribute('data-toggle','disabled');   
           
-            var submenu= document.getElementById('submenuHogar');
-            var estilo =window.getComputedStyle(submenu);
-            var propiedad = estilo.getPropertyValue('display');
-            
-            if(propiedad == 'none'){
-               submenu.style.display='block';
-               
-               
-            }
-            else{
-              submenu.style.display  = 'none';
-            }
-            }
-            
-           
-          }
 
-          function mostrarEmpresa(){
+          function mostrarOpciones(id){
+            /*busco saber propiedad*/
+            let submenu= document.getElementById(id);
+            let estilo =window.getComputedStyle(submenu);
+            let propiedad = estilo.getPropertyValue('display');
+
             if(window.innerWidth <=767){
-              document.getElementById('menu-services').setAttribute('data-toggle','disabled');
+              /*selecciono componente*/
+              document.getElementById('menu-services').setAttribute('data-toggle','disabled');  
 
-            var submenu= document.getElementById('submenuEmpresa');
-            var estilo =window.getComputedStyle(submenu);
-            var propiedad = estilo.getPropertyValue('display');
-            
-            if(propiedad == 'none'){
-               submenu.style.display='block';
-               
-               
+              /*si es none pongo en bloc y viceversa*/
+              if(propiedad == 'none'){
+
+                submenu.style.display='block';
+                
+              } 
+              else{
+
+                submenu.style.display  = 'none';
+
+              }
             }
             else{
-              submenu.style.display  = 'none';
+              document.getElementById('submenuEmpresa').style.display='block';
+              document.getElementById('submenuHogar').style.display='block';
             }
-            }
-            
-              
           }
-
+          
+          /*habilita boton*/
           function habilitarBoton(){
             var boton = document.getElementById('menu-services').setAttribute('data-toggle','dropdown');
           }

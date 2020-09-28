@@ -4,7 +4,7 @@
         <!------------------ slider------------->
         <div class="section" id="home">
             <header class="main-header aos-item" data-aos="fade-up">
-                <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="false">
+                <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -22,9 +22,9 @@
                     </ol>
                     <div class="carousel-inner" role="listbox">
                         <!-- Slide One - Set the background image for this slide in the line below -->
-                        <div class="carousel-item active" data-interval="1500">
+                        <div class="carousel-item active" data-interval="3000">
                             <a href="#gaming">
-                                <img src="/img/slider/slider0.jpg" alt="">
+                                <img src="/img/slider/slider0.jpg" alt="gaming">
                                 <div class="carousel-caption d-md-block">
                                     <h3 href="#" class="display-4">Gaming</h3>
                                     <p class="lead">Imaginá tu equipo. ¡Nosotros lo armamos!</p>
@@ -33,9 +33,9 @@
                             
                         </div>
                         <!-- Slide Two - Set the background image for this slide in the line below -->
-                        <div class="carousel-item" data-interval="1500">
+                        <div class="carousel-item" data-interval="3000">
                             <a href="#microelectronica">
-                                <img src="/img/slider/slider1.jpg" alt="" >
+                                <img src="/img/slider/slider1.jpg" alt="electronica" >
                                 <div class="carousel-caption d-md-block">
                                     <h3 class="display-4">Microelectronica</h3>
                                     <p class="lead">Aseguramos calidad en todos nuestros trabajos.</p>
@@ -44,9 +44,9 @@
                             
                         </div>
                         <!-- Slide Three - Set the background image for this slide in the line below -->
-                        <div class="carousel-item" data-interval="1500">
+                        <div class="carousel-item" data-interval="3000">
                             <a href="#redes">
-                                <img src="/img/slider/slider2.jpg" alt="">
+                                <img src="/img/slider/slider2.jpg" alt="redes">
                                 <div class="carousel-caption d-md-block">
                                     <h3 class="display-4">Redes y Servidores</h3>
                                     <p class="lead">!Hacemos instalación y manteniento¡</p>
@@ -56,9 +56,9 @@
                         </div>
                          <!-- Slide four -  -->
 
-                        <div class="carousel-item" data-interval="1500">
+                        <div class="carousel-item" data-interval="3000">
                             <a href="#express">
-                                <img src="/img/slider/slider3.jpg" alt="">
+                                <img src="/img/slider/slider3.jpg" alt="express">
                                 <div class="carousel-caption d-md-block">
                                     <h3 class="display-4">Servicios Express</h3>
                                     <p class="lead">Soluciones inmediatas</p>
@@ -68,9 +68,9 @@
                         </div>
 
                         <!--slider Five--->
-                        <div class="carousel-item" data-interval="1500">
+                        <div class="carousel-item" data-interval="3000">
                             <a href="#programacion">
-                                <img src="/img/slider/slider4.jpg" alt="">
+                                <img src="/img/slider/slider4.jpg" alt="programacion">
                                 <div class="carousel-caption d-md-block">
                                     <h3 class="display-4">Paginas y Apps</h3>
                                     <p class="lead">Potencia tu emprendimiento!</p>
@@ -80,9 +80,9 @@
                         </div>
 
                         <!--slider Six--->
-                        <div class="carousel-item" data-interval="1500">
+                        <div class="carousel-item" data-interval="3000">
                             <a href="#diseño">
-                                <img src="/img/slider/slider5.jpg" alt="">
+                                <img src="/img/slider/slider5.jpg" alt="diseño">
                                 <div class="carousel-caption d-md-block">
                                     <h3 class="display-4">Diseño Grafico</h3>
                                     <p class="lead">Construimos tu imagen</p>
@@ -91,9 +91,9 @@
                             
                         </div>
                          <!--slider Seven--->
-                         <div class="carousel-item" data-interval="1500">
+                         <div class="carousel-item" data-interval="3000">
                             <a href="#reparacion">
-                                <img src="/img/slider/slider6.jpg" alt="">
+                                <img src="/img/slider/slider6.jpg" alt="reparacion">
                                 <div class="carousel-caption d-md-block">
                                     <h3 class="display-4">Notebook y Pc</h3>
                                     <p class="lead">¡Arreglamos tu compu!</p>
@@ -102,9 +102,9 @@
                             
                         </div>
                          <!--slider Eight--->
-                         <div class="carousel-item" data-interval="1500">
+                         <div class="carousel-item" data-interval="3000">
                             <a href="#reparacion">
-                                <img src="/img/slider/slider7.jpg" alt="">
+                                <img src="/img/slider/slider7.jpg" alt="lcd">
                                 <div class="carousel-caption d-md-block">
                                     <h3 class="display-4">Lcd y Smart</h3>
                                     <p class="lead">¡Arreglamos tu tele!</p>
@@ -114,9 +114,9 @@
                         </div>
 
                          <!--slider nine--->
-                         <div class="carousel-item" data-interval="1500">
+                         <div class="carousel-item" data-interval="3000">
                             <a href="#reparacion">
-                                <img src="/img/slider/slider8.jpg" alt="">
+                                <img src="/img/slider/slider8.jpg" alt="camaras">
                                 <div class="carousel-caption d-md-block">
                                     <h3 class="display-4">Camaras</h3>
                                     <p class="lead">Seguridad y Calidad.</p>

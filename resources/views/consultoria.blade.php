@@ -88,7 +88,7 @@
                     <img src="/img/secciones/consultoria/consultoria3.jpg" alt="galeria3">
                 </div>
                 <div class="col-md-6">
-                    <img src="/img/secciones/recuperacion/recuperacion4.jpg" alt="">
+                    <img src="/img/secciones/recuperacion/recuperacion4.jpg" alt="galeria4">
                 </div>
             </div>
             
