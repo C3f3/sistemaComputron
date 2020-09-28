@@ -43,7 +43,7 @@
         <div class="row">
             <div class="col-lg-3 col-sm-6">
                 <div class="box-part text-center"  data-aos="flip-left" data-aos-duration="1500">
-                    <img src="img/about/eficienciaVerde.png" alt="Honestidad">
+                    <img src="img/about/honestidad.png" alt="Honestidad">
                     <div class="title">
                         <h4>Honestidad</h4>
                     </div>
@@ -55,7 +55,7 @@
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500">
-                    <img src="img/about/calidadVerde.png" alt="calidad">
+                    <img src="img/about/calidad.png" alt="calidad">
                     <div class="title">
                         <h4>Calidad</h4>
                     </div>
@@ -66,7 +66,7 @@
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500">
-                    <img src="img/about/innovacionVerde.png" alt="innovacion">
+                    <img src="img/about/innovacion.png" alt="innovacion">
                     <div class="title">
                         <h4>Innovación</h4>
                     </div>
@@ -78,7 +78,7 @@
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500"> 
-                    <img src="img/about/comunicacionVerde.png" alt="comunicacion">
+                    <img src="img/about/comunicacion.png" alt="comunicacion">
                     <div class="title">
                         <h4>Comunicación</h4>
                     </div>

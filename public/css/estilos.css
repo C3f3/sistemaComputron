@@ -447,14 +447,15 @@ b {
 /*=====About====*/
 .about {
   margin-top: 80px;
-  padding-top: 60px;
-  min-height: 650px;
-  height: 650px;
+  padding-top: 80px;
+  min-height: 600px;
+  height: 600px;
   position: relative;
   display: block;
 }
 .about .content {
   margin: 30px auto;
+  padding: 30px auto;
   width: 300px;
 }
 .about .content img {
@@ -966,7 +967,7 @@ b {
   }
 
   .about {
-    margin-top: 40px;
+    margin-top: 80px;
     min-height: 550px;
     height: 550px;
     width: 100%;
@@ -988,10 +989,13 @@ b {
   }
 
   .about {
-    margin-top: 40px;
+    margin-top: 80px;
     min-height: 600px;
     height: 600px;
     width: 100%;
+  }
+  .about .content {
+    margin: 60px auto;
   }
 
   .box-part img {

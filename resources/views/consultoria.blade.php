@@ -9,7 +9,7 @@
             <div class="content mx-auto ">
                 <h2>Te asesoramos en tecnologia</h2>
                 
-                <p>Descripcion</p>
+                <p>Te apoyamos en tu crecimiento.</p>
             </div>
             
         </div>         
@@ -18,10 +18,9 @@
         <div class="py-5 container">
             <div class="content text-center">
                 <h2 class="font-weight-light text-white">Nuestro Servicios</h2>
-                <p class="text-white mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis iure,
-                    dolor vel eos corrupti in recusandae incidunt ipsum nihil praesentium doloremque
-                    commodi
-                    hic neque quae illo veniam repudiandae illum repellat?</p>
+                <p class="text-white mt-4">Te ofrecemos planes mensuales de servicio tecnico para pequeñas y medianas empresas. Te asesoramos
+                    en diseño de software y requerimientos de hardware.
+                </p>
             </div>
         </div>
     </div>
@@ -33,37 +32,37 @@
             <div class="row">
                 <div class="col-lg-3 col-sm-6">
                     <div class="box-part text-center"  data-aos="flip-left" data-aos-duration="1500">
-                        <img src="img/about/eficienciaVerde.png" alt="eficiencia">
+                        <img src="img/secciones/consultoria/icono1.png" alt="servicio tecnico">
                    
                         <div class="text">
-                            <p> Nos ocupamos de realizar mantenimiento general del equipo, limpieza de archivos y optimizamos para un mejor rendimiento</p>
+                            <p>Servicio tecnico periodico que prioriza tus necesidades y tu presupuesto.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500">
-                        <img src="img/about/calidadVerde.png" alt="calidad">
+                        <img src="img/secciones/consultoria/icono2.png" alt="asesoria">
                         
                         <div class="text">
-                            <p>Instalación  y recambio de hardware en general: discos rígidos, memorias, placas, coolers, fuentes de alimentación y demas</p>
+                            <p>Planes de mantenimiento preventivo para disminuir los problemas con hardware y software. Te ayudamos a decidir entre distintas soluciones tecnologicas.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500">
-                        <img src="img/about/innovacionVerde.png" alt="innovacion">
+                        <img src="img/secciones/consultoria/icono3.png" alt="marketing">
                         
                         <div class="text">
-                            <p>Hacemos formateo de computadora, instalacion de SO, antivirus, y programas. Recuperación de datos </p>
+                            <p>Te asesoramos en estrategias de marketing, e-commerce  y posicionamiento en redes.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="box-part text-center" data-aos="flip-left" data-aos-duration="1500"> 
-                        <img src="img/about/comunicacionVerde.png" alt="comunicacion">
+                        <img src="img/secciones/consultoria/icono4.png" alt="objetivo">
                         
                         <div class="text">
-                            <p>Instalación de drivers, impresoras, escaners.</p>
+                            <p>Nuestro objetivo es que tu emprendimiento tenga todo lo necesario para trabajar de forma segura y eficiente.</p>
                         </div>
                     </div>
                 </div>
@@ -78,15 +77,15 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="/img/secciones/recuperacion/recuperacion1.jpg" alt="">
+                    <img src="/img/secciones/consultoria/consultoria1.jpg" alt="galeria1">
                 </div>
                 <div class="col-md-6">
-                    <img src="/img/secciones/recuperacion/recuperacion2.jpg" alt="">
+                    <img src="/img/secciones/recuperacion/recuperacion2.jpg" alt="galeria2">
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <img src="/img/secciones/recuperacion/recuperacion3.jpg" alt="">
+                    <img src="/img/secciones/consultoria/consultoria3.jpg" alt="galeria3">
                 </div>
                 <div class="col-md-6">
                     <img src="/img/secciones/recuperacion/recuperacion4.jpg" alt="">
