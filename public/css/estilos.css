@@ -13,7 +13,7 @@
 
 body {
   color: #ffffff;
-  background-color: #161616;
+  background-color: #000000 !important;
   overflow-x: hidden;
   transition: all 200ms linear;
   position: relative;
@@ -49,7 +49,7 @@ cite {
 
 .bg-dark {
   transition: all 200ms linear;
-  background-color: #161616 !important;
+  background-color: #000000 !important;
 }
 
 .section {
@@ -147,7 +147,7 @@ p {
 }
 
 .navigation-wrap {
-  background-color: #161616;
+  background-color: #000000;
   position: fixed;
   width: 100%;
   top: 0;
@@ -164,7 +164,7 @@ p {
 }
 
 .navbar-dark {
-  background-color: #161616 !important;
+  background-color: #000000 !important;
 }
 .navbar-dark .navbar-toggler-icon {
   width: 24px;
