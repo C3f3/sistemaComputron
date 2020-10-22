@@ -49,7 +49,7 @@
                                 <img src="/img/slider/slider2.jpg" alt="redes">
                                 <div class="carousel-caption d-md-block">
                                     <h3 class="display-4">Redes y Servidores</h3>
-                                    <p class="lead">!Hacemos instalación y manteniento¡</p>
+                                    <p class="lead">¡Hacemos instalación y mantenimiento!</p>
                                 </div>
                             </a>
                             
@@ -73,7 +73,7 @@
                                 <img src="/img/slider/slider4.jpg" alt="programacion">
                                 <div class="carousel-caption d-md-block">
                                     <h3 class="display-4">Paginas y Apps</h3>
-                                    <p class="lead">Potencia tu emprendimiento!</p>
+                                    <p class="lead">¡Potencia tu emprendimiento!</p>
                                 </div>
                             </a>
                             
@@ -194,7 +194,7 @@
         <a class="container-fluid text-center tres  d-flex align-items-center"  href="">
             <div class="content mx-auto">
                 <h2>REDES Y SERVIDORES</h2>
-                <p id="headline3">!Hacemos instalación y manteniento¡</p>
+                <p id="headline3">¡Hacemos instalación y mantenimiento!</p>
                 <p class="indicador mt-4"><ion-icon name="arrow-forward-circle-outline"></ion-icon></p>
 
             </div>
