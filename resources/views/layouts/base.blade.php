@@ -1,11 +1,27 @@
 <!doctype html>
-<html lang="en">
+<html lang="es-AR">
 
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
-
+    <meta name="description" content="Tu solución informatica.Servicio tecnico de pc, reparacion de pc, soporte tecnico y mantenimiento de pc, servicio tecnico para computadoras, tecnico de pc,
+    servicio tecnico de computadoras personales, reparacion de pc, servicio tecnico de pc, servicio tecnico pc, empresas de servicio tecnico de computadoras, 
+    pc servicio tecnico, reparacion y servicio tecnico de pc, tecnicos de computadoras a domicilio, soporte tecnico a domicilio, mejor centro reparacion computadoras, 
+    tecnico de pc facebook, computación tecnico pc, soporte tecnico computadoras, tecnico reparacion computadoras, tecnico reparacion de pc, reparacion chip de video, 
+    reparacion de bisagras de notebook, reparacion de teclados de notebook, cambio de bateria interna de notebook, cambio de pantallas de notebook, todos los servicios para sus pc y notebook.">
+    <meta name="author" content="Armando Herrera- ComputronSalta">
+    <meta name="keywords" content="Servicio Tecnico y reparacion de PC a Domicilio , Tecnico de PC a domicilio en capital federal, 
+    Tecnico en PC, reparacion de notebook a domicilio en el dia, soporte tecnico de pc, mantenimiento de pc, servicio tecnico de computadoras, reparacion chip de video, 
+    servicio tecnico de notebook a domicilio urgente, servicio tecnico de pc, service de pc y redes, arreglo de computadoras a domicilio, internet mantenimiento y reparacion de pc, 
+    servicio técnico de computadoras, Reparación y arreglo de computadoras, reparacion máquinas pc, notebooks armado de pc, mantenimiento y reparación de pcs, servicio técnico 
+    personalizado, soluciones informaticas en computacion , soporte tecnico computación, armado de computadoras reparación y mantenimiento de pc, 
+    arreglos de computadoras a domicilio, service de pc, reparación de pc a domicilio, configuración redes wi-fi, abonos de mantenimiento y limpieza virus, soporte y service para pc, 
+    mantenimiento y reparación de laptop a domicilio, instalación de hardware y software, soporte informatico para pc, mantenimiento de computadoras y reparaciones, 
+    soluciones informaticas, soporte técnico y mantenimiento, configuración de equipos de computación, limpieza de virus spywares troyanos, recuperación de información,
+    armado de pc, gaming, reparacion consolas, gamer, videojuegos, diseño grafico, diseño grafico salta, desarrollo web salta, aplicaciones moviles, apps salta, paginas web salta,
+    microelectronica, microelectronica salta, electronica PC, marketing, marketing salta, camaras de seguridad salta, redes, servidores, internet salta, 
+    Reparacion en Salta capital. diseño logo, diseño flyer,">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
