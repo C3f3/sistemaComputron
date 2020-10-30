@@ -15,14 +15,14 @@
         <div class="container mt-5">
             <div class="row">
                 <div class="col-md-6 text-center py-3" >
-                    <h2 class="font-weight-light text-white">Sobre Nosotros</h2>
+                    <h1 class="font-weight-light text-white">Sobre Nosotros</h1>
                     <p class="mt-4">Somos un emprendimiento constituido por un grupo de jóvenes especializados en tecnología. 
                         Nos abocamos a brindar soluciones dirigidas tanto al ámbito corporativo como al usuario medio.</p>
                         <p class="mt-4"> 
                         Buscamos afrontar cada desafío con una solución personalizada que se adapte a la realidad de cada cliente. 
                         Nuestro objetivo es posicionarnos como referentes en innovación tecnológica.</p>
                     <p class="mt-4">Acércate, atendemos cada consulta de forma personalizada. 
-                        Estamos dispuestos a asesorarte para brindar la solución que buscas...</p>
+                        Estamos dispuestos a asesorarte para brindarte la solución que buscas...</p>
                 </div>
                 <div class="col-md-6 ">
                     <img src="./img/about/repair-about.jpg" alt="" class="image-card">
@@ -38,7 +38,7 @@
 <div class="section bg-dark">
     <div class=" py-sm-3 py-md-3 container">
         <div class="content text-center">
-            <h2 class="font-weight-light text-white">Algunos de los valores que nos diferencian</h2>
+            <h2 class="font-weight-light text-white">Algunos de los valores que nos caraxterizan:</h2>
         </div>
         <div class="row">
             <div class="col-lg-3 col-sm-6">

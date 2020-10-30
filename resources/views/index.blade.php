@@ -139,7 +139,7 @@
         </div>
     </div>
     <!------------------Introduccin------------->
-    <div class="intro section aos-item" data-aos="fade-up">
+    <div class="intro section aos-item pt-3" data-aos="fade-up">
         <div class="bg-dark text-center py-md-5">
             <div class="container">
                 <h2 class="font-weight-light text-white">¿Buscas una solución informática?</h2>
