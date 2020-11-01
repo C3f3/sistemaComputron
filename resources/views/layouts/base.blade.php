@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/aos.css"/>
+    <script src="https://kit.fontawesome.com/768773a078.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="/css/estilos.css">
     <link rel="shortcut icon" href="/img/logo-redondo.png" type="image/x-icon">
@@ -59,7 +60,7 @@
 
                         <li class="nav-item dropdown pl-md-0 ml-0 ml-md-4">
                             <a class="nav-link dropdown-toggle" href="#" id="menu-services" role="button" onclick="habilitarBoton()" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Servicios
+                                Servicios 
                               </a>
 
                               <div class="dropdown-menu" aria-labelledby="menu-services" id="dropdown-menu">
@@ -70,7 +71,7 @@
   
                                         <ul class="nav flex-column">
                                           <li class="nav-item text-center" onclick="mostrarOpciones('submenuHogar')" >
-                                            <span>Hogares</span>
+                                            <span>Hogares<i class="fas fa-sort-down"></i></span>
                                           </li>
                                           <div id="submenuHogar">
                                             <li class="nav-item text-center">
@@ -103,7 +104,7 @@
                                       <div class="col-md-6">
                                         <ul class="nav flex-column">
                                           <li class="nav-item text-center" onclick="mostrarOpciones('submenuEmpresa')">
-                                            <span>Empresas</span>
+                                            <span>Empresas<i class="fas fa-sort-down"></i></span>
                                           </li>
                                           <div id="submenuEmpresa">
                                             <li class="nav-item text-center">

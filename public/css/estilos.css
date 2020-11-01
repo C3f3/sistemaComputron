@@ -126,6 +126,10 @@ p {
   height: 90px;
 }
 
+span i {
+  margin-left: 8px;
+}
+
 /*=====navegacion=====*/
 /*navegacion*/
 .start-header {
@@ -468,14 +472,18 @@ b {
   font-size: 40px;
   font-weight: 700;
   font-family: spy-agency;
+  margin-bottom: 1px;
 }
 .about .content p {
   color: #00FF00;
-  font-size: 18px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: "Orbitron", sans-serif;
+  font-weight: bolder;
 }
 
 .section .about {
-  background-image: url("../img/slider/slider0.jpg");
+  background-image: url("../img/slider/hero.jpg");
   background-size: cover;
 }
 
@@ -756,9 +764,14 @@ b {
   }
   .navbar .dropdown-menu .row #submenuEmpresa, .navbar .dropdown-menu .row #submenuHogar {
     display: none;
+    background-color: #0e0e0e;
   }
   .navbar .dropdown-menu .row .nav-item {
-    height: 30px !important;
+    height: 35px !important;
+  }
+
+  .nav-link {
+    height: 40px;
   }
 
   .hero-image {
@@ -973,8 +986,8 @@ b {
 
   .about {
     margin-top: 80px;
-    min-height: 550px;
-    height: 550px;
+    min-height: 450px;
+    height: 450px;
     width: 100%;
   }
 }
@@ -995,8 +1008,8 @@ b {
 
   .about {
     margin-top: 80px;
-    min-height: 600px;
-    height: 600px;
+    min-height: 450px;
+    height: 450px;
     width: 100%;
   }
   .about .content {
