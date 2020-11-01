@@ -17,6 +17,9 @@
                 <h2 class="font-weight-light text-white">Contacto</h2>
                 <p class="text-white mt-4">Tus consultas son bienvenidas: </p>
             </div>
+            @if (Session::has('aviso'))
+            <div class="alert alert-info mt-3">{{ Session::get('aviso') }}</div>
+            @endif
         </div>
     </div>
 </div>
@@ -26,37 +29,48 @@
             <div class="col-lg-5 mb-lg-2 mb-4" data-aos="flip-left" data-aos-duration="1500">
                 <div class="card mx-2">
                     <div class="card-body">
+                     
                         <!-- Header -->
                         <div class="form-header text-dark">
                             <h3 class="mt-2"><i class="fas fa-envelope"></i> Por favor, Escríbenos:</h3>
                         </div>
                         <p class="text-dark">Te responderemos lo antes posible.</p>
                         <!-- Body -->
-                        <form id="form" action="#" method="post" name="formulario"
+                       
+                        <form id="form" action="{{route('contact.store')}}" method="POST" name="formulario"
                             enctype="multipart/form-data">
+                            @csrf
                             <div class="md-form mt-3">
                                 <i class="fas fa-user prefix grey-text"></i>
                                 <input type="text" id="form-name" name="Nombre" class="form-control"
-                                    placeholder="Nombre">
-
+                                    placeholder="Nombre" required>
+                                @error('Nombre')
+                                    <p class="text-danger">* El nombre es obligatorio</p>
+                                @enderror
                             </div>
                             <div class="md-form mt-3">
                                 <i class="fas fa-envelope prefix grey-text"></i>
                                 <input type="text" name="Email" id="form-email" class="form-control"
-                                    placeholder="Email">
-
+                                    placeholder="Email" required>
+                                @error('Email')
+                                    <p class="text-danger">* El email es obligatorio</p>
+                                @enderror
                             </div>
                             <div class="md-form mt-3">
                                 <i class="fas fa-tag prefix grey-text"></i>
                                 <input type="text" name=" Asunto" id="form-Subject" class="form-control"
-                                    placeholder="Asunto">
-
+                                    placeholder="Asunto" required>
+                                @error('Asunto')
+                                    <p class="text-danger">* El asunto es obligatorio</p>
+                                @enderror
                             </div>
                             <div class="md-form mt-3">
                                 <i class="fas fa-pencil-alt prefix grey-text"></i>
                                 <textarea id="form-text" name="Mensaje" class="form-control md-textarea" rows="6"
-                                    placeholder="mensaje"></textarea>
-
+                                    placeholder="mensaje" required></textarea>
+                                @error('Mensaje')
+                                    <p class="text-danger">* El mensaje es obligatorio</p>
+                                @enderror
                             </div>
                             <div class="text-center mt-3">
                                 <button type="submit" class="btn btn-success fullwidth">Enviar</button>

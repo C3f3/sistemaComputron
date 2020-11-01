@@ -21,9 +21,8 @@ Route::get('/about',function(){
     return view('about');
 })->name('about');
 
-Route::get('/contact',function(){
-    return view('contact');
-})->name('contact');
+Route::get('/contact','ContactController@index')->name('contact');
+Route::post('/contact','ContactController@store')->name('contact.store');
 
 Route::get('/personas',function(){
     return view('personas');
