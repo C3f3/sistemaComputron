@@ -25,7 +25,7 @@ class ContactController extends Controller
 
         //destino del correo
         //Mail::to('armandoher01@gmail.com')->send($correo);
-        Mail::mailer('mailgun')->to('armandoher01@gmail.com')->send($correo);
+        Mail::mailer('mailgun')->to('computronsalta@gmail.com')->send($correo);
      
         return redirect()->route('contact')->with('aviso','El mensaje se envio con exito!');
     }
