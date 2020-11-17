@@ -95,19 +95,20 @@
                         <a class="btn-floating blue accent-1">
                             <i class="fas fa-map-marker-alt"></i>
                         </a>
-                        <p>Salta, 4400</p>
+                        <p>Urquiza 2130</p>
                         <p class="mb-md-0">Salta, Argentina</p>
                     </div>
                     <div class="col-md-4">
                         <a class="btn-floating blue accent-1">
-                            <i class="fas fa-phone"></i>
+                            <i class="fas fa-mobile-alt"></i>
                         </a>
                         <p>387-6 370 500</p>
-                        <p class="mb-md-0">Lun - Vie, 8:00-22:00</p>
+                        <p class="mb-md-0">Lun - Vie, 9:00-19:00</p>
                     </div>
                     <div class="col-md-4">
                         <a class="btn-floating blue accent-1">
-                            <i class="fas fa-envelope"></i>
+                            <i class="fas fa-phone"></i>
+                            
                         </a>
                         <p>387-6 207 833</p>
                         <p class="mb-0">computronsalta@gmail.com</p>
