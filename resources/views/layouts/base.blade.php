@@ -141,15 +141,14 @@
                                 </div>
                                
                                 <!--  /.container  -->
-                      
-                      
+                  
                               </div>
                         </li>
                         <li class="nav-item {{setActive('productos')}} pl-md-0 ml-0 ml-md-4">
                             <a class="nav-link" href="{{route('error')}}">Productos</a>
                         </li>
                         <li class="nav-item {{setActive('marketing')}} pl-md-0 ml-0 ml-md-4">
-                            <a class="nav-link" href="{{route('error')}}">Marketing</a>
+                            <a class="nav-link" href="{{route('cursos')}}">Cursos</a>
                         </li>
                         <li class="nav-item {{setActive('contact')}} pl-md-0 ml-0 ml-md-4">
                           <a class="nav-link" href="{{route('contact')}}">Contacto</a>
@@ -190,7 +189,7 @@
                 
             </div>
             <div class="author mt-2">
-               <p>Designed with <ion-icon name="heart"></ion-icon> by <a href="#">C3F3</a></p>
+               <p>Designed with <ion-icon name="heart"></ion-icon> by <a href="https://www.instagram.com/cefeherrera/">C3f3</a></p>
             </div>
         </div>
 

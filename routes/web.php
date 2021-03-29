@@ -85,6 +85,10 @@ Route::get('/tv',function(){
     return view('televisores');
 })->name('tv');
 
+Route::get('/cursos',function(){
+    return view('cursos');
+})->name('cursos');
+
 //ruta de prueba
 Route::get('/test',function(){
     $user=App\User::findOrFail(2);
