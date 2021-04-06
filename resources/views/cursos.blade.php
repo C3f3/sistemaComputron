@@ -68,44 +68,58 @@
    <!-- <div class="horizontal-divider mx-auto my-5"></div>-->
 
     <div class="card-columns container ">
-        <div class="card border-success bg-dark p-1">
-            <img class="card-img-top" src="/img/secciones/cursos/curso-card.jpeg" alt="Card image cap">
-            <div class="card-body">
-            <h5 class="card-title">Titulo Curso</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-            <p class="text">This is a longer card with supporting text below as a 
-                natural lead-in to additional    content. This content is a little bit longer.</p>
-            <p>Duracion: <small class="text-muted">3 meses</small></p>
-            <p>Modalidad: <small class="text-muted">Presencial</small></p>
-            </div>
-            <button type="button" class="btn btn-outline-info btn-block">Ver Mas...</button>
-        </div>
+    
 
-        <div class="card border-success bg-dark p-1">
+        <div class="card bg-ligth  text-dark p-1">
             <img class="card-img-top" src="/img/secciones/cursos/curso-card.jpeg" alt="Card image cap">
             <div class="card-body">
-            <h5 class="card-title">Titulo Curso</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-            <p class="text">This is a longer card with supporting text below as a 
+            <h5 class="card-title text-success">Titulo Curso</h5>
+            <h6 class="card-subtitle mb-2 text-muted">profesor</h6>
+            <p class="card-text">This is a longer card with supporting text below as a 
                 natural lead-in to additional    content. This content is a little bit longer.</p>
-            <p>Duracion: <small class="text-muted">3 meses</small></p>
-            <p>Modalidad: <small class="text-muted">Presencial</small></p>
+            <hr>
+            <p class="card-text"><i class="fa fa-check mx-1 text-success" aria-hidden="true"></i>texto para resaltar</p>
+            <p class="card-text"> <i class="fa fa-check mx-1 text-success" aria-hidden="true"></i>texto para resaltar</p>
+            <hr>
+            <p class="card-text"> <i class="fa fa-clock-o mx-1 text-success" aria-hidden="true"></i>Duracion: <small>3 meses</small></p>
+            <p class="card-text"><i class="fa fa-microphone mx-1 text-success" aria-hidden="true"></i>Modalidad: <small>Presencial</small></p>
             </div>
-            <button type="button" class="btn btn-outline-info btn-block">Ver Mas...</button>
+            <button type="button" class="btn btn-success btn-block">Ver Mas...</button>
         </div>
-
-        <div class="card border-success bg-dark p-1">
+        <div class="card bg-ligth  text-dark p-1">
             <img class="card-img-top" src="/img/secciones/cursos/curso-card.jpeg" alt="Card image cap">
             <div class="card-body">
-            <h5 class="card-title">Titulo Curso</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-            <p class="text">This is a longer card with supporting text below as a 
+            <h5 class="card-title text-success">Titulo Curso</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Profesor</h6>
+            <p class="card-text">This is a longer card with supporting text below as a 
                 natural lead-in to additional    content. This content is a little bit longer.</p>
-            <p>Duracion: <small class="text-muted">3 meses</small></p>
-            <p>Modalidad: <small class="text-muted">Presencial</small></p>
+            <hr>
+            <p class="card-text"><i class="fa fa-check mx-1 text-success" aria-hidden="true"></i>texto para resaltar</p>
+            <p class="card-text"> <i class="fa fa-check mx-1 text-success" aria-hidden="true"></i>texto para resaltar</p>
+            <hr>
+            <p class="card-text"> <i class="fa fa-clock-o mx-1 text-success" aria-hidden="true"></i>Duracion: <small>3 meses</small></p>
+            <p class="card-text"><i class="fa fa-microphone mx-1 text-success" aria-hidden="true"></i>Modalidad: <small>Presencial</small></p>
             </div>
-            <button type="button" class="btn btn-outline-info btn-block">Ver Mas...</button>
+            <button type="button" class="btn btn-success btn-block">Ver Mas...</button>
         </div>
+        <div class="card bg-ligth  text-dark p-1">
+            <img class="card-img-top" src="/img/secciones/cursos/curso-card.jpeg" alt="Card image cap">
+            <div class="card-body">
+            <h5 class="card-title text-success">Titulo Curso</h5>
+            <h6 class="card-subtitle mb-2 text-muted">profesor</h6>
+            <p class="card-text">This is a longer card with supporting text below as a 
+                natural lead-in to additional    content. This content is a little bit longer.</p>
+            
+            <hr>
+            <p class="card-text"> <i class="fa fa-clock-o mx-1 text-success" aria-hidden="true"></i>Duracion: <small>3 meses</small></p>
+            <p class="card-text"><i class="fa fa-microphone mx-1 text-success" aria-hidden="true"></i>Modalidad: <small>Presencial</small></p>
+            <hr>
+            <p class="card-text"><i class="fa fa-check mx-1 text-success" aria-hidden="true"></i>texto para resaltar</p>
+            <p class="card-text"> <i class="fa fa-check mx-1 text-success" aria-hidden="true"></i>texto para resaltar</p>
+            </div>
+            <button type="button" class="btn btn-success btn-block">Ver Mas...</button>
+        </div>
+        
         
         
     </div>

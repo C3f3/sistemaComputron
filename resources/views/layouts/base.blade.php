@@ -189,7 +189,7 @@
                 
             </div>
             <div class="author mt-2">
-               <p>Designed with <ion-icon name="heart"></ion-icon> by <a href="https://www.instagram.com/cefeherrera/">C3f3</a></p>
+               <p>Coding with <ion-icon name="heart"></ion-icon> by <a href="https://www.instagram.com/cefeherrera/">C3f3</a></p>
             </div>
         </div>
 
