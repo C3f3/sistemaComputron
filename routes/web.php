@@ -89,6 +89,11 @@ Route::get('/cursos',function(){
     return view('cursos');
 })->name('cursos');
 
+Route::get('/curso/curso1',function(){
+    return view('detalleCurso');
+})->name('curso1');
+
+
 //ruta de prueba
 Route::get('/test',function(){
     $user=App\User::findOrFail(2);
